@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/MontserratSubrayada-Regular.ttf);
+}
+body{
+	background: #000000;
+}
+#main_body{
+	margin-top: 20px;
+}
+#main_left{
+	color: #FFFFFF;
+	float: left;
+}
+
+#main_left h1{
+	font-family: Montserrat;
+	font-size: 28px;
+	text-align: center;
+}
+#main_left p{
+	font-size: 18px;
+	text-align: center;
+}
+#dev_main {
+	color: #F04E98;
+	text-decoration: none;
+}
+#athl_main {
+	color: #DBE200;
+	text-decoration: none;
+}
+#music_main {
+	color: #FF962B;
+	text-decoration: none;
+}
