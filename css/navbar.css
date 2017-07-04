@@ -13,11 +13,12 @@
 #navbar{
 	padding-bottom: 32px;
 	background: #000000;
+	border-bottom: #595959 2pt solid;
 }
 
 #main_nav
 {
-	margin-top:15px
+	margin-top:15px;
 }
 
 #main_nav ul
@@ -102,6 +103,33 @@
 #con_nav a{
 	color: #00A5C6;
 }
+@media all and (max-width : 800px) {
+	#navbar { 
+		margin: 0;
+	}
+	
+	#navbar ul, #navbar ul li{
+	  display: block;
+	  width: 100%;
+	}
+	
+	#navbar ul ul {
+	  float: none;
+	  position: static;
+	  width: 100%;
+	}
+	
+	#navbar ul ul li {
+	  display: block;
+	  width: 100%;
+	}
+	
+	#main_nav ul ul li{
+		float:none;
+		width:100%
+ 	}
+	
 
+}
 
 
