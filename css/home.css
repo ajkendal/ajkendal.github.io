@@ -1,27 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face {
-    font-family: Montserrat;
-    src: url(../fonts/MontserratSubrayada-Regular.ttf);
+    font-family: LimeLight;
+    src: url(../fonts/Limelight-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
 }
 body{
 	background: #000000;
 }
-#main_body{
-	margin-top: 20px;
-}
-#main_left{
+#main_right{
 	color: #FFFFFF;
 	float: left;
 }
-
-#main_left h1{
-	font-family: Montserrat;
-	font-size: 28px;
+#main_right h1{
+	font-family: LimeLight;
+	font-size: 52px;
 	text-align: center;
 }
-#main_left p{
-	font-size: 18px;
+#main_right p{
+	font-family: Roboto;
+	font-size: 20px;
 	text-align: center;
 }
 #dev_main {
@@ -36,3 +37,28 @@ body{
 	color: #FF962B;
 	text-decoration: none;
 }
+#main_left, #main_right{
+	width: 47%;
+}
+#main_left{
+	float: left;
+}
+#main_right{
+	margin-top: 16%;
+	float: right;
+}
+
+@media all and (max-width : 800px) {
+	#main_left, #main_right{
+		width:100%;
+	}
+	#main_left img{
+		padding-top: 30%;
+		height: auto;
+  		width: 100%;
+	}
+	#main_right{
+		margin-top: -100%;
+	}
+}
+
