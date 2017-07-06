@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
 @font-face {
     font-family: LimeLight;
     src: url(../fonts/Limelight-Regular.ttf);
@@ -52,13 +57,16 @@ body{
 	#main_left, #main_right{
 		width:100%;
 	}
+	#main_right h1{
+		font-size: 28px;
+	}
 	#main_left img{
 		padding-top: 30%;
 		height: auto;
   		width: 100%;
 	}
 	#main_right{
-		margin-top: -100%;
+		margin-top: -95%;
 	}
 }
 
