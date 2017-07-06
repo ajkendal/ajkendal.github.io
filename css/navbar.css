@@ -5,20 +5,17 @@
     font-family: Roboto;
     src: url(../fonts/Roboto-Light.ttf);
 }
-
-*{
+html, body{
 	font-family: Roboto;
+	margin: 0;
+	padding: 0;
 }
 
 #navbar{
-	padding-bottom: 32px;
+	width: 100%;
+	position: fixed;
 	background: #000000;
-	border-bottom: #595959 2pt solid;
-}
-
-#main_nav
-{
-	margin-top:15px;
+	border-bottom: #595959 2px solid;
 }
 
 #main_nav ul
@@ -106,6 +103,7 @@
 @media all and (max-width : 800px) {
 	#navbar { 
 		margin: 0;
+		position: relative;
 	}
 	
 	#navbar ul, #navbar ul li{
