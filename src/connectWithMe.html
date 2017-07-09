@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Amanda J Kendal-Brown | Connect With Me</title>
 		<link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/connectWithMe.css">
     </head>
 
 	<body>
@@ -30,13 +31,33 @@
         	</nav>
         </div>
         
-        <div id="email_section">
-        	<form method="POST" action="http://formspree.io/ajkendal@neiu.edu">
-             	<input type="email" name="email" placeholder="Your email">
-              	<textarea name="message" placeholder="Your message"></textarea>
-              	<button type="submit">Send</button>
-            </form>
-        </div>
         
+        <div id="connect_tables">
+            <div id="connect_left">
+            	<img id="connect_image" src="../img/connectWithMeSkates.png" width="500px"/>
+                	<div id="connect_links" align="center">
+                    <a target="_blank" href="https://www.facebook.com/AJKendalBrown">
+                        <img src="../img/FB-f-Logo__blue_1024.png" width="50px"/>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/akendalb">
+                        <img src="../img/In-2C-128px-R.png" width="53px">
+                    </a>
+                    <a target="_blank" href="https://github.com/ajkendal">
+                        <img src="../img/GitHub-Mark-120px-plus.png" width="52px" />
+                    </a>
+                </div>
+            </div>
+            <div id="connect_right">
+            	<div id="email" align="center">
+                    <form method="POST" action="http://formspree.io/ajkendal@neiu.edu">
+                    	<input type="text" name="_gotcha" style="display:none" />
+                        <input type="email" name="email" placeholder="Your email">
+                        <input type="hidden" name="_subject" value="New submission!" />
+                        <textarea name="message" placeholder="Your message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+               </div>
+            </div>
+        </div>
 	</body>
 </html>
