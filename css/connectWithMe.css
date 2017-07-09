@@ -9,9 +9,12 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
-a {
+#connect_links a {
 	text-decoration:none;
-	padding: 10px;
+	padding: 15px;
+}
+#connect_links img{
+	padding-top: 10px;
 }
 #connect_tables{
 	padding-top: 5%;
@@ -25,7 +28,7 @@ a {
 }
 #connect_right{
 	float: right;
-	margin-top: 10%;
+	margin-top: 15%;
 }
 #connect_right input,textarea, button{
 	display: block;
@@ -35,6 +38,7 @@ input {
 	border: 2px solid #595959;
 	padding: 2px;
 	font-family: Roboto;
+	margin: 5px;
 }
 textarea {
 	width: 80%;
@@ -42,6 +46,7 @@ textarea {
 	border: 2px solid #595959;
 	font-family: Roboto;
 	padding: 2px;
+	margin: 10px;
 }
 button {
   font-family: Roboto;
@@ -50,6 +55,7 @@ button {
   background: #000000;
   padding: 5px 25px 5px 25px;
   text-decoration: none;
+  margin: 5px;
 }
 button:hover{
 	background: #00A5C6;

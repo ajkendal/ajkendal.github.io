@@ -35,8 +35,21 @@
         
         <div id="connect_tables">
             <div id="connect_left">
-            	<img id="connect_image" src="../img/connectWithMeSkates.png" width="800px"/>
-                	<div id="connect_links" align="center">
+            	<img id="connect_image" src="../img/connectWithMeSkates.png" width="850px"/>
+             </div>
+            </div>
+            <div id="connect_right">
+            	<div id="email" align="center">
+                    <form method="POST" action="http://formspree.io/ajkendal@neiu.edu">
+                    	<input type="text" name="_gotcha" style="display:none" />
+                        <input type="email" name="email" placeholder="Your email">
+                        <input type="hidden" name="_subject" value="Website Email" />
+                        <textarea name="message" placeholder="Your message"></textarea>
+                        <button type="submit">Send</button>
+                        <input type="hidden" name="_next" value="thankYouPage.html" />
+                    </form>
+               </div>
+               <div id="connect_links" align="center">
                     <a target="_blank" href="https://www.facebook.com/AJKendalBrown">
                         <img src="../img/FB-f-Logo__blue_1024.png" width="50px"/>
                     </a>
@@ -46,18 +59,7 @@
                     <a target="_blank" href="https://github.com/ajkendal">
                         <img src="../img/GitHub-Mark-120px-plus.png" width="52px" />
                     </a>
-                </div>
-            </div>
-            <div id="connect_right">
-            	<div id="email" align="center">
-                    <form method="POST" action="http://formspree.io/ajkendal@neiu.edu">
-                    	<input type="text" name="_gotcha" style="display:none" />
-                        <input type="email" name="email" placeholder="Your email">
-                        <input type="hidden" name="_subject" value="New submission!" />
-                        <textarea name="message" placeholder="Your message"></textarea>
-                        <button type="submit">Send</button>
-                    </form>
-               </div>
+            	</div>
             </div>
         </div>
 	</body>
