@@ -5,6 +5,7 @@
         <title>Amanda J Kendal-Brown | Connect With Me</title>
 		<link rel="stylesheet" href="../css/navbar.css">
         <link rel="stylesheet" href="../css/connectWithMe.css">
+        <script type="text/javascript" src="../js/connectWithMe.js"></script>
         <meta name="referrer" content="origin" />
     </head>
 
@@ -32,7 +33,6 @@
         	</nav>
         </div>
         
-        
         <div id="connect_tables">
             <div id="connect_left">
             	<img id="connect_image" src="../img/connectWithMeSkates.png" width="850px"/>
@@ -40,7 +40,7 @@
             </div>
             <div id="connect_right">
             	<div id="email" align="center">
-                    <form method="POST" action="http://formspree.io/ajkendal@neiu.edu">
+                    <form method="POST" id="emailform">
                     	<input type="text" name="_gotcha" style="display:none" />
                         <input type="email" name="email" placeholder="Your email">
                         <input type="hidden" name="_subject" value="Website Email" />
