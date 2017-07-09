@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: LimeLight;
+    src: url(../fonts/Limelight-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+* h1{
+	font-family: LimeLight;
+	font-size: 48px;
+}
+* p{
+	font-family: Roboto;
+	font-size: 18px;
+}
