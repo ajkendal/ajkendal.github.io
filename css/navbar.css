@@ -10,16 +10,13 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
-
 #navbar{
 	width: 100%;
 	position: fixed;
 	background: #000000;
 	border-bottom: #595959 2px solid;
 }
-
-#main_nav ul
-{
+#main_nav ul{
 	list-style:none;
 	position:relative;
 	float:left;
@@ -27,9 +24,7 @@ html, body{
 	padding:0;
 	background: #000000;
 }
-
-#main_nav ul a
-{
+#main_nav ul a{
 	display:block;
 	text-decoration:none;
 	font-size:16px;
@@ -37,22 +32,16 @@ html, body{
 	padding:0 35px;
 	font-family: Roboto;
 }
-
-#main_nav ul li
-{
+#main_nav ul li{
 	position:relative;
 	float:left;
 	margin:0;
 	padding:0
 }
-
-#main_nav ul li:hover
-{
+#main_nav ul li:hover{
 	background:#595959;
 }
-
-#main_nav ul ul
-{
+#main_nav ul ul{
 	display:none;
 	position:absolute;
 	top:100%;
@@ -60,19 +49,13 @@ html, body{
 	background:#fff;
 	padding:0
 }
-
-#main_nav ul ul li
-{
+#main_nav ul ul li{
 	float:none;
 	width:250px
 }
-
-
-#main_nav ul li:hover > ul
-{
+#main_nav ul li:hover > ul{
 	display:block;
 }
-
 #home_nav a{
 	color: #FFFFFF;
 }
@@ -105,29 +88,23 @@ html, body{
 		margin: 0;
 		position: relative;
 	}
-	
 	#navbar ul, #navbar ul li{
 	  display: block;
 	  width: 100%;
 	}
-	
 	#navbar ul ul {
 	  float: none;
 	  position: static;
 	  width: 100%;
 	}
-	
 	#navbar ul ul li {
 	  display: block;
 	  width: 100%;
 	}
-	
 	#main_nav ul ul li{
 		float:none;
 		width:100%
- 	}
-	
-
+	}
 }
 
 
