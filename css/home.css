@@ -49,8 +49,16 @@ body{
 	float: left;
 }
 #main_right{
-	margin-top: 16%;
+	margin-top: 3%;
 	float: right;
+}
+#main_right p{
+	margin-top: -5%;
+	font-weight: bolder;
+}
+#main_right p a{
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 @media all and (max-width : 800px) {
