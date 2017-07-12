@@ -76,5 +76,9 @@ body{
 	#main_right{
 		margin-top: -95%;
 	}
+	#main_right p{
+		margin-top: 2%;
+		font-size: 16px;
+	}
 }
 
