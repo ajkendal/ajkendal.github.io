@@ -61,7 +61,7 @@ body{
 	text-decoration: underline;
 }
 
-@media all and (max-width : 800px) {
+@media screen and (max-width : 800px) {
 	#main_left, #main_right{
 		width:100%;
 	}
