@@ -12,54 +12,36 @@
 
 	<body>
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
-         <script>w3.includeHTML();</script>
-     
-        <div id="content_img" align="center">
-        	<a class="portfolio_image" target="_blank" href="../img/project_img/Florida_roller_derby_2012_logo.jpg">
-        		<img  src="../img/project_img/Florida_roller_derby_2012_logo.jpg" width="40%">
-                <p>2012 - Florida Roller Derby<br />Team Logo</p>
-            </a>
-            <a class="portfolio_image" target="_blank" href="../img/project_img/GCDG_Schedule_2013.jpg">
-            	<img src="../img/project_img/GCDG_Schedule_2013.jpg" width="40%">
-                <p>2013 - Gold Coast Derby Grrls<br />Marketing Design for Season Schedule</p>
-            </a>
-            <a class="portfolio_image" target="_blank" href="../img/project_img/Africs_US_today_logo_2015.png">
-            	<img src="../img/project_img/Africs_US_today_logo_2015.png" width="40%">
-                <p>2015 - Africa US Today<br />Freelance Logo Design</p>
-            </a>
-            <a class="portfolio_image" target="_blank" href="../img/project_img/WorldAids_1_NEIU_2015.png">
-            	<img src="../img/project_img/WorldAids_1_NEIU_2015.png" width="40%">
-                <p>2015 - Northeastern Illinois University<br />World Aids Day Poster for Graduate Assistantship</p>
-            </a>
-            <a class="portfolio_image" target="_blank" href="../img/project_img/WorldAids_1_NEIU_2015_small.png">
-            	<img src="../img/project_img/WorldAids_1_NEIU_2015_small.png" width="40%">
-                <p>2015 - Northeastern Illinois University<br />World Aids Day Poster for Graduate Assistantship</p>
-            </a>
-            <a class="portfolio_image" target="_blank" href="../img/project_img/WCR_Poster_2015.png">
-            	<img src="../img/project_img/WCR_Poster_2015.png" width="40%">
-                <p>2015 - Windy City Rollers<br />Marking Poster Design for Season</p>
-            </a>
-            <a class="portfolio_image" target="_blank" href="../img/project_img/FieldMuseum_FieldBistro_PVC_2016.jpg">
-            	<img src="../img/project_img/FieldMuseum_FieldBistro_PVC_2016.jpg" width="40%">
-                <p>2016 - Field Museum<br />Full Menu Sign for Field Bistro</p>
-            </a>
-           	<a class="portfolio_image" target="_blank" href="../img/project_img/FieldMuseum_Birstro_Menus_2016.png">
-           		<img src="../img/project_img/FieldMuseum_Birstro_Menus_2016.png" width="40%">
-                <p>2016 - Field Museum<br />Full Menu Design for Field Bistro</p>
-           	</a>
+        <script>w3.includeHTML();</script>
+        
+        <div id="portfolio_content" align="center">
+        	<div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/Florida_roller_derby_2012_logo.jpg">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/GCDG_Schedule_2013.jpg">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/WCR_Poster_2015.png">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/Africs_US_today_logo_2015.png">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/WorldAids_1_NEIU_2015.png">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/WorldAids_1_NEIU_2015_small.png">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/wcr_blackandblue_2014.png">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/FieldMuseum_Birstro_Menus_2016.png">
+            </div>
+            <div class="colorOverLay">
+            	<img class="imageStyles" src="../img/project_img/FieldMuseum_FieldBistro_PVC_2016.jpg">
+            </div>
         </div>
-        
-        <div id="left_arrow" align="center">
-        	<button onClick="portfolio.previous()"><b>&lt;</b></button>
-        </div>
-        
-        <div id="right_arrow" align="center">
-        	<button onClick="portfolio.next()"><strong>&gt;</strong></button>
-        </div>
-        
-        <script>
-			portfolio = w3.slideshow(".portfolio_image", 0);
-        </script>
-        
 	</body>
 </html>
