@@ -6,14 +6,36 @@
         <link rel="shortcut icon" href="../img/Logo.jpg" />
         <link rel="stylesheet" href="../css/navbar.css" />
         <link rel="stylesheet" href="../css/websiteText.css" />
+        <link rel="stylesheet" href="../css/projects.css"/>
         <script type="text/javascript" src="../js/w3.js"></script>
 	</head>
 
 	<body>
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
-        <script>w3.includeHTML();</script>
+         <script>w3.includeHTML();</script>
+     
+        <div id="content_img" align="center">
+        	<img class="portfolio_image" src="../img/project_img/Florida_roller_derby_2012_logo.jpg" width="40%">
+            <img class="portfolio_image" src="../img/project_img/GCDG_Schedule_2013.jpg" width="40%">
+            <img class="portfolio_image" src="../img/project_img/Africs_US_today_logo_2015.png" width="40%">
+            <img class="portfolio_image" src="../img/project_img/WorldAids_1_NEIU_2015.png" width="40%">
+            <img class="portfolio_image" src="../img/project_img/WCR_Poster_2015.png" width="40%">
+            <img class="portfolio_image" src="../img/project_img/WorldAids_1_NEIU_2015_small.png" width="40%">
+            <img class="portfolio_image" src="../img/project_img/FieldMuseum_FieldBistro_PVC_2016.jpg" width="40%">
+            <img class="portfolio_image" src="../img/project_img/FieldMuseum_Birstro_Menus_2016.png" width="40%">
+        </div>
         
-        <div id="content"></div>
+        <div id="left_arrow" align="center">
+        	<button onClick="portfolio.previous()"><b>&lt;</b></button>
+        </div>
+        
+        <div id="right_arrow" align="center">
+        	<button onClick="portfolio.next()"><strong>&gt;</strong></button>
+        </div>
+        
+        <script>
+			portfolio = w3.slideshow(".portfolio_image", 0);
+        </script>
         
 	</body>
 </html>
