@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
 html, body{
 	margin: 0;
 	padding: 0;
@@ -12,24 +15,38 @@ html, body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	background: -webkit-linear-gradient(#000000, #595959, #999999) fixed; 
-    background: -o-linear-gradient(#000000, #595959, #999999) fixed; 
-    background: -moz-linear-gradient(#000000, #595959, #999999) fixed; 
-    background: linear-gradient(#000000, #595959, #999999) fixed;
+	background: -webkit-linear-gradient(#000000, #595959, #999999, #FFFFFF) fixed; 
+    background: -o-linear-gradient(#000000, #595959, #999999, #FFFFFF) fixed; 
+    background: -moz-linear-gradient(#000000, #595959, #999999, #FFFFFF) fixed; 
+    background: linear-gradient(#000000, #595959, #999999, #FFFFFF) fixed;
 }
 #content_img{
-	padding-top: 5%;
+	padding-top: 4%;
 	width: 100%;
 	position: relative;
-	z-index: -1;
+	margin: 0 auto;
+	height: 30%;
 }
 #left_arrow{
 	width: 50%;
 	float: left;
+	margin: 0 auto;
 	position: relative;
 }
 #right_arrow{
 	width: 50%;
 	float: right;
 	position: relative;
+}
+#right_arrow button, #left_arrow button {
+	font: Roboto;
+	height: 100%;
+	font-size: 100pt;
+	margin: 0 auto;
+	color: #000000;
+	background: none;
+	border: none;
+}
+#right_arrow button:hover, #left_arrow button:hover {
+	color: #F04E98;
 }
