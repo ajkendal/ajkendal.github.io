@@ -15,7 +15,7 @@ html, body{
 	position: fixed;
 	background: #000000;
 	border-bottom: #595959 2px solid;
-	z-index: 1;
+	z-index: 100;
 }
 #main_nav ul{
 	list-style:none;
