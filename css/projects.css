@@ -11,11 +11,13 @@ html, body{
 }
 #portfolio_content{
 	padding-top: 3%;
+	width: 60%;
+	margin: 0 auto;
 }
 .colorOverLay {
-	margin: 1%;
-	width: 325px;
-	height: 325px;
+	margin: .35%;
+	width: 300px;
+	height: 300px;
 	position: relative;
 	display: inline-block;
 	background: rgba(240,78,152,1);
