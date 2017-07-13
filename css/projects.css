@@ -13,9 +13,9 @@ html, body{
 	padding-top: 3%;
 }
 .colorOverLay {
-	margin: .5%;
-	width: 350px;
-	height: 350px;
+	margin: 1%;
+	width: 325px;
+	height: 325px;
 	position: relative;
 	display: inline-block;
 	background: rgba(240,78,152,1);
