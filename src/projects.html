@@ -3,35 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Amanda J Kendal-Brown | Projects</title>
-        <link rel="stylesheet" href="../css/navbar.css">
-        <link rel="stylesheet" href="../css/websiteText.css">
+        <link rel="shortcut icon" href="../img/Logo.jpg" />
+        <link rel="stylesheet" href="../css/navbar.css" />
+        <link rel="stylesheet" href="../css/websiteText.css" />
+        <script type="text/javascript" src="../js/w3.js"></script>
 	</head>
 
 	<body>
-    	<div id="navbar">
-            <nav id="main_nav">
-            	<ul>
-                    <li id="home_nav"><a href="../index.html">Home</a></li>
-                    <li id="prof_nav" ><a href="#">Professional Life</a>
-                      <ul>
-                        <li><a href="#">R&eacute;sum&eacute;</a></li>
-                        <li><a href="#">Education</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                      </ul>
-                   </li>
-                  <li id="athe_nav"><a href="#">Athlete</a></li>
-                  <li id="music_nav"><a href="#">Music Career</a>
-                    <ul>
-                      <li><a href="#">Classical</a></li>
-                      <li><a href="#">Steel Orchestra</a></li>
-                      <li><a href="#">Marching Arts</a></li>
-                      <li><a href="#">Arrangements</a></li>
-                    </ul>
-                  </li>
-                  <li id="con_nav"><a href="connectWithMe.html">Connect With Me</a></li>
-            	</ul>
-        	</nav>
-        </div>
+    	<div id="navbar" w3-include-html="navbar_pages.html"></div>
+        <script>w3.includeHTML();</script>
+        
+        <div id="content"></div>
         
 	</body>
 </html>
