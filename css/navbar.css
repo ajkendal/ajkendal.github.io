@@ -84,7 +84,7 @@ html, body{
 #con_nav a{
 	color: #00A5C6;
 }
-@media screen and (max-width : 800px)){
+@media all and (max-width: 800px){
 	#navbar { 
 		margin: 0;
 		position: relative;
@@ -107,5 +107,27 @@ html, body{
 		width:100%
 	}
 }
-
+@media all and (max-width: 480px) {
+	#navbar { 
+		margin: 0;
+		position: relative;
+	}
+	#navbar ul, #navbar ul li{
+	  display: block;
+	  width: 100%;
+	}
+	#navbar ul ul {
+	  float: none;
+	  position: static;
+	  width: 100%;
+	}
+	#navbar ul ul li {
+	  display: block;
+	  width: 100%;
+	}
+	#main_nav ul ul li{
+		float:none;
+		width:100%
+	}
+}
 

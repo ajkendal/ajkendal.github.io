@@ -22,13 +22,16 @@ body{
 }
 #main_right h1{
 	font-family: LimeLight;
-	font-size: 52px;
+	font-size: 60px;
 	text-align: center;
 }
 #main_right p{
 	font-family: Roboto;
-	font-size: 20px;
+	font-size: 22px;
 	text-align: center;
+}
+#main_right a:hover{
+	color: #999999;
 }
 #dev_main {
 	color: #F04E98;
@@ -61,12 +64,12 @@ body{
 	text-decoration: underline;
 }
 
-@media screen and (max-width : 800px) {
+@media all and (max-width: 800px){
 	#main_left, #main_right{
 		width:100%;
 	}
 	#main_right h1{
-		font-size: 28px;
+		font-size: 40px;
 	}
 	#main_left img{
 		padding-top: 30%;
@@ -75,6 +78,27 @@ body{
 	}
 	#main_right{
 		margin-top: -95%;
+	}
+	#main_right p{
+		margin-top: 2%;
+		font-size: 18px;
+	}
+}
+@media all and (max-width: 480px){
+	#main_left, #main_right{
+		width:100%;
+	}
+	#main_right h1{
+		font-size: 30px;
+	}
+	#main_left img{
+		padding-top: 40%;
+		height: auto;
+  		width: 100%;
+	}
+	#main_right{
+		padding-top: 4%;
+		margin-top: -100%;
 	}
 	#main_right p{
 		margin-top: 2%;
