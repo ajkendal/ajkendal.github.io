@@ -74,7 +74,7 @@ button:hover{
 	background: #00A5C6;
   	text-decoration: none;
 }
-@media screen and (max-width : 800px){
+@media screen and (max-width : 800px)){
 	#email h1 {
 		margin-top: -10px;
 		background: #FFFFFF;
