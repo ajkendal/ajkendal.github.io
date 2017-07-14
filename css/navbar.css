@@ -84,7 +84,7 @@ html, body{
 #con_nav a{
 	color: #00A5C6;
 }
-@media all and (max-width: 800px){
+@media only screen and (max-width: 800px){
 	#navbar { 
 		margin: 0;
 		position: relative;
@@ -107,7 +107,7 @@ html, body{
 		width:100%
 	}
 }
-@media all and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 	#navbar { 
 		margin: 0;
 		position: relative;
