@@ -133,7 +133,7 @@ html, body{
     text-decoration: none;
     cursor: pointer;
 }
-@media only screen and (max-width: 800px){
+@media all and (max-width: 800px){
 	.colorOverLay {
 		width: 150px;
 		height: 150px;	
@@ -153,7 +153,7 @@ html, body{
 		font-size: 16px;
 	}
 }
-@media only screen and (max-width: 700px) and (max-height: 420px){
+@media all and (max-width: 700px) and (max-height: 420px){
 	.colorOverLay {
 		width: 100px;
 		height: 100px;	
@@ -173,7 +173,7 @@ html, body{
 		font-size: 10px;
 	}
 }
-@media only screen and (max-width: 480px){
+@media all and (max-width: 480px){
 	.colorOverLay {
 		width: 100px;
 		height: 100px;	
