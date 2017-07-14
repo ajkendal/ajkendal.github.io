@@ -140,8 +140,8 @@ html, body{
 		height: 150px;	
 	}
 	.imageDiv img{
-		max-width: 60%;
-		max-height:inherit;
+		width: 700px;
+		height: auto;
 	}
 	#text{
 		font-size: 20px;
@@ -156,8 +156,8 @@ html, body{
 		height: 100px;	
 	}
 	.imageDiv img{
-		max-width: 60%;
-		max-height: inherit;
+		width: 450px;
+		height: auto;
 	}
 	#text{
 		font-size: 16px;
