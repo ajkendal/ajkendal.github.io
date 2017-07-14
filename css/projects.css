@@ -141,7 +141,6 @@ html, body{
 	}
 	.imageDiv img{
 		width: 700px;
-		height: auto;
 	}
 	#text{
 		font-size: 20px;
@@ -156,8 +155,7 @@ html, body{
 		height: 100px;	
 	}
 	.imageDiv img{
-		width: 450px;
-		height: auto;
+		width: 400px;
 	}
 	#text{
 		font-size: 16px;
