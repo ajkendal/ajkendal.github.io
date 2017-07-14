@@ -11,17 +11,19 @@ html, body{
 }
 #portfolio_content{
 	padding-top: 3%;
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
 }
 .colorOverLay {
-	margin: .35%;
+	margin: .55%;
 	width: 300px;
 	height: 300px;
 	position: relative;
 	display: inline-block;
 	background: rgba(240,78,152,1);
 	overflow: hidden;
+	cursor: pointer;
+    transition: 0.3s;
 }
 .colorOverLay:hover{
 	background: none;
@@ -44,17 +46,86 @@ html, body{
 	-webkit-filter: brightness(120%) grayscale(100%);
 	filter: brightness(120%) grayscale(100%);
 	opacity: .5;
-	
 }
 #portfolio_content img:hover{
 	opacity: 1;
 	-webkit-filter: brightness(100%) grayscale(0);
 	filter: brightness(100%) grayscale(0);
 }
-
+.fullImageClass {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+	height: 100%;
+    overflow: hidden; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(89, 89,89,.8);
+}
+#portfolio_content .fullImage-content {
+    margin: auto;
+    display: block;
+    min-width: 7%;
+	min-height: 7%;
+	opacity: 1;
+	-webkit-filter: brightness(100%) grayscale(0);
+	filter: brightness(100%) grayscale(0);
+}
+#text {
+	padding-bottom: 5%;
+    display: block;
+    width: 90%;
+    text-align: center;
+    font: Roboto;
+    font-size: 30px;
+	font-weight: bold;
+    color: #FFFFFF;
+}
+.fullImage-content, #text {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {
+		-webkit-transform:scale(0);
+	} 
+    to {
+		-webkit-transform:scale(1);
+	}
+}
+@keyframes zoom {
+    from {
+		transform:scale(0);
+	} 
+    to {
+		transform:scale(1);
+	}
+}
+.exit {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #F04E98;
+    font: Roboto;
+    font-size: 40px;
+    transition: 0.3s;
+}
+.exit:hover,.exit:focus {
+    color: #999999;
+    text-decoration: none;
+    cursor: pointer;
+}
 @media screen and (max-width : 800px){
 	.colorOverLay {
 		width: 150px;
 		height: 150px;	
 	}
+	.fullImage-content {
+        width: 100%;
+    }
 }
