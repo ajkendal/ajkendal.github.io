@@ -1,6 +1,86 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background: #F2F2F2;
+}
+h1 {
+	font-size: 24px;
+	text-align: center;
+	padding: 5px;
+}
+#content {
+	padding-top: 40px;
+}
+.athlete_sec {
+	width: 400px;
+	margin: 0 auto;
+	display: inline-table;
+}
+.team_info{
+	padding-top: 1px;
+}
+.header_txt, .team_info{
+	width: 390px;
+	margin: 10px;
+	background: #FFFFFF;
+	box-shadow: 10px 10px 10px #999999;
+}
+.team_info{
+	height: 590px;
+}
+.colorOverlay{
+	margin-top: 35px;
+	width: 320px;
+	height: 320px;
+	position: relative;
+	background: rgba(219, 226, 0,1);
+	backgroun: #DBE200;
+	overflow: hidden;
+    transition: 0.3s;
+	margin-left: auto;
+	margin-right: auto;
+}
+.colorOverLay:hover{
+	background: none;
+}
+.img_format {
+	overflow: hidden;
+	margin: auto;
+	position: absolute;
+	top: -30%;
+	right: -30%;
+	bottom: -30%;
+	left: -30%;
+	display:block; 
+	-webkit-filter: brightness(120%) grayscale(100%);
+	filter: brightness(120%) grayscale(100%);
+	opacity: .5;
+}
+.img_format:hover{
+	opacity: 1;
+	-webkit-filter: brightness(100%) grayscale(0);
+	filter: brightness(100%) grayscale(0);
+}
+.team_info p{
+	margin-left: 40px;
+	text-align: left;
+	margin-top: 10px;
+}
+.photolinks{
+	font-size:12px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+.team_logo{
+	padding-bottom: 20px;
+}
+.team_logo img{
+	width: 25%;
+}
+.team_logo a{
+	text-decoration: none;
+}
 @media all and (max-width : 800px){
 }
 @media all and (max-width: 480px) {
