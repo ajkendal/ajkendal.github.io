@@ -74,6 +74,12 @@ h1 {
 }
 .team_logo{
 	padding-bottom: 20px;
+	-webkit-filter: brightness(120%) grayscale(100%);
+	filter: brightness(120%) grayscale(100%);
+}
+.team_logo:hover{
+	-webkit-filter: brightness(100%) grayscale(0);
+	filter: brightness(100%) grayscale(0);
 }
 .team_logo img{
 	width: 25%;
