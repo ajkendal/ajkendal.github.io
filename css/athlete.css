@@ -13,21 +13,20 @@ h1 {
 	padding-top: 40px;
 }
 .athlete_sec {
-	width: 400px;
 	margin: 0 auto;
 	display: inline-table;
 }
 .team_info{
-	padding-top: 1px;
+	padding-top: 4px;
 }
 .header_txt, .team_info{
-	width: 390px;
+	width: 400px;
 	margin: 10px;
 	background: #FFFFFF;
 	box-shadow: 10px 10px 10px #999999;
 }
 .team_info{
-	height: 590px;
+	height: 595px;
 }
 .colorOverlay{
 	margin-top: 35px;
@@ -35,13 +34,12 @@ h1 {
 	height: 320px;
 	position: relative;
 	background: rgba(219, 226, 0,1);
-	backgroun: #DBE200;
 	overflow: hidden;
     transition: 0.3s;
 	margin-left: auto;
 	margin-right: auto;
 }
-.colorOverLay:hover{
+.colorOverlay:hover{
 	background: none;
 }
 .img_format {
@@ -56,11 +54,6 @@ h1 {
 	-webkit-filter: brightness(120%) grayscale(100%);
 	filter: brightness(120%) grayscale(100%);
 	opacity: .5;
-}
-.img_format:hover{
-	opacity: 1;
-	-webkit-filter: brightness(100%) grayscale(0);
-	filter: brightness(100%) grayscale(0);
 }
 .team_info p{
 	margin-left: 40px;
@@ -77,17 +70,63 @@ h1 {
 	-webkit-filter: brightness(120%) grayscale(100%);
 	filter: brightness(120%) grayscale(100%);
 }
-.team_logo:hover{
-	-webkit-filter: brightness(100%) grayscale(0);
-	filter: brightness(100%) grayscale(0);
-}
 .team_logo img{
 	width: 25%;
 }
 .team_logo a{
 	text-decoration: none;
 }
+.athlete_sec:hover .colorOverlay, 
+.athlete_sec:hover .img_format,
+.athlete_sec:hover .team_logo{
+	background: none;
+	opacity: 1;
+	-webkit-filter: brightness(100%) grayscale(0);
+	filter: brightness(100%) grayscale(0);
+}
 @media all and (max-width : 800px){
+	h1 {
+		font-size: 20px;
+	}
+	.athlete_sec {
+		width: 300px;
+	}
+	.team_info {
+		height: 500px;
+	}
+	.header_txt, .team_info{
+		width: 270px;
+	}
+	.colorOverlay{
+		width: 250px;
+		height: 250px
+	}
 }
 @media all and (max-width: 480px) {
+	body, html{
+		background: #000000;
+	}
+	.athlete_sec {
+		padding-top: 15px;
+		display: block;
+		width: 270px;
+	}
+	.header_txt, .team_info{
+		box-shadow: 5px 5px 5px #DBE200;
+		width: 270px;
+	}
+	.team_info {
+		height: auto;
+	}
+	.img_format img{
+		width: 200px;
+	}
+	.athlete_sec .colorOverlay, 
+	.athlete_sec .img_format,
+	.athlete_sec  .team_logo{
+		background: none;
+		opacity: 1;
+		-webkit-filter: brightness(100%) grayscale(0);
+		filter: brightness(100%) grayscale(0);
+	}
 }
