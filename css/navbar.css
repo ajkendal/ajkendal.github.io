@@ -91,17 +91,17 @@ html, body{
 		z-index: 90;
 	}
 	#navbar ul, #navbar ul li{
-	  display: block;
-	  width: 100%;
+	  	display: block;
+	  	width: 100%;
 	}
 	#navbar ul ul {
-	  float: none;
-	  position: static;
-	  width: 100%;
+	  	float: none;
+	  	position: static;
+	  	width: 100%;
 	}
 	#navbar ul ul li {
-	  display: block;
-	  width: 100%;
+	  	display: block;
+	  	width: 100%;
 	}
 	#main_nav ul ul li{
 		float:none;
@@ -115,17 +115,17 @@ html, body{
 		z-index: 90;
 	}
 	#navbar ul, #navbar ul li{
-	  display: block;
-	  width: 100%;
+		display: block;
+		width: 100%;
 	}
 	#navbar ul ul {
-	  float: none;
-	  position: static;
-	  width: 100%;
+	  	float: none;
+	  	position: static;
+	  	width: 100%;
 	}
 	#navbar ul ul li {
-	  display: block;
-	  width: 100%;
+	  	display: block;
+	  	width: 100%;
 	}
 	#main_nav ul ul li{
 		float:none;
