@@ -104,7 +104,7 @@ h1 {
 }
 @media all and (max-width: 480px) {
 	#content{
-		padding-top: 45%;
+		padding-top: 60%;
 	}
 	body, html{
 		background: #000000;
