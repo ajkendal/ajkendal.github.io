@@ -107,16 +107,12 @@ h1 {
 		position: relative;
 		padding-top: 90px;
 	}
-	body, html{
-		background: #000000;
-	}
 	.athlete_sec {
 		padding-top: 15px;
 		display: block;
 		width: 270px;
 	}
 	.header_txt, .team_info{
-		box-shadow: 5px 5px 5px #DBE200;
 		width: 270px;
 	}
 	.team_info {
