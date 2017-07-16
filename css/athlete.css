@@ -10,7 +10,7 @@ h1 {
 	padding: 5px;
 }
 #content {
-	padding-top: 40px;
+	padding-top: 80px;
 }
 .athlete_sec {
 	margin: 0 auto;
@@ -103,9 +103,6 @@ h1 {
 	}
 }
 @media all and (max-width: 480px) {
-	#content {
-		margin-top: 40px;
-	}
 	body, html{
 		background: #000000;
 	}
