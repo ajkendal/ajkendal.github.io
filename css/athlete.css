@@ -103,8 +103,8 @@ h1 {
 	}
 }
 @media all and (max-width: 480px) {
-	#content{
-		padding-top: 45%;
+	#start_photo{
+		padding-top: 20%;
 	}
 	body, html{
 		background: #000000;
