@@ -121,9 +121,9 @@ h1 {
 	.img_format img{
 		width: 200px;
 	}
-	.athlete_sec .colorOverlay, 
+	.athlete_sec .colorOverlay,
 	.athlete_sec .img_format,
-	.athlete_sec  .team_logo{
+	.athlete_sec .team_logo{
 		background: none;
 		opacity: 1;
 		-webkit-filter: brightness(100%) grayscale(0);

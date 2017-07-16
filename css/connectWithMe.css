@@ -63,13 +63,13 @@ textarea {
 	margin: 10px;
 }
 button {
-  font-family: Roboto;
-  color: #ffffff;
-  font-size: 16px;
-  background: #000000;
-  padding: 5px 25px 5px 25px;
-  text-decoration: none;
-  margin: 5px;
+  	font-family: Roboto;
+  	color: #ffffff;
+  	font-size: 16px;
+  	background: #000000;
+  	padding: 5px 25px 5px 25px;
+  	text-decoration: none;
+  	margin: 5px;
 }
 button:hover{
 	background: #00A5C6;
@@ -81,8 +81,12 @@ button:hover{
 		background: #FFFFFF;
 	}
 	#email p{
-		background: #FFFFFF;
 		color: #000000;
+	}
+	#email p, #email h1{
+		width: 80%;
+		background: #FFFFFF;
+		box-shadow: 10px 10px 10px #999999;
 	}
 	#connect_left img{
 		display: none;
@@ -105,12 +109,15 @@ button:hover{
 @media all and (max-width: 480px) {
 	#email h1 {
 		margin-top: -5px;
-		background: #FFFFFF;
 	}
 	#email p{
 		padding-top: 2%;
 		background: #FFFFFF;
-		color: #000000;
+	}
+	#email p, #email h1{
+		width: 80%;
+		background: #FFFFFF;
+		box-shadow: 10px 10px 10px #999999;
 	}
 	#connect_left img{
 		display: none;
