@@ -8,6 +8,7 @@
 html, body{
 	margin: 0;
 	padding: 0;
+	background: #F2F2F2;
 }
 #connect_links a {
 	text-decoration:none;
