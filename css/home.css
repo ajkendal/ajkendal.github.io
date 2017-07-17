@@ -30,8 +30,19 @@ body{
 	font-size: 22px;
 	text-align: center;
 }
-#main_right a:hover{
-	color: #999999;
+#links{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#links img{
+	margin-left: auto;
+	margin-right: auto;
+}
+#links td:hover img, #links td:hover a{
+	color: #595959;
+	-webkit-filter: brightness(90%) grayscale(100%);
+	filter: brightness(90%) grayscale(100%);
 }
 #dev_main {
 	color: #F04E98;
