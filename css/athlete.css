@@ -57,6 +57,7 @@ h1 {
 }
 .team_info p{
 	margin-left: 40px;
+	margin-right: 40px;
 	text-align: left;
 	margin-top: 10px;
 }
@@ -91,6 +92,10 @@ h1 {
 	.athlete_sec {
 		width: 300px;
 	}
+	.team_info p{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
 	.team_info {
 		height: 500px;
 	}
@@ -111,6 +116,10 @@ h1 {
 		padding-top: 15px;
 		display: block;
 		width: 270px;
+	}
+	.team_info p{
+		margin-left: 15px;
+		margin-right: 15px;
 	}
 	.header_txt, .team_info{
 		width: 270px;
