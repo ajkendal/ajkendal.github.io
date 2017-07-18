@@ -13,7 +13,7 @@
 	font-family: LimeLight;
 	font-size: 48px;
 }
-* p{
+* p, td{
 	font-family: Roboto;
 	font-size: 18px;
 }
@@ -21,7 +21,7 @@
 	* h1 {
 		font-size: 30px;
 	}
-	* p {
+	* p, td {
 		font-size: 16px;
 	}
 }
@@ -29,7 +29,7 @@
 	* h1 {
 		font-size: 24px;
 	}
-	* p {
+	* p, td {
 		font-size: 12px;
 	}
 }
