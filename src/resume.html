@@ -7,11 +7,137 @@
         <link rel="shortcut icon" href="../img/Logo.jpg" />
         <link rel="stylesheet" href="../css/navbar.css" />
         <link rel="stylesheet" href="../css/websiteText.css" />
+        <link rel="stylesheet" href="../css/resume.css" />
         <script type="text/javascript" src="../js/w3.js"></script>
 	</head>
 
     <body>
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
         <script>w3.includeHTML();</script>
-    </body>
+        
+        <div id="content">
+        
+            <div id="work_div" align="center">
+          
+            </div>
+            
+            <div id="pdf_div" class="resume_div" align="center">
+            	<h1>Resume</h1>
+                <button><a href="../pdf/AmandaKendalBrown_Resume.pdf" target="_blank" download>Download</a></button>
+            </div>
+            
+            <div id="skills_div" class="resume_div" align="center">
+            	<h1>Skills</h1>
+            	<table width="47%">
+                	<col width="10%">
+                    <col width="32%">
+                    <col width="1%">
+                	<tr>
+                    	<td class="row_headers">Java</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(85)">85%</td>
+                    </tr>
+                    <tr>
+                    	<td class="row_headers">Python</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(70)">70%</td>
+                    </tr>
+                    <tr>
+                    	<td class="row_headers">C#</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar" ></div>
+                        </td>
+                        <td onload="loadBars(65)">65%</td>
+                    </tr>
+                    <tr>
+                    	<td class="row_headers">HTML</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(85)">85%</td>
+                    </tr>
+                    <tr>
+                    	<td class="row_headers">CSS</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(85)">85%</td>
+                    </tr>
+                    <tr>
+                    	<td class="row_headers">JavaScript</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(70)">70%</td>
+                    </tr>
+                </table>
+                <table width="47%">
+                	<col width="10%">
+                    <col width="32%">
+                    <col width="1%">
+                    <tr>
+                        <td class="row_headers">SQL</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(60)">60%</td>
+                    </tr>
+                    <tr>
+                        <td class="row_headers">Git</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(70)">70%</td>
+                    </tr>
+                    <tr>
+                        <td class="row_headers">SVN</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(65)">65%</td>
+                    </tr>
+                    <tr>
+                        <td class="row_headers">Photoshop</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(80)">80%</td>
+                    </tr>
+                    <tr>
+                        <td class="row_headers">Illustrator</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(50)">50%</td>
+                    </tr>
+                    <tr>
+                        <td class="row_headers">Finale</td>
+                        <td class="progress">
+                        	<span class="percent"></span>
+                            <div class="bar"></div>
+                        </td>
+                        <td onload="loadBars(90)">90%</td>
+                    </tr>
+                </table>
+                      
+            </div>
+        
+        </div>
+        <script type="text/javascript" src="../js/resume.js"></script>
+	</body>
 </html>

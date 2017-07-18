@@ -83,12 +83,11 @@ body{
 		font-size: 40px;
 	}
 	#main_left img{
-		padding-top: 30%;
 		height: auto;
   		width: 100%;
 	}
 	#main_right{
-		margin-top: -95%;
+		margin-top: -20%;
 	}
 	#main_right p{
 		margin-top: 2%;
@@ -103,13 +102,8 @@ body{
 		font-size: 30px;
 	}
 	#main_left img{
-		padding-top: 40%;
 		height: auto;
   		width: 100%;
-	}
-	#main_right{
-		padding-top: 4%;
-		margin-top: -100%;
 	}
 	#main_right p{
 		margin-top: 2%;
