@@ -44,6 +44,9 @@ html, body{
 	border-spacing:0 20px;
 	border-collapse:separate;	
 }
+#skills_div td{
+	text-align: left;	
+}
 .row_headers{
 	padding-left: 20px;
 }
