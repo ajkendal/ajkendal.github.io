@@ -2,19 +2,31 @@
 /* CSS Document */
 
 html, body{
-	background: #000000;
+	background: #F2F2F2;
 	margin: 0;
 	padding: 0;
+}
+#content{
+	padding-top: 50px;
 }
 .resume_div{
 	margin: 0 auto;	
 	padding: 10px;
+	padding-bottom: 25px;
 	width: 85%;
 	background: #FFFFFF;
 	margin-bottom: 25px;
+	box-shadow: 10px 10px 10px #999999;
 }
 .resume_div table{
 	display: inline-table;
+}
+#work_div {
+	text-align: left;
+}
+#work_div h3, #work_div p, #work_div h4{
+	padding: 2px;
+	margin: 0px;
 }
 #pdf_div a{
 	padding: 10px 25px 10px 25px;
@@ -69,9 +81,11 @@ html, body{
 	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
 }
 @media all and (max-width: 800px){
-	
+	#content{
+		padding-top: 170px;
+	}
 	.resume_div{
-		padding-bottom: 10px;
+		padding-bottom: 25px;
 	}
 	.resume_div table{
 		width: 90%;
@@ -80,6 +94,9 @@ html, body{
 	}
 }
 @media all and (max-width: 480px){
+	#content{
+		padding-top: 180px;
+	}
 	.resume_div{
 		padding-bottom: 30px;
 	}
