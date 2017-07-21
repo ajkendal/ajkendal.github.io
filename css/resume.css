@@ -21,6 +21,43 @@ html, body{
 .resume_div table{
 	display: inline-table;
 }
+.timeline {
+	padding: 3%;
+	position: relative;
+	border-left: 1px solid #000000;
+	left: 10%;
+	padding-bottom: 6%;
+}
+.timeline::before {
+	content: attr(dates);
+	position: absolute;
+	font-weight: bold;
+	font-size: 14px;
+	top: 1em;
+	display: block;
+}
+.timeline::after {
+	width: 20px;
+	height: 20px;
+	display: block;
+	top: .65em;
+	position: absolute;
+	left: -.85%;
+	border-radius: 10px;
+	content: '';
+	background: #F04E98;
+	-webkit-background: -webkit-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	-o-background: -o-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
+}
+.timeline:last-child {
+	 -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, color-stop(0.6, #000000), to(transparent));
+	 -webkit-border-image: -webkit-linear-gradient(#000000 60%, transparent);
+	 -moz-border-image: -moz-linear-gradient(#000000 60%, transparent);
+	 -o-border-image: -o-linear-gradient(#000000 60%, transparent);
+	 border-image: linear-gradient(#000000 60%, transparent) 1 100%;
+}
 #work_div {
 	text-align: left;
 }
@@ -92,6 +129,17 @@ html, body{
 		display: block;
 		margin-bottom: -20px;
 	}
+	.timeline{
+		padding: 4%;	
+	}
+	.timeline::before {
+		font-size: 12px;
+	}
+	.timeline::after {
+		width: 15px;
+		height: 15px;
+		left: -1.2%;
+	}
 }
 @media all and (max-width: 480px){
 	#content{
@@ -104,5 +152,16 @@ html, body{
 		width: 90%;
 		display: block;
 		margin-bottom: -20px;
+	}
+	.timeline{
+		padding: 6%;	
+	}
+	.timeline::before {
+		font-size: 10px;
+	}
+	.timeline::after {
+		width: 10px;
+		height: 10px;
+		left: -1.3%;
 	}
 }
