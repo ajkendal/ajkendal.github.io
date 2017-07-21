@@ -1,5 +1,4 @@
 // JavaScript Document
-var lengths = [85, 70, 65, 85, 85, 70, 60, 70, 65, 80, 50, 90];
 
 var percBars = document.getElementsByClassName("bar");
 

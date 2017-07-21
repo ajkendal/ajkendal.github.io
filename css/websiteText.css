@@ -13,6 +13,14 @@
 	font-family: LimeLight;
 	font-size: 48px;
 }
+* h3 {
+	font-family: LimeLight;
+	font-size: 28px;
+}
+* h4{
+	font-family: LimeLight;
+	font-size: 22px;
+}
 * p, td{
 	font-family: Roboto;
 	font-size: 18px;
@@ -21,6 +29,12 @@
 	* h1 {
 		font-size: 30px;
 	}
+	* h3 {
+		font-size: 20px;
+	}
+	* h4 {
+		font-size: 18px;
+	}
 	* p, td {
 		font-size: 16px;
 	}
@@ -28,6 +42,12 @@
 @media all and (max-width: 480px){
 	* h1 {
 		font-size: 24px;
+	}
+	* h3 {
+		font-size: 20px;
+	}
+	* h4 {
+		font-size: 16px;
 	}
 	* p, td {
 		font-size: 12px;

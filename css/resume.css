@@ -2,19 +2,78 @@
 /* CSS Document */
 
 html, body{
-	background: #000000;
+	background: #F2F2F2;
 	margin: 0;
 	padding: 0;
 }
+#content{
+	padding-top: 50px;
+}
 .resume_div{
 	margin: 0 auto;	
-	padding: 10px;
+	padding: 5px;
+	padding-bottom: 25px;
 	width: 85%;
 	background: #FFFFFF;
 	margin-bottom: 25px;
+	box-shadow: 10px 10px 10px #999999;
 }
 .resume_div table{
 	display: inline-table;
+}
+.resume_div h1{
+	text-align: center;	
+}
+.timeline {
+	padding: 3%;
+	position: relative;
+	border-left: 1px solid #000000;
+	left: 10%;
+	padding-bottom: 3%;
+}
+.timeline::before {
+	content: attr(dates);
+	position: absolute;
+	font-weight: bold;
+	font-size: 14px;
+	top: 1em;
+	display: block;
+}
+.timeline::after {
+	width: 20px;
+	height: 20px;
+	display: block;
+	top: .65em;
+	position: absolute;
+	left: -.85%;
+	border-radius: 10px;
+	content: '';
+	background: #F04E98;
+	-webkit-background: -webkit-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	-o-background: -o-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
+}
+.timeline:last-child {
+	-webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, color-stop(0.6, #000000), to(transparent));
+	-webkit-border-image: -webkit-linear-gradient(#000000 60%, transparent);
+	-moz-border-image: -moz-linear-gradient(#000000 60%, transparent);
+	-o-border-image: -o-linear-gradient(#000000 60%, transparent);
+	border-image: linear-gradient(#000000 60%, transparent) 1 100%;
+}
+.timeline ul{
+	margin-top: 5px;
+	font-size: 16px;
+}
+.timeline li{
+	width: 90%;	
+}
+#work_div {
+	text-align: left;
+}
+#work_div h3, #work_div p, #work_div h4{
+	padding: 2px;
+	margin: 0px;
 }
 #pdf_div a{
 	padding: 10px 25px 10px 25px;
@@ -69,17 +128,39 @@ html, body{
 	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
 }
 @media all and (max-width: 800px){
-	
+	#content{
+		padding-top: 170px;
+	}
 	.resume_div{
-		padding-bottom: 10px;
+		padding-bottom: 25px;
 	}
 	.resume_div table{
 		width: 90%;
 		display: block;
 		margin-bottom: -20px;
 	}
+	.timeline{
+		padding: 4%;	
+	}
+	.timeline::before {
+		font-size: 12px;
+	}
+	.timeline::after {
+		width: 15px;
+		height: 15px;
+		left: -1.2%;
+	}
+	.timeline ul{
+		font-size: 14px;
+	}
+	#pdf_div a{
+		font-size: 14px;
+	}
 }
 @media all and (max-width: 480px){
+	#content{
+		padding-top: 180px;
+	}
 	.resume_div{
 		padding-bottom: 30px;
 	}
@@ -87,5 +168,22 @@ html, body{
 		width: 90%;
 		display: block;
 		margin-bottom: -20px;
+	}
+	.timeline{
+		padding: 6%;	
+	}
+	.timeline::before {
+		font-size: 10px;
+	}
+	.timeline::after {
+		width: 10px;
+		height: 10px;
+		left: -1.3%;
+	}
+	.timeline ul{
+		font-size: 11px;
+	}
+	#pdf_div a{
+		font-size: 12px;
 	}
 }
