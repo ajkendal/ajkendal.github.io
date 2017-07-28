@@ -84,6 +84,8 @@ html, body{
 	-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
 	-o-background: -o-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
 	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
+	text-decoration: none;
+	color: #595959;
 }
 #pdf_div a:hover{
 	background: #595959;
@@ -91,13 +93,6 @@ html, body{
 	-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
 	-o-background: -o-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
 	background: linear-gradient(to bottom, #999999 .5%,#595959 80%);
-}
-#pdf_div a{
-	text-decoration: none;
-	color: #595959;
-}
-#pdf_div button:hover a{
-	color: #F04E98;
 }
 #skills_div table{
 	border-spacing:0 20px;

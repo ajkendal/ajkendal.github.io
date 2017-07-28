@@ -7,23 +7,24 @@
 html, body{
 	margin: 0;
 	padding: 0;
-	background: #000000;
+	background: #F2F2F2;
 }
 #portfolio_content{
 	padding-top: 3%;
-	width: 75%;
+	width: 87%;
 	margin: 0 auto;
 }
 .colorOverLay {
-	margin: .55%;
-	width: 300px;
-	height: 300px;
+	margin: 1.15%;
+	width: 285px;
+	height: 285px;
 	position: relative;
 	display: inline-block;
 	background: rgba(240,78,152,1);
 	overflow: hidden;
 	cursor: pointer;
     transition: 0.3s;
+	box-shadow: 10px 10px 10px #999999;
 }
 .colorOverLay:hover{
 	background: none;
@@ -135,8 +136,10 @@ html, body{
 }
 @media all and (max-width: 800px){
 	.colorOverLay {
+		margin: 1%;
 		width: 150px;
 		height: 150px;	
+		box-shadow: 8px 8px 8px #999999;
 	}
 	#portfolio_content{
 		width: 85%;
@@ -158,8 +161,10 @@ html, body{
 }
 @media all and (max-width: 700px) and (max-height: 420px){
 	.colorOverLay {
+		margin: .85%;
 		width: 100px;
 		height: 100px;	
+		box-shadow: 6px 6px 6px #999999;
 	}
 	#portfolio_content{
 		width: 90%;
@@ -181,8 +186,10 @@ html, body{
 }
 @media all and (max-width: 480px){
 	.colorOverLay {
+		margin: .55%;
 		width: 100px;
 		height: 100px;	
+		box-shadow: 3px 3px 3px #999999;
 	}
 	#portfolio_content{
 		width: 95%;
