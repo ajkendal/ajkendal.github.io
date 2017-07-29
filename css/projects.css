@@ -159,10 +159,10 @@ html, body{
 		height: 600px;
 	}
 	#text{
-		font-size: 20px;
+		font-size: 17px;
 	}
 	#text p{
-		font-size: 16px;
+		font-size: 13px;
 	}
 }
 @media all and (max-width: 700px) and (max-height: 420px){
@@ -217,9 +217,9 @@ html, body{
 		height: 320px;
 	}
 	#text{
-		font-size: 16px;
+		font-size: 11px;
 	}
 	#text p{
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
