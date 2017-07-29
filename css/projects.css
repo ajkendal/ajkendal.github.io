@@ -107,9 +107,11 @@ html, body{
 @-webkit-keyframes zoom {
     from {
 		-webkit-transform:scale(0);
+		transform: scale(0);
 	} 
     to {
 		-webkit-transform:scale(1);
+		transform: scale(1);
 	}
 }
 @keyframes zoom {
@@ -144,6 +146,10 @@ html, body{
 	#portfolio_content{
 		width: 85%;
 	}
+	#portfolio_content img{
+		max-width: 250%;
+		max-height: 250%;
+	}
 	#portfolio_content .fullImage-content {
 		min-height: 600px;
 		min-width: 600px;
@@ -169,6 +175,10 @@ html, body{
 	#portfolio_content{
 		width: 90%;
 	}
+	#portfolio_content img{
+		max-width: 225%;
+		max-height: 225%;
+	}
 	#portfolio_content .fullImage-content {
 		min-height: 260px;
 		min-width: 260px;
@@ -193,6 +203,10 @@ html, body{
 	}
 	#portfolio_content{
 		width: 95%;
+	}
+	#portfolio_content img{
+		max-width: 215%;
+		max-height: 215%;
 	}
 	#portfolio_content .fullImage-content {
 		min-height: 320px;
