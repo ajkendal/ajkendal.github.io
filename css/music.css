@@ -37,7 +37,9 @@ html, body{
 	float: left;
 	width: 55%;	
 }
-
+.audios{
+	display: none;	
+}
 @media all and (max-width: 800px){
 	#content{
 		padding-top: 175px;	
@@ -47,6 +49,9 @@ html, body{
 	#classical, #steel_orc,
 	#marching, #arrangements{
 		float: none;	
+	}
+	.videos{
+		display: none;
 	}
 }
 @media all and (max-width: 480px){
@@ -58,5 +63,8 @@ html, body{
 	#classical, #steel_orc,
 	#marching, #arrangements{
 		float: none;	
+	}
+	.videos{
+		display: none;	
 	}
 }

@@ -9,9 +9,17 @@
         <link rel="stylesheet" href="../css/websiteText.css" />
         <link rel="stylesheet" href="../css/music.css" />
         <script type="text/javascript" src="../js/w3.js"></script>
+        <script>var isEdge = /Edge/.test(navigator.userAgent);</script>
 	</head>
 
-	<body>
+	<script>
+		if (isEdge){
+			document.write("<body>");
+		}
+		else{
+			document.write('<body onResize="window.location=window.location">');
+		};
+	</script>
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
         <script>w3.includeHTML();</script>
         
@@ -25,7 +33,7 @@
                     	<source src="../mp3_mp4/Lolita.mp4" type="video/mp4" />
                     </video>
                     <p>
-                   		Lolita, Caprice Espa&ntilde;ol, Opus 54<br />
+                   		<strong>Lolita, Caprice Espa&ntilde;ol, Opus 54</strong><br />
                         By C&eacute;cile Chaminade<br />
                         Arr. By Amanda J. Kendal-Brown III
                     </p>
@@ -41,7 +49,7 @@
                     	<source src="../mp3_mp4/invaders_2013.mp4" type="video/mp4" />
                     </video>
                     <p>
-                    	Dat is Lie<br />
+                    	<strong>Dat is Lie</strong><br />
                         Performed By - Caribbean Airlines Invaders<br />
                         Steelband Panorama Finals 2013<br />
 						Arr. By Arddin Herbert
@@ -58,7 +66,7 @@
                     	<source src="../mp3_mp4/theSeries.mp4" type="video/mp4"/>
                     </video>
                     <p>
-                    	The Series - 2010<br />
+                    	<strong>The Series - 2010</strong><br />
                         Performed By<br /> 
                         The University of Iowa's<br />
                         Hawkeye Drumline
@@ -75,7 +83,7 @@
                     	<source src="../mp3_mp4/polarExpressFinale.mp4" type="video/mp4"/>
                     </video>
                     <p>
-                    	Polar Express <br />
+                    	<strong>Polar Express</strong><br />
                         <i>Concert Suite For Percussion Ensemble</i><br />
 						By Alan Silvestri and Glen Ballard<br />
                         Arr. By Jerry Brubaker<br />
