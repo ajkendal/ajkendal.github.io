@@ -7,51 +7,101 @@ html, body{
 	padding: 0;
 }
 #content{
-	padding-top: 70px;
+	padding-top: 40px;
 	padding-left: 3%;
 	padding-right: 3%;
 }
 .music_sec{
-	width: 80%;
+	width: 90%;
 	background: #FFFFFF;
 	box-shadow: 10px 10px 10px #999999;
-	margin-bottom: 50px;
-	padding-bottom: 20px;
+	margin-bottom: 80px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 .music_sec h1{
-	text-align: right;
-	padding-right: 20px;	
+	padding-top: 20px;
+	text-align: right;	
 }
-#classical, #marching{
-	float: right;	
-}
-#steel_orc, #arrangements{
-	float: left;	
+.centered_video, .centered_audio{
+	clear: both;
+	width: 60%;
+	padding-top: 10px;	
 }
 .videos, .audios{
 	width: 40%;
-	float: right;
-	padding-right: 20px;	
+}
+.audios img, .centered_audio img{
+	margin-bottom: -5px;	
+}
+.audios audio, .centered_audio audio{
+	width: 100%;	
 }
 .text{
-	float: left;
-	width: 55%;	
+	width: 50%;
 }
-.audios{
-	display: none;	
+#classical_left{
+	float: left;
+	width: 45%;	
+}
+#classical_right{
+	float: right;
+	width: 45%;	
+}
+#steel_orc .text, #marching .videos{
+	float: left;	
+}
+#marching .text, #steel_orc .audios{
+	float: right;	
+}
+.years {
+	padding: 2%;
+	padding-bottom: .25%;
+	position: relative;
+	left: 11%;
+	text-align: left;
+}
+.years::before {
+	content: attr(dates);
+	position: absolute;
+	font-weight: bold;
+	font-size: 14px;
+	top: .85em;
+	display: block;
+}
+.years::after {
+	width: 15px;
+	height: 15px;
+	display: block;
+	top: .85em;
+	position: absolute;
+	left: -12px;
+	border-radius: 10px;
+	content: '';
+	background: #FF962B;
+	-webkit-background: -webkit-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
+	-moz-background: -moz-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
+	-o-background: -o-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
+	background: linear-gradient(to bottom, #FFBF80 .5%,#FF962B 80%);
 }
 @media all and (max-width: 800px){
 	#content{
 		padding-top: 175px;	
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 1%;
+		padding-right: 1%;
 	}
-	#classical, #steel_orc,
-	#marching, #arrangements{
-		float: none;	
+	.years {
+		padding: 4%;
 	}
-	.videos{
-		display: none;
+	.years:before{
+		top: 1em;
+		font-size: 12px;
+	}
+	.years:after{
+		width: 10px;
+		height: 10px;
+		left: -8px;
 	}
 }
 @media all and (max-width: 480px){
@@ -60,11 +110,16 @@ html, body{
 		padding-left: 0;
 		padding-right: 0;
 	}
-	#classical, #steel_orc,
-	#marching, #arrangements{
-		float: none;	
+	.years {
+		padding: 8%;
 	}
-	.videos{
-		display: none;	
+	.years:before{
+		top: 1.1em;
+		font-size: 10px;
+	}
+	.years:after{
+		width: 10px;
+		height: 10px;
+		left: -6px;
 	}
 }

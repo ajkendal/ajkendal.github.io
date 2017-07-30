@@ -10,7 +10,7 @@ html, body{
 	background: #F2F2F2;
 }
 #portfolio_content{
-	padding-top: 3%;
+	padding-top: 45px;
 	width: 87%;
 	margin: 0 auto;
 }
@@ -144,6 +144,7 @@ html, body{
 		box-shadow: 8px 8px 8px #999999;
 	}
 	#portfolio_content{
+		padding-top: 180px;
 		width: 85%;
 	}
 	#portfolio_content img{
@@ -173,6 +174,7 @@ html, body{
 		box-shadow: 6px 6px 6px #999999;
 	}
 	#portfolio_content{
+		padding-top: 180px;
 		width: 90%;
 	}
 	#portfolio_content img{
@@ -202,6 +204,7 @@ html, body{
 		box-shadow: 3px 3px 3px #999999;
 	}
 	#portfolio_content{
+		padding-top: 180px;
 		width: 95%;
 	}
 	#portfolio_content img{
