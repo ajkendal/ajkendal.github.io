@@ -87,8 +87,6 @@ html, body{
 @media all and (max-width: 800px){
 	#content{
 		padding-top: 175px;	
-		padding-left: 1%;
-		padding-right: 1%;
 	}
 	.music_sec{
 		width: 72%;
@@ -109,8 +107,6 @@ html, body{
 @media all and (max-width: 480px){
 	#content{
 		padding-top: 175px;	
-		padding-left: 0;
-		padding-right: 0;
 	}
 	.music_sec{
 		width: 70%;
