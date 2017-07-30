@@ -7,9 +7,8 @@ html, body{
 	padding: 0;
 }
 #content{
+	width: 100%;
 	padding-top: 40px;
-	padding-left: 3%;
-	padding-right: 3%;
 }
 .music_sec{
 	width: 90%;
@@ -91,6 +90,9 @@ html, body{
 		padding-left: 1%;
 		padding-right: 1%;
 	}
+	.music_sec{
+		width: 80%;
+	}
 	.years {
 		padding: 4%;
 	}
@@ -109,6 +111,9 @@ html, body{
 		padding-top: 175px;	
 		padding-left: 0;
 		padding-right: 0;
+	}
+	.music_sec{
+		width: 74%;
 	}
 	.years {
 		padding: 8%;
