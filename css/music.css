@@ -15,35 +15,31 @@ html, body{
 	width: 90%;
 	background: #FFFFFF;
 	box-shadow: 10px 10px 10px #999999;
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 	padding-bottom: 30px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
 }
 .music_sec h1{
-	padding-top: 10px;
+	padding-top: 20px;
 	text-align: right;	
 }
-#classical_video{
+.centered_video, .centered_audio{
+	clear: both;
 	width: 60%;
 	padding-top: 10px;	
 }
 .videos, .audios{
-	float: right;
 	width: 40%;
 }
-.audios {
-	clear: both;	
-}
-.audios img{
+.audios img, .centered_audio img{
 	margin-bottom: -5px;	
 }
-.audios audio{
+.audios audio, .centered_audio audio{
 	width: 100%;	
 }
 .text{
-	float: left;
-	width: 55%;
+	width: 50%;
 }
 #classical_left{
 	float: left;
@@ -52,6 +48,12 @@ html, body{
 #classical_right{
 	float: right;
 	width: 45%;	
+}
+#steel_orc .text, #marching .videos{
+	float: left;	
+}
+#marching .text, #steel_orc .audios{
+	float: right;	
 }
 .years {
 	padding: 2%;
@@ -89,7 +91,17 @@ html, body{
 		padding-left: 1%;
 		padding-right: 1%;
 	}
-	.videos{
+	.years {
+		padding: 4%;
+	}
+	.years:before{
+		top: 1em;
+		font-size: 12px;
+	}
+	.years:after{
+		width: 10px;
+		height: 10px;
+		left: -8px;
 	}
 }
 @media all and (max-width: 480px){
@@ -98,6 +110,16 @@ html, body{
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.videos{	
+	.years {
+		padding: 8%;
+	}
+	.years:before{
+		top: 1.1em;
+		font-size: 10px;
+	}
+	.years:after{
+		width: 10px;
+		height: 10px;
+		left: -6px;
 	}
 }
