@@ -84,6 +84,9 @@ html, body{
 #marching .text, #steel_orc .audios{
 	float: right;	
 }
+#arrangements .videos{
+	float: left;	
+}
 .years {
 	padding: 2%;
 	padding-bottom: .25%;
@@ -167,5 +170,28 @@ html, body{
 		width: 10px;
 		height: 10px;
 		left: -6px;
+	}
+	#steel_orc .text, #steel_orc .audios, #steel_orc .centered_video
+	#marching .text, #marching .videos, #marching .centered_audio, #arrangements .audios{
+		width: 90%;
+	}
+	#steel_orc .audios{
+		margin-right: 12px;
+	}	
+	#steel_orc .years{
+		padding: 5%;
+	}
+	#marching .text{
+		float: left;	
+	}
+	#marching .videos{
+		margin-left: 15px;	
+	}
+	#arrangements .audios{
+		margin-right: 15px;	
+	}
+	#arrangements .videos{
+		float: none;	
+		width: 90%;
 	}
 }
