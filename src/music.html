@@ -15,6 +15,8 @@
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
         <script>w3.includeHTML();</script>
         
+        <button onClick="toTopFunction()" id="topButton" title="Top of Page"><p>Top</p></button>
+        
         <div id="content" align="center">
         
             <div id="classical" class="music_sec" align="center">
@@ -184,10 +186,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="audios">
+                <div class="audios" align="center">
                 	<img alt="Panorama 2012 Invaders" src="../img/music/steelband.jpg" width="100%" />
+                    <p class="imageText">Audio</p>
                 	<audio controls controlsList="nodownload">	
-                    	<source src="../mp3_mp4/invaders_2012.mp3" type="audio/mpeg">
+                    	<source src="../mp3_mp4/invaders_2012.mp3" type="audio/mpeg" />
                     </audio>
                     <p>
                     	<strong>Yuh Know Ah Like It</strong><br />
@@ -289,8 +292,9 @@
                 </div>
                 <div class="centered_audio" align="center">
                 	<img alt="Colts Drum and Bugle Corps Parade 2011" src="../img/music/coltsParadePic.jpg" width="100%" />
+                    <p class="imageText">Audio</p>
                 	<audio controls controlsList="nodownload">	
-                    	<source src="../mp3_mp4/Colts 2011_Semis.mp3" type="audio/mpeg">
+                    	<source src="../mp3_mp4/Colts 2011_Semis.mp3" type="audio/mpeg" />
                     </audio>
                     <p>
                     	<strong>Deception: The Jagged Edge</strong><br />
@@ -304,7 +308,7 @@
             <div id="arrangements" class="music_sec" align="center">
             	<h1>Arrangements</h1>
                 <div class="text"></div>
-                <div class="videos" style="float: left;">
+                <div class="videos">
                 	<video width="100%" controls controlsList="nodownload">
                     	<source src="../mp3_mp4/polarExpressFinale.mp4" type="video/mp4"/>
                     </video>
@@ -318,8 +322,9 @@
                 </div>
                 <div class="audios" style="float:right;" >
                 	<img alt="South Florida Pride Concert Program" src="../img/music/sf_pride.jpg" width="100%" />
+                    <p class="imageText">Audio</p>
                 	<audio controls controlsList="nodownload">	
-                    	<source src="../mp3_mp4/overTheRainbow.mp3" type="audio/mpeg">
+                    	<source src="../mp3_mp4/overTheRainbow.mp3" type="audio/mpeg" />
                     </audio>
                     <p>
                     	<strong>Over The Rainbow</strong><br />
@@ -338,6 +343,10 @@
 				event.preventDefault();
 				return false;
 			});
+			
+			window.onscroll = function(){scrollFunction()};
 		</script>
+        
+    <script type="text/javascript" src="../js/music.js"></script>
 	</body>
 </html>
