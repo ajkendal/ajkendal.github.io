@@ -141,7 +141,8 @@ html, body{
   	background: rgba(255,155,43, 0.55);
   	transition: all .3s linear;
 }
-.audios:hover .colorOverlay:before {
+.audios:hover .colorOverlay:before,
+.centered_audio:hover .coverOverlay:before{
 	background: none;	
 }
 @media all and (max-width: 800px){
