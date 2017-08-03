@@ -124,7 +124,25 @@ html, body{
 	font-weight: bold;
 	padding-left: 10px;
 	color: #FFFFFF;
-	text-align: left;	
+	text-align: left;
+}
+.colorOverlay{
+	position: relative; 
+	padding-bottom: 4px;
+}
+.colorOverlay:before {
+ 	content: "";
+  	display: block;
+  	position: absolute;
+  	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+  	right: 0;
+  	background: rgba(255,155,43, 0.55);
+  	transition: all .3s linear;
+}
+.audios:hover .colorOverlay:before {
+	background: none;	
 }
 @media all and (max-width: 800px){
 	#content{
@@ -147,6 +165,9 @@ html, body{
 		width: 10px;
 		height: 10px;
 		left: -8px;
+	}
+	.colorOverlay{
+		padding-bottom: 7px;
 	}
 }
 @media all and (max-width: 480px){
@@ -193,5 +214,8 @@ html, body{
 	#arrangements .videos{
 		float: none;	
 		width: 90%;
+	}
+	.colorOverlay{
+		padding-bottom: 12px;
 	}
 }
