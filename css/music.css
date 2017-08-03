@@ -171,7 +171,7 @@ html, body{
 		height: 10px;
 		left: -6px;
 	}
-	#steel_orc .text, #steel_orc .audios, #steel_orc .centered_video,
+	#steel_orc .text, #steel_orc .audios, #steel_orc .centered_video, #classical .centered_video,
 	#marching .text, #marching .videos, #marching .centered_audio, #arrangements .audios{
 		width: 90%;
 	}
