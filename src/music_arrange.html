@@ -15,7 +15,7 @@
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
         <script>w3.includeHTML();</script>
         
-        <button onClick="toTopFunction()" id="topButton" title="Top of Page"><p>Top</p></button>
+        <button onClick="toTopFunction()" class="scrollButtons musicPage" id="topButton" title="Top of Page"><p>Top</p></button>
         
         <div id="content" align="center">
            
@@ -54,16 +54,7 @@
             </div>
         </div>
         
-        <script>
-			$('a').click(function(event) {
-				event.preventDefault();
-				return false;
-			});
-			
-			window.onscroll = function(){scrollFunction()};
-		</script>
-        
-    <script type="text/javascript" src="../js/music.js"></script>
+        <script type="text/javascript" src="../js/topButton.js"></script>
 	</body>
 </html>
 

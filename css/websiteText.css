@@ -33,12 +33,6 @@
 	z-index: 99;
 	border: none;
 	outline: none;
-	background: #FF962B;
-	-webkit-background: -webkit-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
-	-moz-background: -moz-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
-	-o-background: -o-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
-	background: linear-gradient(to bottom, #FFBF80 .5%,#FF962B 80%);
-	color: #FFFFFF;
 	cursor: pointer;
 	padding: 7px 20px 7px 20px;
 	border-radius: 20px;
@@ -54,6 +48,30 @@
 	-moz-background: -moz-linear-gradient(top, #999999 .5%,#595959 80%);
 	-o-background: -o-linear-gradient(top, #999999 .5%,#595959 80%);
 	background: linear-gradient(to bottom, #999999 .5%,#595959 80%);
+}
+.scrollButtons.musicPage{
+    color: #FFFFFF;
+    background: #FF962B;
+	-webkit-background: -webkit-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
+	-moz-background: -moz-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
+	-o-background: -o-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
+	background: linear-gradient(to bottom, #FFBF80 .5%,#FF962B 80%);  
+}
+.athletePage{
+    color: #595959;
+    background: #DBE200;
+	-webkit-background: -webkit-linear-gradient(top, #FAFF66 .5%,#DBE200 80%);
+	-moz-background: -moz-linear-gradient(top, #FAFF66 .5%, #DBE200 80%);
+	-o-background: -o-linear-gradient(top, #FAFF66 .5%,#DBE200 80%);
+	background: linear-gradient(to bottom, #FAFF66 .5%,#DBE200 80%);  
+}
+.profesPage{
+    color: #595959;
+    background:  #F04E98;
+	-webkit-background: -webkit-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	-o-background: -o-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
+	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
 }
 @media all and (max-width: 800px){
 	* h1 {
