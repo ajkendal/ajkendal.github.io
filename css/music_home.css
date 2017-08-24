@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	background: #F2F2F2;
+	margin: 0;
+	padding: 0;
+}
+#content{
+	width: 800px;
+	padding-top: 40px;
+    margin: 0 auto;
+}
+.colorOverlay{
+    margin: 3%;
+    width: 325px;
+    height: 325px;
+    display: inline-block;
+    position: relative;
+	background: rgba(255,155,43,1);
+    transition: 0.3s;
+	box-shadow: 10px 10px 10px #999999;
+}
+.colorOverlay img {
+	-webkit-filter: brightness(120%) grayscale(100%);
+	filter: brightness(120%) grayscale(100%);
+	opacity: .5;
+}
+.colorOverLay:hover{
+	background: none;
+}
+.colorOverlay:hover img{
+	background: none;
+	opacity: 1;
+	-webkit-filter: brightness(100%) grayscale(0);
+	filter: brightness(100%) grayscale(0);
+}
+.infoText{
+    color: rgba(255, 255, 255, 1);
+    padding: 0;
+    text-align: left;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+@media all and (max-width: 800px){
+	#content{
+		padding-top: 175px;	
+        width: 80%;
+	}
+    .colorOverlay{
+        margin: 1.75%;
+        width: 300px;
+        height: 300px;
+    }
+    .infoText{
+        margin-top: -30px;
+    }
+}
+@media all and (max-width: 480px){
+	#content{
+		padding-top: 175px;	
+	    width: 90%;
+	}
+    .colorOverlay{
+        margin: 1.75%;
+        width: 225px;
+        height: 225px;
+    }
+    .infoText{
+        margin-top: -30px;
+    }
+}
