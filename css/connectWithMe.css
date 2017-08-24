@@ -63,17 +63,29 @@ textarea {
 	margin: 10px;
 }
 button {
+    outline:  none;
+    border: none;
+    cursor: pointer;
   	font-family: Roboto;
   	color: #ffffff;
   	font-size: 16px;
-  	background: #000000;
-  	padding: 5px 25px 5px 25px;
+  	padding: 7px 20px 7px 20px;
   	text-decoration: none;
   	margin: 5px;
+    border-radius: 20px;
+    background: #00A5C6;
+	-webkit-background: -webkit-linear-gradient(top, #99EEFF.5%,#00A5C6 80%);
+	-moz-background: -moz-linear-gradient(top, #99EEFF .5%, #00A5C6 80%);
+	-o-background: -o-linear-gradient(top, #99EEFF .5%,#00A5C6 80%);
+	background: linear-gradient(to bottom, #99EEFF .5%,#00A5C6 80%);  
 }
 button:hover{
-	background: #00A5C6;
-  	text-decoration: none;
+	color: #000000;
+	background: #595959;
+	-webkit-background: -webkit-linear-gradient(top, #999999 .5%,#595959 80%);
+	-moz-background: -moz-linear-gradient(top, #999999 .5%,#595959 80%);
+	-o-background: -o-linear-gradient(top, #999999 .5%,#595959 80%);
+	background: linear-gradient(to bottom, #999999 .5%,#595959 80%);
 }
 @media all and (max-width : 800px){
 	#email h1 {

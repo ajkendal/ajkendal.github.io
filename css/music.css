@@ -10,36 +10,6 @@ html, body{
 	width: 100%;
 	padding-top: 40px;
 }
-#topButton{
-	display: none;
-	position: fixed;
-	bottom: 20px;
-	right: 30px;
-	z-index: 99;
-	border: none;
-	outline: none;
-	background: #FF962B;
-	-webkit-background: -webkit-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
-	-moz-background: -moz-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
-	-o-background: -o-linear-gradient(top, #FFBF80 .5%,#FF962B 80%);
-	background: linear-gradient(to bottom, #FFBF80 .5%,#FF962B 80%);
-	color: #FFFFFF;
-	cursor: pointer;
-	padding: 7px 20px 7px 20px;
-	border-radius: 20px;
-}
-#topButton p{
-	padding: 0;
-	margin: 0;	
-}
-#topButton:hover{
-	color: #000000;
-	background: #595959;
-	-webkit-background: -webkit-linear-gradient(top, #999999 .5%,#595959 80%);
-	-moz-background: -moz-linear-gradient(top, #999999 .5%,#595959 80%);
-	-o-background: -o-linear-gradient(top, #999999 .5%,#595959 80%);
-	background: linear-gradient(to bottom, #999999 .5%,#595959 80%);
-}
 .music_sec{
 	width: 78%;
 	background: #FFFFFF;
@@ -149,9 +119,6 @@ html, body{
 	#content{
 		padding-top: 175px;	
 	}
-	#topButton{
-		padding: 5px 17px 5px 17px;	
-	}
 	.music_sec{
 		width: 72%;
 	}
@@ -174,9 +141,6 @@ html, body{
 @media all and (max-width: 480px){
 	#content{
 		padding-top: 175px;	
-	}
-	#topButton{
-		padding: 2px 15px 2px 15px;	
 	}
 	.music_sec{
 		width: 70%;
