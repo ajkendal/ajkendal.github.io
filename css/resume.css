@@ -75,6 +75,10 @@ html, body{
 	padding: 2px;
 	margin: 0px;
 }
+.schoolHeader{
+	padding-bottom: 5px;
+	margin: 0;
+}
 #pdf_div a{
 	padding: 10px 25px 10px 25px;
 	border: none;
