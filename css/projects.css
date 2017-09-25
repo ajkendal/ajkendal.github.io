@@ -97,6 +97,9 @@ html, body{
 	font-size: 24px;
 	font-weight: normal;
 }
+#text p a{
+    color: #FFFFFF;
+}
 .fullImage-content, #text {    
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
