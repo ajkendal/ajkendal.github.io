@@ -13,6 +13,10 @@
 	font-family: LimeLight;
 	font-size: 48px;
 }
+* h2{
+	font-family: LimeLight;
+	font-size: 38px;
+}
 * h3 {
 	font-family: LimeLight;
 	font-size: 28px;
@@ -77,6 +81,9 @@
 	* h1 {
 		font-size: 30px;
 	}
+	* h2 {
+		font-size: 25px;
+	}
 	* h3 {
 		font-size: 20px;
 	}
@@ -92,7 +99,10 @@
 }
 @media all and (max-width: 480px){
 	* h1 {
-		font-size: 24px;
+		font-size: 26px;
+	}
+	* h2 {
+		font-size: 22px;
 	}
 	* h3 {
 		font-size: 20px;
