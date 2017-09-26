@@ -20,15 +20,16 @@
             <div id="connect_left">
             	<img id="connect_image" src="../img/connectWithMeSkates.png" width="212.8%"/>
             </div>
-            </div>
+        
             <div id="connect_right">
             	<div id="email" align="center">
                 	<h1>Connect<br />With Me</h1>
                     <p>I will respond to all emails within 2-3 business days.</p>
                     <form method="POST" action="http://formspree.io/ajkendal@neiu.edu">
                     	<input type="text" name="_gotcha" style="display:none" />
-                        <input type="email" name="email" placeholder="Your email">
-                        <input type="hidden" name="_subject" value="Website Email" />
+                        <input type="email" name="email" placeholder="Your Email">
+                        <input type="text" name="subject" placeholder="Subject" />
+                        <input type="hidden" name="_return" value="Website Email" />
                         <textarea name="message" placeholder="Your message"></textarea>
                         <button type="submit">Send</button>
                     </form>
