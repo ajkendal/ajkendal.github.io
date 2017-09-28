@@ -165,6 +165,17 @@ table tr td p{
 	#pdf_div a{
 		font-size: 14px;
 	}
+	#edu_div h2{
+		padding-top: 20px;
+	}
+	#edu_div td{
+		border-bottom-style:solid;
+      	border-bottom-width:1px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		display:block;
+		width: 100%;
+	}
 }
 @media all and (max-width: 480px){
 	#content{
@@ -195,5 +206,16 @@ table tr td p{
 	}
 	#pdf_div a{
 		font-size: 12px;
+	}
+	#edu_div h2{
+		padding-top: 20px;
+	}
+	#edu_div td{
+		border-bottom-style:solid;
+      	border-bottom-width:1px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		display:block;
+		width: 100%;
 	}
 }
