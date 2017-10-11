@@ -10,9 +10,10 @@
         <link rel="stylesheet" href="../css/websiteText.css" />
         <link rel="stylesheet" href="../css/portfolio.css"/>
         <script type="text/javascript" src="../js/w3.js"></script>
+        <script type="text/javascript" src="../js/portfolio_list.js"></script>
 	</head>
 	
-    <body>
+    <body id="bodyID">
 		<div id="navbar" w3-include-html="navbar_pages.html"></div>
 		<script>w3.includeHTML();</script>
         
@@ -20,28 +21,40 @@
 	 	
 	 	<div id="portfolio_content" align="center">
             
-            <div class="container">
+            <div class="container" w3-repeat="projects">
                 <div class="colorOverLay">
-                    <img class="imageStyles" alt="" src="">
+                    <img class="imageStyles" alt="{{ alt }}" src="{{ image }}">
                 </div>
                 <div class="projectInfo">
                     <div class="projectHeaderText">
-                        <h3 class="projectHeader">Header Text</h3>
+                        <h3 class="projectHeader">{{ header }}</h3>
                     </div>
                     <div class="projectDescr">
+                        <p>{{ year }}</p>
                         <p>
-                            2017 - Here is the in depth description of the project including year, porupose, any other information i decided to add.
+                           {{ descr }}
                         </p>
                     </div>
                     <div class="projectLinks">
-                        <a href="#" class="fullImageLink">Full Image</a> |
-                        <a class="projectExternal_Links" href="#" target="_blank">See Project</a> |
-                        <a class="projectExternal_Links" href="#" target="_blank">Repositorie</a> 
+                        {{ imageLink}} {{ projectLink }} {{ githubLink }}
                     </div>
                 </div>
             </div>
-            
+        
+        
+        
+            <div id="fullImage" class="fullImageClass" >
+            	<span class="exit">&times;</span>
+            	<div class="imageDiv" align="center">
+            		<img class="fullImage-content" id="img01" alt="Full Page Image">
+            	</div>
+            </div>
         </div>
+        
+        
+        <script>
+        w3.displayObject("bodyID", projectList);
+        </script>
     
         <script type="text/javascript" src="../js/portfolio.js"></script>
         <script type="text/javascript" src="../js/topButton.js"></script>
