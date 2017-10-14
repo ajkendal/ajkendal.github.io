@@ -1,6 +1,7 @@
-var images = document.getElementsByClassName("imageStyles");
+var images = document.getElementsByClassName("fullImageLink");
 
 for (var x = 0; x < images.length; x++){
+    console.log(x);
 	var img = images[x];
 	var imgID = document.getElementById("img01");
 	img.onclick = function(){

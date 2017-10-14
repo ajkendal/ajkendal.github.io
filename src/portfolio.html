@@ -18,45 +18,33 @@
 		<script>w3.includeHTML();</script>
         
         <button onClick="toTopFunction()" id="topButton" class="scrollButtons profesPage" title="Top of Page"><p>Top</p></button>
-	 	
+	 	 
+        <script type="text/javascript" src="../js/topButton.js"></script>
+
 	 	<div id="portfolio_content" align="center">
             
             <div class="container" w3-repeat="projects">
                 <div class="colorOverLay">
-                    <img class="imageStyles" alt="{{ alt }}" src="{{ image }}">
+                    <img class="imageStyles" alt="{{ alt }}" src="{{ image }}" style="zoom: {{ imageZoom }};">
                 </div>
                 <div class="projectInfo">
                     <div class="projectHeaderText">
                         <h3 class="projectHeader">{{ header }}</h3>
                     </div>
                     <div class="projectDescr">
-                        <p>{{ year }}</p>
-                        <p>
+                        <p class="year_city">{{ year }} - {{ city }}</p>
+                        <p class="pro_descr">
                            {{ descr }}
                         </p>
                     </div>
                     <div class="projectLinks">
-                        {{ imageLink}} {{ projectLink }} {{ githubLink }}
+                        {{ imageLink }}{{ spacer1 }}{{ projectLink }}{{ spacer2 }}{{ githubLink }}
                     </div>
                 </div>
             </div>
         
-        
-        
-            <div id="fullImage" class="fullImageClass" >
-            	<span class="exit">&times;</span>
-            	<div class="imageDiv" align="center">
-            		<img class="fullImage-content" id="img01" alt="Full Page Image">
-            	</div>
-            </div>
-        </div>
-        
-        
         <script>
         w3.displayObject("bodyID", projectList);
         </script>
-    
-        <script type="text/javascript" src="../js/portfolio.js"></script>
-        <script type="text/javascript" src="../js/topButton.js"></script>
 	</body>
 </html>

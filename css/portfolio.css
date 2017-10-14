@@ -31,13 +31,14 @@ html, body{
     font-family: Roboto;
     color: rgba(240,78,152,1);
     width: 100%;
-    margin: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .projectDescr {
     text-align: left;
     padding: 5px;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+    -webkit-transform: translateY(54%);
+    transform: translateY(54%);
     color: #FFFFFF;
     padding-top: 5px;
     background: #595959;
@@ -46,6 +47,13 @@ html, body{
     
     transition: -webkit-transform .5s ease-out;
     transition: transform .5s ease-out;
+}
+.year_city {
+    margin: 0;
+}
+.pro_descr {
+    margin-right: 5px;
+    padding-right: 5px;
 }
 .container:hover .projectDescr{
     -webkit-transform: translateY(0);
@@ -86,6 +94,8 @@ html, body{
     position: absolute;
     min-height: auto;
     min-width: auto;
+    top: 50%;
+    
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
