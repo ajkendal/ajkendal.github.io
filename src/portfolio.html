@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" />
+		<title>Amanda J Kendal-Brown | Portfolio</title>
+        <link rel="shortcut icon" href="../img/Logo.jpg" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../css/navbar.css" />
+        <link rel="stylesheet" href="../css/websiteText.css" />
+        <link rel="stylesheet" href="../css/portfolio.css"/>
+        <script type="text/javascript" src="../js/w3.js"></script>
+        <script type="text/javascript" src="../js/portfolio_list.js"></script>
+	</head>
+	
+    <body id="bodyID">
+		<div id="navbar" w3-include-html="navbar_pages.html"></div>
+		<script>w3.includeHTML();</script>
+        
+        <button onClick="toTopFunction()" id="topButton" class="scrollButtons profesPage" title="Top of Page"><p>Top</p></button>
+        
+        <!-- Scroll Button JS File -->
+        <script type="text/javascript" src="../js/topButton.js"></script>
+
+	 	<div id="portfolio_content" align="center">
+            
+            <div class="container" w3-repeat="projects">
+                <div class="colorOverLay">
+                    <img class="imageStyles" alt="{{ alt }}" src="{{ image }}" style="zoom: {{ imageZoom }};">
+                </div>
+                <div class="projectInfo">
+                    <div class="projectHeaderText">
+                        <h4 class="projectHeader">{{ header }}</h4>
+                    </div>
+                    <div class="projectDescr">
+                        <p class="year_city">{{ year }} - {{ city }}</p>
+                        <p class="pro_descr">
+                           {{ descr }}
+                        </p>
+                    </div>
+                    <div class="projectLinks">
+                        {{ imageLink }}{{ spacer1 }}{{ projectLink }}{{ spacer2 }}{{ githubLink }}
+                    </div>
+                </div>
+            </div>
+            
+            <div id="imageOverlay" class="imageOverlayClass">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeFullImage()">&times;</a>
+                <div class="centeredImage" id="centeredIDImage"></div>
+            </div>
+            
+        </div>
+        
+        <script type="text/javascript" src="../js/portfolio_fullPage.js"></script>
+        
+        <script>w3.displayObject("bodyID", projectList);</script>
+	</body>
+</html>
