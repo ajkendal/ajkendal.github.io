@@ -28,11 +28,10 @@ html, body{
     position: relative;
 }
 .projectHeader{
-    font-family: Roboto;
     color: rgba(240,78,152,1);
     width: 100%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .projectDescr {
     text-align: left;
@@ -122,8 +121,8 @@ html, body{
         width: 200px;
     }
     .projectDescr {
-        -webkit-transform: translateY(42%);
-        transform: translateY(42%);
+        -webkit-transform: translateY(35%);
+        transform: translateY(35%);
     }
     .projectLinks a {
         font-size: 16px;
@@ -139,7 +138,7 @@ html, body{
     }
     .colorOverLay {
         height: 200px;
-        width: 100px;
+        width: 150px;
     }
     .projectDescr {
         -webkit-transform: translateY(50%);
@@ -149,4 +148,3 @@ html, body{
         font-size: 12px;
     }
 }
-
