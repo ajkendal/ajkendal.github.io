@@ -9,9 +9,8 @@
 		<meta property="og:image:height" content="600">
 		<title>Amanda J Kendal-Brown | Tank Rampage</title>
         <link rel="shortcut icon" href="../../img/Logo.jpg" />
-        <link rel="stylesheet" href="../../css/navbar.css" />
         <link rel="stylesheet" href="../../css/websiteText.css" />
-        <script type="text/javascript" src="../../js/w3.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script type="text/javascript" src="https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js"></script>
 		<script type="text/javascript">
 		<!--
@@ -128,20 +127,27 @@
 			width: 800px;
 			box-shadow: 10px 10px 10px #999999;
 		}
-		#game_info{
+		.game_info, .downloads{
 			padding: 10px 20px 40px 20px;
 			width: 760px;
 			background: #FFFFFF;
 			box-shadow: 10px 10px 10px #999999;	
 			margin: 0 auto;
+            margin-top: 30px;
 		}
-		#game_info p{
+		.game_info p{
 			text-align: left;
 			padding-left: 10px;
 			padding-bottom: 10px;
 		}
-		#game_info a{
-			padding: 10px 25px 10px 25px;
+        .game_info a{
+            padding: 10px 25px 10px 25px;
+        }
+        .downloads a{
+            padding: 15px 25px 10px 25px;
+        }
+		.game_info a,
+        .downloads a {
 			border: none;
 			border-radius: 20px;
 			background: #F04E98;
@@ -151,8 +157,10 @@
 			background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
 			text-decoration: none;
 			color: #595959;
+            margin: 5px;
 		}
-		#game_info a:hover{
+		.game_info a:hover,
+        .downloads a:hover{
 			background: #595959;
 			-webkit-background: -webkit-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
 			-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
@@ -163,8 +171,6 @@
 		</style>
 	</head>
 	<body>
-    	<div id="navbar" w3-include-html="../navbar_build.html"></div>
-        <script>w3.includeHTML();</script>
         
         <div id="unity_content">
             <h1 class="header"><span>Unity Web Player | </span>Tank Rampage</h1>
@@ -179,7 +185,14 @@
             </div>
             <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
             
-            <div id="game_info" align="center">
+            <div class="downloads">
+                <h2>Downloads</h2>
+                <a href="PC_BuildFiles.zip" target="_blank" download="TankTampage_PC.zip"><i class="material-icons">get_app</i>PC</a>
+                <a href="Mac_BuildFiles.zip" target="_blank" download="TankTampage_Mac.zip"><i class="material-icons">get_app</i>Mac</a>
+                <a href="Linux_BuildFiles.zip" target="_blank" download="TankTampage_Linux.zip"><i class="material-icons">get_app</i>Linux</a>
+            </div>
+            
+            <div class="game_info" align="center">
             	<h1>Controls</h1>
                 <p style="text-align:center">
                 	<strong>Game Objective</strong><br />
@@ -194,7 +207,7 @@
                     	Northeastern Illinois University
                     </strong><br />
                     <strong>Developed By:</strong> Amanda J. Kendal-Brown &amp; Abdulhai Almontashri<br />
-                    <strong>Engine:</strong> Unity<br />
+                    <strong>Engine:</strong> Unity 5.3.3f1<br />
                     <strong>3D Modeling Application:</strong> Blender<br />
                     <strong>Scripting Language:</strong> C#
                 </p>
