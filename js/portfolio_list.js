@@ -13,7 +13,8 @@ var imageSrc = [
     "../img/project_img/PyConPoster_5_2016.png",
     "../img/project_img/LakesidePride_2017_Season.png",
     "../img/project_img/uhOhProject_Hackathon.png",
-    "../img/project_img/BlaqueJac.png"
+    "../img/project_img/BlaqueJac.png",
+    "../img/project_img/SpookSafe_2017.png"
 ];
 
 var projectList = { "projects": [
@@ -226,5 +227,19 @@ var projectList = { "projects": [
         projectLink: " ",
         spacer2: " ",
         githubLink: " "
+    },
+    {
+        header: "Porticode 2.0 Hackathon",
+        year: 2017,
+        city: "London, UK",
+        image: imageSrc[15],
+        alt: "Hackathon",
+        imageZoom: "30%",
+        descr: "Porticode 2.0 Winner's of Best Amazon Service. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[15])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='http://spooksafe.azurewebsites.net/' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_links' href='https://github.com/nikhil1231/halloween' target='_blank'>Repository</a>"
     }
 ]};
