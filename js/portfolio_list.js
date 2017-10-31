@@ -235,7 +235,7 @@ var projectList = { "projects": [
         image: imageSrc[15],
         alt: "Hackathon",
         imageZoom: "30%",
-        descr: "Porticode 2.0 Winner's of Best Amazon Service. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
+        descr: "Porticode 2.0 Winner's of Best Amazon Web Services. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[15])'>Full Image</a>",
         spacer1: " | ",
         projectLink: "<a class='projectExternal_Links' href='http://spooksafe.azurewebsites.net/' target='_blank'>See Project</a>",
