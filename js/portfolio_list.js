@@ -238,8 +238,10 @@ var projectList = { "projects": [
         descr: "Porticode 2.0 Major League Hacking Winner's of Best Amazon Web Services. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[15])'>Full Image</a>",
         spacer1: " | ",
-        projectLink: "<a class='projectExternal_Links' href='http://spooksafe.azurewebsites.net/' target='_blank'>See Project</a>",
+        projectLink: "<a class='projectExternal_Links' href='https://nikhil1231.github.io/halloween/' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_links' href='https://github.com/nikhil1231/halloween' target='_blank'>Repository</a>"
     }
 ]};
+
+projectList.projects.reverse();
