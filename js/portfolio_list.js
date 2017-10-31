@@ -231,7 +231,7 @@ var projectList = { "projects": [
     {
         header: "Porticode 2.0",
         year: 2017,
-        city: "London, UK",
+        city: "London, Eng.",
         image: imageSrc[15],
         alt: "Hackathon",
         imageZoom: "30%",
