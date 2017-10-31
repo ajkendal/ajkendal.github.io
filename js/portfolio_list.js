@@ -201,13 +201,13 @@ var projectList = { "projects": [
         githubLink: " "
     },
     {
-        header: "Nerdery Hackathon",
+        header: "Nerd Immersion",
         year: 2017,
         city: "Chicago, IL",
         image: imageSrc[13],
         alt: "Hackathon",
         imageZoom: "50%",
-        descr: "2nd place winner for Nerd Immersion Hackathon, Oh NO! My car got towed! is a web application that helps users find cars towed in the City of Chicago.",
+        descr: "2nd place winner for Nerd Immersion Hackathon hosted by The Nerdery, Oh NO! My car got towed! is a web application that helps users find cars towed in the City of Chicago.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[13])'>Full Image</a>",
         spacer1: " | ",
         projectLink: "<a class='projectExternal_Links' href='https://heymarcy.github.io/chi_towed_cars/' target='_blank'>See Project</a>",
@@ -229,13 +229,13 @@ var projectList = { "projects": [
         githubLink: " "
     },
     {
-        header: "Porticode 2.0 Hackathon",
+        header: "Porticode 2.0",
         year: 2017,
-        city: "London, UK",
+        city: "London, Eng.",
         image: imageSrc[15],
         alt: "Hackathon",
         imageZoom: "30%",
-        descr: "Porticode 2.0 Winner's of Best Amazon Service. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
+        descr: "Porticode 2.0 Major League Hacking Winner's of Best Amazon Web Services. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[15])'>Full Image</a>",
         spacer1: " | ",
         projectLink: "<a class='projectExternal_Links' href='https://nikhil1231.github.io/halloween/' target='_blank'>See Project</a>",
