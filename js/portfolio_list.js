@@ -243,3 +243,5 @@ var projectList = { "projects": [
         githubLink: "<a class='projectExternal_links' href='https://github.com/nikhil1231/halloween' target='_blank'>Repository</a>"
     }
 ]};
+
+projectList.projects.reverse();
