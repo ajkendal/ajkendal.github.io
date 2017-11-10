@@ -10,9 +10,10 @@
         <link rel="stylesheet" href="../css/websiteText.css" />
         <link rel="stylesheet" href="../css/athlete.css" />
         <script type="text/javascript" src="../js/w3.js"></script>
+        <script type="text/javascript" src="../js/athlete.js"></script>
 	</head>
 
-	<body>
+	<body id="bodyID">
     	<div id="navbar" w3-include-html="navbar_pages.html"></div>
         <script>w3.includeHTML();</script>
         
@@ -41,197 +42,24 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="athlete_sec">
+ 
+            <div class="athlete_sec" w3-repeat="teams">
                 <div class="header_txt">
-                    <h1>Chicago Outfit</h1>
+                    <h1>{{ team_name }}</h1>
                 </div>
                 <div class="team_info">
                     <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/ChicagoOutfit_headshot.jpg" width="100%" alt="Chicago Outfit Headshot"/>
+                        <img class="img_format" src="{{ headshot }}" width="100%" alt="{{ team_name }}" />
                     </div>
-                    <p align="center" class="photolinks"><strong>Photo By:</strong> <a target="_blank" class="photolinks" href="http://www.9musesphoto.com/">9 Muses Photo</a></p>
+                    <p align="center" class="photolinks">{{ photo_src }}</p>
                     <p>
-                    	<strong>Years:</strong> 2013-2014, 2017-2018
+                    	<strong>Years:</strong> {{ years }}
                         <br />
-                        <strong>Position:</strong> Blocker, Pivot, Jammer, Bench Coach
+                        <strong>Position:</strong> {{ positions }}
                     </p>
                     <div class="team_logo" align="center">
-                        <a target="_blank" href="https://chicagooutfitrollerderby.com/">
-                            <img src="../img/athlete_img/chicagoOutfit_logo.png" alt="Chicago Outfit Logo" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Team West Indies</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/teamwestindies_headshot.jpg" width="100%" alt="Team West Indies Headshot" />
-                    </div>
-                    <p align="center" class="photolinks"><strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://www.flickr.com/photos/type2b">Jules Doyle Photography</a></p>
-                    <p>
-                    	<strong>Years:</strong> 2013-2014, 2017-2018
-                        <br />
-                        <strong>Position:</strong> Co-Captain, Jammer, Blocker, Pivot
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="https://www.facebook.com/Team-West-Indies-Roller-Derby-World-Cup-399084460193873/">
-                            <img src="../img/athlete_img/teamwestindies_logo.png"  alt="Team West Indies Logo"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Team USA</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/AmandaKendalBrown_USA.jpg" width="100%" alt="Team USA Headshot" />
-                    </div>
-                    <p>
-                    	<strong>Years:</strong> 2016-2017
-                        <br />
-                        <strong>Position:</strong> Blocker
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="http://usarollerderby.com/">
-                            <img src="../img/athlete_img/teamusa_rollerderby_logo.png" alt="Team USA Logo"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Windy City Rollers</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/wcr_headshot.jpg" width="100%" alt="Windy City Rollers Headshot" />
-                    </div>
-                    <p align="center" class="photolinks"><strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://www.flickr.com/photos/30162169@N07/">Gil Leora</a></p>
-                    <p>
-                    	<strong>Years:</strong> 2014-2017
-                        <br />
-                        <strong>Position:</strong> Jammer, Blocker, Pivot, Bench Coach, Trainer
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="http://www.windycityrollers.com/">
-                            <img src="../img/athlete_img/wcr_logo.png" alt="Windy City Rollers Logo" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Midwest Allstars</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/mwa_photo.jpg" width="100%" alt="Midwest AS Photo" />
-                    </div>
-                    <p align="center" class="photolinks"><strong>Photo By:</strong> <a target="_blank" class="photolinks" href="http://www.raptorphotography.net/#/page/home/">Raptor Photography</a></p>
-                    <p>
-                    	<strong>Years:</strong> 2016-2017
-                        <br />
-                        <strong>Position:</strong> Blocker
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="https://www.facebook.com/MidwestAllstarsRollerDerby/">
-                            <img src="../img/athlete_img/mwa_logo.png" alt="Midwest AS Logo"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Chicago Red Hots</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/redhot_headshot.jpg" width="100%" alt="Chicago Red Hots Headshot" />
-                    </div>
-                    <p>
-                    	<strong>Years:</strong> 2016
-                        <br />
-                        <strong>Position:</strong> Blocker
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="http://chicagoredhotsderby.com/">
-                            <img src="../img/athlete_img/redhots_logo.png" alt="Chicago Red Hots Logo"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Team Illinois</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/teamIllinois_photo.jpg" width="100%" alt="Team Illinois Photo" />
-                    </div>
-                    <p align="center" class="photolinks"><strong>Photo By:</strong> <a target="_blank" class="photolinks" href="http://www.jennifermramos.com/">Jennifer M. Ramos</a></p>
-                    <p>
-                    	<strong>Years:</strong> 2014, 2016
-                        <br />
-                        <strong>Position:</strong> Blocker
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="https://chicagooutfitrollerderby.com/">
-                            <img src="../img/athlete_img/teamIllinois_logo.png" alt="Team Illinois Logo"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Gold Coast Derby Grrls</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/goldCoast_headshot.jpg" width="100%" alt="Gold Coast Headshot" />
-                    </div>
-                    <p align="center" class="photolinks"><strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://lebleuphoto.exposure.co/">Ken LeBleu</a></p>
-                    <p>
-                    	<strong>Years:</strong> 2012-2013
-                        <br />
-                        <strong>Position:</strong> Blocker, Pivot, Jammer
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="http://www.miamirollerderby.com/">
-                            <img src="../img/athlete_img/gcdg_logo.png" alt="Gold Coast Logo"/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="athlete_sec">
-                <div class="header_txt">
-                    <h1>Miami Vice City Rollers</h1>
-                </div>
-                <div class="team_info">
-                    <div class="colorOverlay">
-                        <img class="img_format" src="../img/athlete_img/mvcr_headshot.jpg" width="100%" alt="Miami Vice Photo" />
-                    </div>
-                    <p>
-                    	<strong>Years:</strong> 2011-2012
-                        <br />
-                        <strong>Position:</strong> Pivot
-                    </p>
-                    <div class="team_logo" align="center">
-                        <a target="_blank" href="http://www.miamirollerderby.com/">
-                            <img src="../img/athlete_img/mvcr_logo.png" alt="Miami Vice Logo" />
+                        <a target="_blank" href="{{ team_link }}">
+                            <img src="{{ team_logo }}" alt="{{ team_name }}" />
                         </a>
                     </div>
                 </div>
@@ -239,6 +67,6 @@
             
      	</div>
         
-        
+        <script>w3.displayObject("bodyID", teamList);</script>
 	</body>
 </html>
