@@ -1,5 +1,5 @@
 var imageSrc = [
-    "../img/project_img/Florida_roller_derby_2012_logo.jpg",
+    "../img/project_img/Florida_roller_derby_2012_logo.png",
     "../img/project_img/GCDG_Schedule_2013.png",
     "../img/project_img/WCR_Poster_2015.png",
     "../img/project_img/anw_welcome_2015.png",
@@ -14,7 +14,9 @@ var imageSrc = [
     "../img/project_img/LakesidePride_2017_Season.png",
     "../img/project_img/uhOhProject_Hackathon.png",
     "../img/project_img/BlaqueJac.png",
-    "../img/project_img/SpookSafe_2017.png"
+    "../img/project_img/SpookSafe_2017.png",
+    "../img/project_img/TransformationCard_2017.png",
+    "../img/project_img/SweetSpots_2017.png"
 ];
 
 var projectList = { "projects": [
@@ -92,11 +94,11 @@ var projectList = { "projects": [
         header: "World AIDS Day Poster",
         year: 2015,
         city: "Chicago, IL",
-        image: imageSrc[5],
-        alt: "World Aids Poster - White",
-        imageZoom: "70%",
-        descr: "1 of 2 posters created for NEIU's Angelina Pedroso Center for Diversity and Intercultural Affairs. One of my graduate assistantship responsibilities. Printed size 17x11",
-        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[5])'>Full Image</a>",
+        image: imageSrc[6],
+        alt: "World Aids Poster - Dark",
+        imageZoom: "60%",
+        descr: "2 of 2 posters created for NEIU's Angelina Pedroso Center for Diversity and Intercultural Affairs. One of my graduate assistantship responsibilities. Printed size 8.5x11",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[6])'>Full Image</a>",
         spacer1: " ",
         projectLink: " ",
         spacer2: " ",
@@ -106,11 +108,11 @@ var projectList = { "projects": [
         header: "World AIDS Day Poster",
         year: 2015,
         city: "Chicago, IL",
-        image: imageSrc[6],
-        alt: "World Aids Poster - Dark",
-        imageZoom: "60%",
-        descr: "2 of 2 posters created for NEIU's Angelina Pedroso Center for Diversity and Intercultural Affairs. One of my graduate assistantship responsibilities. Printed size 8.5x11",
-        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[6])'>Full Image</a>",
+        image: imageSrc[5],
+        alt: "World Aids Poster - White",
+        imageZoom: "70%",
+        descr: "1 of 2 posters created for NEIU's Angelina Pedroso Center for Diversity and Intercultural Affairs. One of my graduate assistantship responsibilities. Printed size 17x11",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[5])'>Full Image</a>",
         spacer1: " ",
         projectLink: " ",
         spacer2: " ",
@@ -238,9 +240,37 @@ var projectList = { "projects": [
         descr: "Porticode 2.0 Major League Hacking Winner's of Best Amazon Web Services. SpookSafe is a web application that helps users find safer streets depending on their postal code in the UK.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[15])'>Full Image</a>",
         spacer1: " | ",
-        projectLink: "<a class='projectExternal_Links' href='https://nikhil1231.github.io/halloween/' target='_blank'>See Project</a>",
+        projectLink: "<a class='projectExternal_Links' href='https://nikhil1231.github.io/halloween/' target='_blank'>See Project</a>", 
         spacer2: " | ",
         githubLink: "<a class='projectExternal_links' href='https://github.com/nikhil1231/halloween' target='_blank'>Repository</a>"
+    },
+    {
+        header: "Transformation Card",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[16],
+        alt: "Transformation Card",
+        imageZoom: "40%",
+        descr: "The 10 of Hearts Transformation Card designed for my gradute class HCI 402 - Digital Design at DePaul University, Fall 2017.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[16])'>Full Image</a>",
+        spacer1: " ",
+        projectLink: " ",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
+        header: "ScarletHacks",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[17],
+        alt: "Hackathon",
+        imageZoom: "68%",
+        descr: "ScarletHacks 2017 Major League Hacking Winner's of DESIGNATION - Best Experience for Users. SweetSpots provides a solution to drivers for street parking spots that are both safe and not scheduled for street cleaning.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[17])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='https://goo.gl/avvWRh' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_links' href='https://github.com/ajkendal/ChicagoResSafetyPark' target='_blank'>Repository</a>"
     }
 ]};
 
