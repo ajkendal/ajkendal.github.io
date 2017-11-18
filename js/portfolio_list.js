@@ -16,7 +16,8 @@ var imageSrc = [
     "../img/project_img/BlaqueJac.png",
     "../img/project_img/SpookSafe_2017.png",
     "../img/project_img/TransformationCard_2017.png",
-    "../img/project_img/SweetSpots_2017.png"
+    "../img/project_img/SweetSpots_2017.png",
+    "../img/project_img/SafeRainbowHousing_2017.png"
 ];
 
 var projectList = { "projects": [
@@ -271,6 +272,20 @@ var projectList = { "projects": [
         projectLink: "<a class='projectExternal_Links' href='https://goo.gl/avvWRh' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_links' href='https://github.com/ajkendal/ChicagoResSafetyPark' target='_blank'>Repository</a>"
+    },
+    {
+        header: "Hack 4 Queer Youth",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[18],
+        alt: "Hackathon",
+        imageZoom: "20%",
+        descr: "Our assigned topic was intergenerational LGBT collaboration and connection. We developed a searchable database of local shelters and LGBT-friendly housing options to help people find options.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[18])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='https://goo.gl/Qwk55D' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_links' href='https://github.com/ajkendal/Safe_RainbowHousing' target='_blank'>Repository</a>"
     }
 ]};
 
