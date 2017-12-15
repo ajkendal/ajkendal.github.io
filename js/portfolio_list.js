@@ -17,7 +17,8 @@ var imageSrc = [
     "../img/project_img/SpookSafe_2017.png",
     "../img/project_img/TransformationCard_2017.png",
     "../img/project_img/SweetSpots_2017.png",
-    "../img/project_img/SafeRainbowHousing_2017.png"
+    "../img/project_img/SafeRainbowHousing_2017.png",
+    "../img/project_img/SeattleAerospace_2017.png"
 ];
 
 var projectList = { "projects": [
@@ -252,7 +253,7 @@ var projectList = { "projects": [
         image: imageSrc[16],
         alt: "Transformation Card",
         imageZoom: "40%",
-        descr: "The 10 of Hearts Transformation Card designed for my gradute class HCI 402 - Digital Design at DePaul University, Fall 2017.",
+        descr: "The 10 of Hearts Transformation Card designed for my graduate class HCI 402 - Digital Design at DePaul University, Fall 2017.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[16])'>Full Image</a>",
         spacer1: " ",
         projectLink: " ",
@@ -286,6 +287,20 @@ var projectList = { "projects": [
         projectLink: "<a class='projectExternal_Links' href='https://goo.gl/Qwk55D' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_links' href='https://github.com/ajkendal/Safe_RainbowHousing' target='_blank'>Repository</a>"
+    },
+    {
+        header: "Network Graph",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[19],
+        alt: "Graph",
+        imageZoom: "45%",
+        descr: "With a provided dataset, I created a web application to show a network graph, utilizing Alchemy.js and Papa Parse.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[19])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='https://ajkendal.github.io/SeattleAerospace/' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_links' href='https://github.com/ajkendal/SeattleAerospace' target='_blank'>Repository</a>"
     }
 ]};
 
