@@ -18,7 +18,17 @@ var imageSrc = [
     "../img/project_img/TransformationCard_2017.png",
     "../img/project_img/SweetSpots_2017.png",
     "../img/project_img/SafeRainbowHousing_2017.png",
-    "../img/project_img/SeattleAerospace_2017.png"
+    "../img/project_img/SeattleAerospace_2017.png",
+    "../img/project_img/Rowan_Fast_2017.png",
+    "../img/project_img/row_ori_alien.jpg",
+    "../img/project_img/rowan_noisy_2017.png",
+    "../img/project_img/row_ori_noisy.jpg",
+    "../img/project_img/Rowan_sad_2017.png",
+    "../img/project_img/row_ori_sad.jpg",
+    "../img/project_img/Rowan_sloth_2017.png",
+    "../img/project_img/row_ori_sloth.jpg",
+    "../img/project_img/OutfitNewYear.png",
+    "../img/project_img/OutfitNewYear.gif"
 ];
 
 var projectList = { "projects": [
@@ -301,6 +311,76 @@ var projectList = { "projects": [
         projectLink: "<a class='projectExternal_Links' href='https://ajkendal.github.io/SeattleAerospace/' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_links' href='https://github.com/ajkendal/SeattleAerospace' target='_blank'>Repository</a>"
+    },
+    {
+        header: "Fast Alien",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[20],
+        alt: "Alien",
+        imageZoom: "35%",
+        descr: "Image 4 of 4<br />Original Artist: Tesseract Catherine",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[20])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[21])'>Doodle</a>",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
+        header: "Noisy",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[22],
+        alt: "Noisy",
+        imageZoom: "35%",
+        descr: "Image 3 of 4<br />Original Artist: Tesseract Catherine",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[22])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[23])'>Doodle</a>",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
+        header: "Sad",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[24],
+        alt: "Sad",
+        imageZoom: "35%",
+        descr: "Image 2 of 4<br />Original Artist: Tesseract Catherine<br /><br />For this doodle I incorporated a poem from Milk and Honey by Rupi Kaur.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[24])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[25])'>Doodle</a>",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
+        header: "Sloth Bod",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[26],
+        alt: "Sloth",
+        imageZoom: "35%",
+        descr: "Image 1 of 4<br />Worked with artist Tesseract Catherine to digitize their doodles. Each doodle represents a part of their personality.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[26])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[27])'>Doodle</a>",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
+        header: "New Years 2018",
+        year: 2017,
+        city: "Chicago, IL",
+        image: imageSrc[28],
+        alt: "Outfit New Year",
+        imageZoom: "35%",
+        descr: "Graphic designed for Chicago Outfit Roller Derby's Marketing Team. It reflects a familiar building off of I-55 in Chicago. A .gif was also created for Facebook and other social media platforms.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[28])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[29])'>GIF</a>",
+        spacer2: " ",
+        githubLink: " "
     }
 ]};
 
