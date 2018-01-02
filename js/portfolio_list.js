@@ -28,7 +28,8 @@ var imageSrc = [
     "../img/project_img/Rowan_sloth_2017.png",
     "../img/project_img/row_ori_sloth.jpg",
     "../img/project_img/OutfitNewYear.png",
-    "../img/project_img/OutfitNewYear.gif"
+    "../img/project_img/OutfitNewYear.gif",
+    "../img/project_img/mah_2018.png"
 ];
 
 var projectList = { "projects": [
@@ -379,6 +380,20 @@ var projectList = { "projects": [
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[28])'>Full Image</a>",
         spacer1: " | ",
         projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[29])'>GIF</a>",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
+        header: "Mah-Ko",
+        year: 2018,
+        city: "Miami, FL",
+        image: imageSrc[30],
+        alt: "Mah-Ko",
+        imageZoom: "35%",
+        descr: "First self piece of 2018.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[30])'>Full Image</a>",
+        spacer1: " ",
+        projectLink: " ",
         spacer2: " ",
         githubLink: " "
     }
