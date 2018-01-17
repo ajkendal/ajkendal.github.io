@@ -29,7 +29,8 @@ var imageSrc = [
     "../img/project_img/row_ori_sloth.jpg",
     "../img/project_img/OutfitNewYear.png",
     "../img/project_img/OutfitNewYear.gif",
-    "../img/project_img/mah_2018.png"
+    "../img/project_img/mah_2018.png",
+    "../img/project_img/axure_as2_2018.png"
 ];
 
 var projectList = { "projects": [
@@ -396,6 +397,20 @@ var projectList = { "projects": [
         projectLink: " ",
         spacer2: " ",
         githubLink: " "
+    },
+    {
+        header: "Login/Signup Interaction",
+        year: 2018,
+        city: "Chicago, IL",
+        image: imageSrc[31],
+        alt: "Axure",
+        imageZoom: "23%",
+        descr: "My 1st assignment for HCI 430 - Prototyping and Implementation using Axure. The object was to sketch and create a simple set of wireframes that covers a typical login/signup interaction for a mobile device.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[31])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='https://3ssy80.axshare.com' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_Links' href='../pdf/AmandaKendalBrown_DesignReport.pdf' target='_blank'>Design Report</a>"
     }
 ]};
 
