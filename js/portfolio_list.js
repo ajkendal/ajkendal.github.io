@@ -410,7 +410,7 @@ var projectList = { "projects": [
         spacer1: " | ",
         projectLink: "<a class='projectExternal_Links' href='https://3ssy80.axshare.com' target='_blank'>See Project</a>",
         spacer2: " | ",
-        githubLink: "<a class='projectExternal_Links' href='../pdf/AmandaKendalBrown_DesignReport.pdf' target='_blank'>Design Report</a>"
+        githubLink: "<a class='projectExternal_Links' href='../pdf/AmandaKendalBrown_DesignReport.pdf' target='_blank'>Sketches</a>"
     }
 ]};
 
