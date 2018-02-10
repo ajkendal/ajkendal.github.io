@@ -31,6 +31,8 @@ var imageSrc = [
     "../img/project_img/axure_as2_2018.png",
     "../img/project_img/unus_midfi.png",
     "../img/project_img/unus_highfi.png",
+    "../img/project_img/Unus_StreetBanner_Active.jpg",
+    "../img/project_img/Unus_StreetBanner.png",    
     "../img/project_img/parker_2018.png"
 ];
 
@@ -456,10 +458,25 @@ var projectList = { "projects": [
         githubLink: "<a class='projectExternal_Links' href='../pdf/HighFi_Sketches.pdf' target='_blank'>Sketches</a>"
     },
     {
+        header: "Unus",
+        year: 2018,
+        city: "Chicago, IL",
+        image: imageSrc[32],
+        alt: "Unus",
+        imageZoom: "6%",
+        type: "Graphic Design",
+        descr: "Marketing Material for Unus, a Vehicle Monitoring Web and Mobile Application. Logo Designed by Amanda J. Kendal-Brown for HCI 430 - Prototyping and Implementation.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[32])'>Full Image</a>",
+        spacer1: "| ",
+        projectLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[33])'>Banner</a>",
+        spacer2: " ",
+        githubLink: " "
+    },
+    {
         header: "Parker",
         year: 2018,
         city: "Manchester, Eng.",
-        image: imageSrc[32],
+        image: imageSrc[34],
         alt: "Parker",
         imageZoom: "30%",
         type: "Graphic Design",
