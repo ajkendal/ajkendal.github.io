@@ -481,7 +481,7 @@ var projectList = { "projects": [
         imageZoom: "30%",
         type: "Graphic Design",
         descr: "Dedicated to Parker from Team West Indies Roller Derby at World Cup 2018.",
-        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[32])'>Full Image</a>",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[34])'>Full Image</a>",
         spacer1: " ",
         projectLink: " ",
         spacer2: " ",
