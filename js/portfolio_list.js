@@ -315,7 +315,7 @@ var projectList = { "projects": [
         alt: "Hackathon",
         imageZoom: "20%",
         type: "Hackathon",
-        descr: "Our assigned topic was intergenerational LGBTQ collaboration and connection. We developed a searchable database of local shelters and LGBTQ-friendly housing to help people find options.",
+        descr: "Our topic was intergenerational LGBTQ, we developed a searchable database of local shelters and LGBTQ-friendly to help people find housing options.",
         imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[18])'>Full Image</a>",
         spacer1: " | ",
         projectLink: "<a class='projectExternal_Links' href='https://goo.gl/Qwk55D' target='_blank'>See Project</a>",
