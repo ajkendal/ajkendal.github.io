@@ -33,7 +33,8 @@ var imageSrc = [
     "../img/project_img/unus_highfi.png",
     "../img/project_img/Unus_StreetBanner_Active.jpg",
     "../img/project_img/Unus_StreetBanner.png",    
-    "../img/project_img/parker_2018.png"
+    "../img/project_img/parker_2018.png",
+    "../img/project_img/campusconnect_prototype_2018.png"
 ];
 
 var projectList = { "projects": [
@@ -486,6 +487,21 @@ var projectList = { "projects": [
         projectLink: " ",
         spacer2: " ",
         githubLink: " "
+    },
+    {
+        header: "Campus Connect",
+        year: 2018,
+        city: "Chicago, IL",
+        image: imageSrc[35],
+        alt: "Axure",
+        imageZoom: "30%",
+        type: "Wireframe",
+        descr: "A High-Fi Prototype designed for HCI 440 - Intro to User-Centered Design. Sketches provided by Joe Balich and Cheryl Barner, Wireframe and Mood Board completed by me.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[35])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='https://xr929e.axshare.com' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_Links' href='https://spark.adobe.com/page/GC4hPudnD490b' target='_blank'>Mood Board</a>"
     }
 ]};
 
