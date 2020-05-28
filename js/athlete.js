@@ -20,7 +20,8 @@ var teamHeadShots = [
     "../img/athlete_img/wcr_headshot.jpg",
     "../img/athlete_img/AmandaKendalBrown_USA.jpg",
     "../img/athlete_img/teamwestindies_headshot.jpg",
-    "../img/athlete_img/ChicagoOutfit_headshot.jpg"
+    "../img/athlete_img/ChicagoOutfit_headshot.jpg",
+    "../img/athlete_img/archery_rep_868.jpg"
 ];
 
 var teamList = {"teams": [
@@ -106,11 +107,11 @@ var teamList = {"teams": [
         team_logo: teamLogos[8]
     },
     {
-        team_name: "Team Triniad and Tobago",
-        headshot: teamHeadShots[8],
-        photo_src: '<strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://worldarchery.org/">World Archery</a>',
+        team_name: "Team TTO",
+        headshot: teamHeadShots[9],
+        photo_src: '<strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://www.facebook.com/TTgameplan">Dennis Allen</a>',
         years: "2018 - Current",
-        positions: "Internationally Ranked Archer",
+        positions: "Internationally Ranked Archer for Trinidad and Tobago",
         team_link: "http://www.ttarchery.com/",
         team_logo: teamLogos[9]
     }

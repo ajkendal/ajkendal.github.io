@@ -107,34 +107,6 @@ table tr td p{
 	-o-background: -o-linear-gradient(top, #999999 .5%,#595959 80%);
 	background: linear-gradient(to bottom, #999999 .5%,#595959 80%);
 }
-#skills_div table{
-	border-spacing:0 20px;
-	border-collapse:separate;	
-}
-#skills_div td{
-	text-align: left;	
-}
-.row_headers{
-	padding-left: 20px;
-}
-.progress { 
-	border: 1pt solid #000000;
-	border-radius: 20px;
-	position: relative;
-}
-.percent{
-	position: absolute;   
-}
-.bar {
- 	height: 20px;
-	border-radius: 20px;
-	background: #F04E98;
-	float: left;
-	-webkit-background: -webkit-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
-	-moz-background: -moz-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
-	-o-background: -o-linear-gradient(top, #F58ABA .5%,#F04E98 80%);
-	background: linear-gradient(to bottom, #F58ABA .5%,#F04E98 80%);
-}
 @media all and (max-width: 800px){
 	#content{
 		padding-top: 170px;
