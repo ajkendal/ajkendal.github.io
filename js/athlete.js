@@ -7,7 +7,8 @@ var teamLogos = [
     "../img/athlete_img/wcr_logo.png",
     "../img/athlete_img/teamusa_rollerderby_logo.png",
     "../img/athlete_img/teamwestindies_logo.png",
-    "../img/athlete_img/chicagoOutfit_logo.png"
+    "../img/athlete_img/chicagoOutfit_logo.png",
+    "../img/athlete_img/tttaf_logo.png"
 ];
 
 var teamHeadShots = [
@@ -103,6 +104,15 @@ var teamList = {"teams": [
         positions: "Blocker, Pivot, Jammer, Bench Coach",
         team_link: "https://chicagooutfitrollerderby.com/",
         team_logo: teamLogos[8]
+    },
+    {
+        team_name: "Team Triniad and Tobago",
+        headshot: teamHeadShots[8],
+        photo_src: '<strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://worldarchery.org/">World Archery</a>',
+        years: "2018 - Current",
+        positions: "Internationally Ranked Archer",
+        team_link: "http://www.ttarchery.com/",
+        team_logo: teamLogos[9]
     }
 ]};
 
