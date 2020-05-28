@@ -31,6 +31,19 @@
 
             <div id="work_div" align="center" class="resume_div">
             	<h1>Work History</h1>
+                
+                <div id="adobe-dc-view" align="center" style="width: 800px;"></div>
+                <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+                <script type="text/javascript">
+                    document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+                        var adobeDCView = new AdobeDC.View({clientId: "16a5e35f5d824bf88be868fcaae674d7", divId: "adobe-dc-view"});
+                        adobeDCView.previewFile({
+                            content:{location: {url: "../pdf/AmandaKendalBrown_Resume.pdf"}},
+                            metaData:{fileName: "amanda_j_resume.pdf"}
+                        }, {embedMode: "IN_LINE"});
+                    });
+                </script>
+
             	<div class="timeline" dates="11/2015 - 10/2018, 06/2019 - Present">
                     <p>
                         <strong>Oracle</strong><br />
