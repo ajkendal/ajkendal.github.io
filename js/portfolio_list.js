@@ -34,7 +34,8 @@ var imageSrc = [
     "../img/project_img/Unus_StreetBanner_Active.jpg",
     "../img/project_img/Unus_StreetBanner.png",    
     "../img/project_img/parker_2018.png",
-    "../img/project_img/campusconnect_prototype_2018.png"
+    "../img/project_img/campusconnect_prototype_2018.png",
+    "../img/project_img/words_with_friends.png"
 ];
 
 var projectList = { "projects": [
@@ -187,6 +188,21 @@ var projectList = { "projects": [
         projectLink: " ",
         spacer2: " ",
         githubLink: " "
+    },
+    {
+        header: "Words With Friends",
+        year: 2015,
+        city: "Chicago, IL",
+        image: imageSrc[36],
+        alt: "UML Words With Friends",
+        imageZoom: "27%",
+        type: "Java Application",
+        descr: "CS 420 - Object-Oriented Design at NEIU, This application is meant for users to search certain words from a set dictionary.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[36])'>Full Image</a>",
+        spacer1: " ",
+        projectLink: " ",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/words-with-friends-exercise' target='_blank'>Repositary</a>"
     },
     {
         header: "Tank Rampage",
