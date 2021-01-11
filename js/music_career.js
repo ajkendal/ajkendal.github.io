@@ -31,7 +31,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Marching Panther Band",
         years: "2004",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Drumline - 3rd Bass Drum"
@@ -41,7 +41,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Concert Band",
         years: "2004 - 2007",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Percussion"
@@ -61,7 +61,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Full Orchestra",
         years: "2005 - 2006",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Timpani"
@@ -71,7 +71,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Pit Orchestra",
         years: "2006",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "The Pajama Game",
         instrument: "Drum Set"
@@ -81,7 +81,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "All-State Music Camp",
         years: "2006",
         city: "Iowa City, IA",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Percussion"
@@ -111,7 +111,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Concert Band",
         years: "2007",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Bassoon & Percussion"
@@ -121,7 +121,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Full Orchestra",
         years: "2007",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Bassoon"
@@ -131,7 +131,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Pit Orchestra",
         years: "2007",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "Beauty and The Beast",
         instrument: "Drum Set"
@@ -161,7 +161,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "University Band",
         years: "2007 - 2008",
         city: "Iowa City, IA",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Bassoon"
@@ -181,7 +181,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Chamber Ensemble",
         years: "2009",
         city: "Iowa City, IA",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Timpani"
@@ -191,7 +191,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "University Band",
         years: "2009 - 2010",
         city: "Iowa City, IA",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Euphonium"
@@ -201,7 +201,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Concert Band",
         years: "2009 - 2010",
         city: "Iowa City, IA",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Percussion"
@@ -241,7 +241,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Steel Band",
         years: "2011",
         city: "Miami, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Bass"
@@ -261,7 +261,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Tampa Bay Thunder Drum and Bugle Corps",
         years: "2013",
         city: "Tampa, FL",
-        image: "",
+        image: "#",
         alt: "",
         show: "Seasonal Celebrations",
         instrument: "Front Ensemble - Center Marimba"
@@ -271,7 +271,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Steel Orchestra",
         years: "2013",
         city: "Port of Spain, TTO",
-        image: "",
+        image: "#",
         alt: "",
         show: "Dat is Lie",
         instrument: "Bass"
@@ -301,7 +301,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Steel Orchestra",
         years: "2014",
         city: "Port of Spain, TTO",
-        image: "",
+        image: "#",
         alt: "",
         show: "Jam It",
         instrument: "Bass"
@@ -311,7 +311,7 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Philharmonic Orchestra",
         years: "2015 - 2016",
         city: "Aurora, IL",
-        image: "",
+        image: "#",
         alt: "",
         show: "",
         instrument: "Timpani"
