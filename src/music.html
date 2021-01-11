@@ -1,50 +1,51 @@
 <!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width" />
-		<title>Amanda J Kendal-Brown | Music Career</title>
-        <link rel="shortcut icon" href="../img/Logo.jpg" />
-        <link rel="stylesheet" href="../css/navbar.css" />
-        <link rel="stylesheet" href="../css/websiteText.css" />
-        <link rel="stylesheet" href="../css/music_home.css" />
-        <script type="text/javascript" src="../js/w3.js"></script>
-	</head>
-	
-    <body>
-    	<div id="navbar" w3-include-html="navbar_pages.html"></div>
-        <script>w3.includeHTML();</script>
-        
-        <div id="content" align="center">
-            <div class="colorOverlay">
-                <a href="music_classical.html" >
-                    <img alt="Classical Performance" src="../img/music/classical_pic.jpg" width="100%"/>
-                </a>
-                <h3 class="infoText">Classical</h3>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Amanda J Kendal-Brown | Music Career</title>
+    <link rel="shortcut icon" href="../img/Logo.jpg" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/websiteText.css" />
+    <link rel="stylesheet" href="../css/music_home.css" />
+    <script type="text/javascript" src="../js/w3.js"></script>
+    <script type="text/javascript" src="../js/music_career.js"></script>
+</head>
+
+<body id="bodyID">
+    <div id="navbar" w3-include-html="navbar_pages.html"></div>
+    <script>
+        w3.includeHTML();
+    </script>
+
+    <button onClick="toTopFunction()" id="topButton" class="scrollButtons musicPage" title="Top of Page">
+        <p>Top</p>
+    </button>
+
+    <!-- Scroll Button JS File -->
+    <script type="text/javascript" src="../js/topButton.js"></script>
+
+    <section class="timeline" id="content">
+        <div class="container">
+            <div class="timeline-item" w3-repeat="musicPerformances">
+                <div class="timeline-img"></div>
+
+                <div class="timeline-content">
+                    <img class="imgClass" alt="{{ alt }}" src="{{ image }}">
+                    <h4 class="headers">{{ organization }}</h4>
+                    <h5 class="headers">{{ ensemble }}</h5>
+                    <div class="date">
+                        <p>{{ years }}</p>
+                    </div>
+                    <p class="showClass">{{ show }}</p>
+                    <p class="textClass">{{ instrument }}</p>
+                </div>
             </div>
-            
-            <div class="colorOverlay">
-                <a href="music_steel.html" >
-                    <img alt="Classical Performance" src="../img/music/steelband_pic.jpg" width="100%"/>
-                </a>
-                <h3 class="infoText">Steel Orchestra</h3>
-            </div>
-            
-            <div class="colorOverlay">
-                <a href="music_marching.html" >
-                    <img alt="Classical Performance" src="../img/music/marching_pic.jpg" width="100%"/>
-                </a>
-                <h3 class="infoText">Marching Arts</h3>
-            </div>
-            
-            <div class="colorOverlay">
-                <a href="music_arrange.html" >
-                    <img alt="Classical Performance" src="../img/music/arranging_pic.jpg" width="100%"/>
-                </a>
-                <h3 class="infoText">Arrangements</h3>
-            </div>  
-        
+
         </div>
-        
-	</body>
-</html>
+    </section>
+
+    <script>
+        w3.displayObject("bodyID", musicTimeline);
+    </script>
+</body></html>
