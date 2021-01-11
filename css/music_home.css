@@ -175,8 +175,7 @@ img {
     }
 
     .timeline .timeline-content {
-        max-width: 60%;
-        width: auto;
+        width: 80%;
         margin-left: 70px;
     }
 
@@ -218,8 +217,7 @@ img {
     }
 
     .timeline .timeline-content {
-        max-width: 70%;
-        width: auto;
+        width: 80%;
         margin-left: 5px;
     }
 
