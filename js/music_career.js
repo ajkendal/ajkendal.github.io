@@ -12,7 +12,11 @@ var mediaSrc = [
     "../img/music/gmys_italy.jpg",
     "../img/music/iowa_drumcamp.jpg",
     "../img/music/palmetto_section.jpg",
-    "../img/music/21_century.jpg"
+    "../img/music/21_century.jpg",
+    "../img/music/cal_invaders.jpg",
+    "../img/music/tampa_bay_thunder.jpg",
+    "../img/music/miami_pan.jpg",
+    "../img/music/iowa_concert_band.jpg"
 ];
 
 var musicTimeline = { "musicPerformances": [
@@ -173,7 +177,7 @@ var musicTimeline = { "musicPerformances": [
         city: "Iowa City, IA",
         image: mediaSrc[7],
         alt: "",
-        show: "Last Chance with Emily Batta",
+        show: "",
         instrument: "Percussion"
     },
     {
@@ -201,8 +205,8 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Concert Band",
         years: "2009 - 2010",
         city: "Iowa City, IA",
-        image: "#",
-        alt: "",
+        image: mediaSrc[17],
+        alt: "Concert Band Rehersal",
         show: "",
         instrument: "Percussion"
     },
@@ -215,6 +219,16 @@ var musicTimeline = { "musicPerformances": [
         alt: "2010 Colts Home Show",
         show: "True Colors",
         instrument: "Baritone"
+    },
+    {
+        organization: "Winter Guard International",
+        ensemble: "Gateway Percussion",
+        years: "2011",
+        city: "St. Louis, MO",
+        image: "#",
+        alt: "",
+        show: "Johnny",
+        instrument: "Front Ensemble - Xylophone & Glockenspiel"
     },
     {
         organization: "Drum Corps International",
@@ -241,8 +255,8 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Steel Band",
         years: "2011",
         city: "Miami, FL",
-        image: "#",
-        alt: "",
+        image: mediaSrc[16],
+        alt: "Miami Pan Symphony Carnival",
         show: "",
         instrument: "Bass"
     },
@@ -261,8 +275,8 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Tampa Bay Thunder Drum and Bugle Corps",
         years: "2013",
         city: "Tampa, FL",
-        image: "#",
-        alt: "",
+        image: mediaSrc[15],
+        alt: "Tampa Bay Thunder Practice",
         show: "Seasonal Celebrations",
         instrument: "Front Ensemble - Center Marimba"
     },
@@ -271,8 +285,8 @@ var musicTimeline = { "musicPerformances": [
         ensemble: "Steel Orchestra",
         years: "2013",
         city: "Port of Spain, TTO",
-        image: "#",
-        alt: "",
+        image: mediaSrc[14],
+        alt: "Invaders Rehersal",
         show: "Dat is Lie",
         instrument: "Bass"
     },
