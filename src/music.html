@@ -21,29 +21,30 @@
     <button onClick="toTopFunction()" id="topButton" class="scrollButtons musicPage" title="Top of Page">
         <p>Top</p>
     </button>
-
     <!-- Scroll Button JS File -->
     <script type="text/javascript" src="../js/topButton.js"></script>
-
-    <section class="timeline" id="content">
-        <div class="container">
-            <div class="timeline-item" w3-repeat="musicPerformances">
-                <div class="timeline-img"></div>
-
-                <div class="timeline-content">
-                    <img class="imgClass" alt="{{ alt }}" src="{{ image }}">
-                    <h4 class="headers">{{ organization }}</h4>
-                    <h5 class="headers">{{ ensemble }}</h5>
-                    <div class="date">
-                        <p>{{ years }}</p>
-                    </div>
-                    <p class="showClass">{{ show }}</p>
-                    <p class="textClass">{{ instrument }}</p>
-                </div>
+    
+    <div id="content" align="center">
+        <div class="music_sec" w3-repeat="musicPerformances">
+            <div class="header_txt">
+                <h4>{{ organization }}</h4>
             </div>
-
+            <div class="org_info">
+                <div class="colorOverlay">
+                    <img class="img_format" src="{{ image }}" alt="{{ alt }}" />
+                </div>
+                <p>
+                    <strong><i>{{ show }}</i></strong>
+                    <br />
+                    <strong>Ensemble:</strong> {{ ensemble }}
+                    <br />
+                    <strong>Years:</strong> {{ years }}
+                    <br />
+                    <strong>Instrument:</strong> {{ instrument }}
+                </p>
+            </div>
         </div>
-    </section>
+    </div>
 
     <script>
         w3.displayObject("bodyID", musicTimeline);
