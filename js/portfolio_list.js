@@ -527,7 +527,7 @@ var projectList = { "projects": [
 		image: imageSrc[37],
 		alt: "HTML",
 		imageZoom: "40%",
-		type: "Card Component",
+		type: "Coding Challenege",
 		descr: "The challenege, from Frontend Mentor, was to build out a profile card component and get it looking as close to the design as possible using HTML and CSS.",
 		imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[37])'>Full Image</a>",
 		spacer1: " | ",
