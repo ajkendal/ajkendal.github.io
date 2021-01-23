@@ -35,7 +35,8 @@ var imageSrc = [
     "../img/project_img/Unus_StreetBanner.png",    
     "../img/project_img/parker_2018.png",
     "../img/project_img/campusconnect_prototype_2018.png",
-    "../img/project_img/words_with_friends.png"
+    "../img/project_img/words_with_friends.png",
+	"../img/project_img/profile-card-design.jpg"
 ];
 
 var projectList = { "projects": [
@@ -518,6 +519,21 @@ var projectList = { "projects": [
         projectLink: "<a class='projectExternal_Links' href='https://xr929e.axshare.com' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_Links' href='https://spark.adobe.com/page/GC4hPudnD490b' target='_blank'>Mood Board</a>"
+    },
+	{
+		header: "Profile Card Component",
+		year: 2021,
+		city: "Chicago, IL",
+		image: imageSrc[37],
+		alt: "HTML",
+		imageZoom: "40%",
+		type: "Card Component",
+		descr: "The challenege, from Frontend Mentor, was to build out a profile card component and get it looking as close to the design as possible using HTML and CSS.",
+		imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[37])'>Full Image</a>",
+		spacer1: " | ",
+		projectLink: "<a class='projectExternal_Links' href='https://ajkendal.github.io/profile-card-component/' target='_blank'>See Project</a>",
+		spacer2: " | ",
+		githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/profile-card-component' target='_blank'>GitHub</a>"
     }
 ]};
 
