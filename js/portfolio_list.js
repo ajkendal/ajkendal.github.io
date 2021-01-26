@@ -537,7 +537,7 @@ var projectList = { "projects": [
         githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/profile-card-component' target='_blank'>GitHub</a>"
      },
      {
-        header: "Pod Request Access Challenge",
+        header: "Pod Request Challenge",
         year: 2021,
         city: "Chicago, IL",
         image: imageSrc[38],
