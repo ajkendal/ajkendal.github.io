@@ -36,7 +36,8 @@ var imageSrc = [
     "../img/project_img/parker_2018.png",
     "../img/project_img/campusconnect_prototype_2018.png",
     "../img/project_img/words_with_friends.png",
-	"../img/project_img/profile-card-design.jpg"
+    "../img/project_img/profile-card-design.jpg",
+    "../img/project_img/pod-request.jpg"
 ];
 
 var projectList = { "projects": [
@@ -525,15 +526,30 @@ var projectList = { "projects": [
 		year: 2021,
 		city: "Chicago, IL",
 		image: imageSrc[37],
-		alt: "HTML",
+		alt: "Profile Card Challenge Image",
 		imageZoom: "40%",
-		type: "Coding Challenege",
-		descr: "The challenege, from Frontend Mentor, was to build out a profile card component and get it looking as close to the design as possible using HTML and CSS.",
+		type: "Coding Challenge",
+		descr: "The challenge, from Frontend Mentor, was to build out a profile card component and get it looking as close to the design as possible using HTML and CSS.",
 		imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[37])'>Full Image</a>",
 		spacer1: " | ",
 		projectLink: "<a class='projectExternal_Links' href='https://ajkendal.github.io/profile-card-component/' target='_blank'>See Project</a>",
 		spacer2: " | ",
 		githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/profile-card-component' target='_blank'>GitHub</a>"
+    },
+    {
+		header: "Pod Request Access Challenge",
+		year: 2021,
+		city: "Chicago, IL",
+		image: imageSrc[38],
+		alt: "Pod Request Challenge Image",
+		imageZoom: "60%",
+		type: "Coding Challenge",
+		descr: "The challenge, from Frontend Mentor, was to build out this landing page and get it looking as close to the design as possible using HTML, CSS, Angular, and Vercel.",
+		imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[38])'>Full Image</a>",
+		spacer1: " | ",
+		projectLink: "<a class='projectExternal_Links' href='https://pod-request-page-git-master.ajkendal.vercel.app/' target='_blank'>See Project</a>",
+		spacer2: " | ",
+		githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/pod-request-page' target='_blank'>GitHub</a>"
     }
 ]};
 
