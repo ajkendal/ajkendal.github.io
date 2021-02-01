@@ -37,7 +37,8 @@ var imageSrc = [
     "../img/project_img/campusconnect_prototype_2018.png",
     "../img/project_img/words_with_friends.png",
     "../img/project_img/profile-card-design.jpg",
-    "../img/project_img/pod-request.jpg"
+    "../img/project_img/pod-request.jpg",
+    "../img/project_img/pre-launch-page.jpg"
 ];
 
 var projectList = { "projects": [
@@ -535,8 +536,8 @@ var projectList = { "projects": [
         projectLink: "<a class='projectExternal_Links' href='https://ajkendal.github.io/profile-card-component/' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/profile-card-component' target='_blank'>GitHub</a>"
-     },
-     {
+    },
+    {
         header: "Pod Request Challenge",
         year: 2021,
         city: "Chicago, IL",
@@ -550,7 +551,22 @@ var projectList = { "projects": [
         projectLink: "<a class='projectExternal_Links' href='https://pod-request-page-git-master.ajkendal.vercel.app/' target='_blank'>See Project</a>",
         spacer2: " | ",
         githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/pod-request-page' target='_blank'>GitHub</a>"
-     }
+    },
+    {
+        header: "Landing Page Challenge",
+        year: 2021,
+        city: "Chicago, IL",
+        image: imageSrc[39],
+        alt: "Pre-launch Landing Page",
+        imageZoom: "60%",
+        type: "Coding Challenge",
+        descr: "The challenge, from Frontend Mentor, was to build out this out this pre-launch landing page with Vercel, HTML, SCSS, Bootstrap, Angular, and Karma.",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[38])'>Full Image</a>",
+        spacer1: " | ",
+        projectLink: "<a class='projectExternal_Links' href='https://pre-launch-landing-page.ajkendal.vercel.app/' target='_blank'>See Project</a>",
+        spacer2: " | ",
+        githubLink: "<a class='projectExternal_Links' href='https://github.com/ajkendal/pre-launch-landing-page' target='_blank'>GitHub</a>"
+    }
 ]};
 
 projectList.projects.reverse();
