@@ -561,7 +561,7 @@ var projectList = { "projects": [
         imageZoom: "60%",
         type: "Coding Challenge",
         descr: "The challenge, from Frontend Mentor, was to build out this out this pre-launch landing page with Vercel, HTML, SCSS, Bootstrap, Angular, and Karma.",
-        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[38])'>Full Image</a>",
+        imageLink: "<a href='javascript:void(0)' onclick='openFullImage(imageSrc[39])'>Full Image</a>",
         spacer1: " | ",
         projectLink: "<a class='projectExternal_Links' href='https://pre-launch-landing-page.ajkendal.vercel.app/' target='_blank'>See Project</a>",
         spacer2: " | ",
