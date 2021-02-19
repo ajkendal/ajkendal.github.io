@@ -86,6 +86,9 @@ h1 {
 	filter: brightness(100%) grayscale(0);
 }
 @media all and (max-width : 800px){
+	#content {
+		padding-top: 150px;
+	}
 	h1 {
 		font-size: 20px;
 	}
@@ -110,7 +113,6 @@ h1 {
 @media all and (max-width: 480px) {
 	#content, #start_photo{
 		position: relative;
-		padding-top: 90px;
 	}
 	.athlete_sec {
 		padding-top: 15px;
