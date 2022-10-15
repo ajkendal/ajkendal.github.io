@@ -8,7 +8,8 @@ var teamLogos = [
     "../img/athlete_img/teamusa_rollerderby_logo.png",
     "../img/athlete_img/teamwestindies_logo.png",
     "../img/athlete_img/chicagoOutfit_logo.png",
-    "../img/athlete_img/tttaf_logo.png"
+    "../img/athlete_img/tttaf_logo.png",
+    "../img/athlete_img/north_shore_logo.webp"
 ];
 
 var teamHeadShots = [
@@ -21,7 +22,8 @@ var teamHeadShots = [
     "../img/athlete_img/AmandaKendalBrown_USA.jpg",
     "../img/athlete_img/teamwestindies_headshot.jpg",
     "../img/athlete_img/ChicagoOutfit_headshot.jpg",
-    "../img/athlete_img/archery_rep_868.jpg"
+    "../img/athlete_img/team_tto_archery.webp",
+    "../img/athlete_img/ChicagoNorthShore_team.webp"
 ];
 
 var teamList = {"teams": [
@@ -107,9 +109,18 @@ var teamList = {"teams": [
         team_logo: teamLogos[8]
     },
     {
+        team_name: "North Shore Women's Rugby",
+        headshot: teamHeadShots[10],
+        photo_src: ' ',
+        years: "2021",
+        positions: "Forward",
+        team_link: "https://www.northshorerugby.com/",
+        team_logo: teamLogos[10]
+    },
+    {
         team_name: "Team TTO",
         headshot: teamHeadShots[9],
-        photo_src: '<strong>Photo By:</strong> <a target="_blank" class="photolinks" href="https://www.facebook.com/TTgameplan">Dennis Allen</a>',
+        photo_src: ' ',
         years: "2018 - Current",
         positions: "Internationally Ranked Archer for Trinidad and Tobago",
         team_link: "http://www.ttarchery.com/",

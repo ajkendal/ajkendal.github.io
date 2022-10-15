@@ -6,8 +6,8 @@ html, body{
 	padding: 0;
 }
 @font-face {
-    font-family: LimeLight;
-    src: url(../fonts/Limelight-Regular.ttf);
+    font-family: Alata;
+    src: url(../fonts/Alata-Regular.ttf);
 }
 @font-face {
     font-family: Roboto;
@@ -21,7 +21,7 @@ body{
 	float: left;
 }
 #main_right h1{
-	font-family: LimeLight;
+	font-family: Alata;
 	font-size: 60px;
 	text-align: center;
 }

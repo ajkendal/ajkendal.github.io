@@ -2,31 +2,31 @@
 /* CSS Document */
 
 @font-face {
-    font-family: LimeLight;
-    src: url(../fonts/Limelight-Regular.ttf);
+    font-family: Alata;
+    src: url(../fonts/Alata-Regular.ttf);
 }
 @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto-Light.ttf);
 }
 * h1{
-	font-family: LimeLight;
+	font-family: Alata;
 	font-size: 48px;
 }
 * h2{
-	font-family: LimeLight;
+	font-family: Alata;
 	font-size: 38px;
 }
 * h3 {
-	font-family: LimeLight;
+	font-family: Alata;
 	font-size: 28px;
 }
 * h4{
-	font-family: LimeLight;
+	font-family: Alata;
 	font-size: 22px;
 }
 * h5 {
-    font-family: Limelight;
+    font-family: Alata;
     font-size: 18px;
 }
 * p, td{

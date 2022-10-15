@@ -16,7 +16,8 @@ var mediaSrc = [
     "../img/music/cal_invaders.jpg",
     "../img/music/tampa_bay_thunder.jpg",
     "../img/music/miami_pan.jpg",
-    "../img/music/iowa_concert_band.jpg"
+    "../img/music/iowa_concert_band.jpg",
+    "../img/music/dessert_overture_percussion.webp"
 ];
 
 var musicTimeline = { "musicPerformances": [
@@ -281,7 +282,7 @@ var musicTimeline = { "musicPerformances": [
         instrument: "Front Ensemble - Center Marimba"
     },
     {
-        organization: "Caribbean Airline’s Invaders",
+        organization: "Caribbean Airline's Invaders",
         ensemble: "Steel Orchestra",
         years: "2013",
         city: "Port of Spain, TTO",
@@ -311,7 +312,7 @@ var musicTimeline = { "musicPerformances": [
         instrument: "Tenor"
     },
     {
-        organization: "Caribbean Airline’s Invaders",
+        organization: "Caribbean Airline's Invaders",
         ensemble: "Steel Orchestra",
         years: "2014",
         city: "Port of Spain, TTO",
@@ -349,6 +350,16 @@ var musicTimeline = { "musicPerformances": [
         alt: "",
         show: "",
         instrument: "Baritone"
+    },
+    {
+        organization: "Desert Overture",
+        ensemble: "Symphonic Band",
+        years: "2022 - current",
+        city: "Phoenix, AZ",
+        image: mediaSrc[18],
+        alt: "Percussion Section",
+        show: "",
+        instrument: "Percussion"
     }
 ]};
 musicTimeline.musicPerformances.reverse();
