@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ajkendal": {
+    "ajkendal.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ajkendal",
+            "outputPath": "dist/ajkendal.github.io",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ajkendal:build:production"
+              "buildTarget": "ajkendal.github.io:build:production"
             },
             "development": {
-              "buildTarget": "ajkendal:build:development"
+              "buildTarget": "ajkendal.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ajkendal:build"
+            "buildTarget": "ajkendal.github.io:build"
           }
         },
         "test": {
@@ -99,23 +99,11 @@
             ],
             "scripts": []
           }
-        },
-        "lint": {
-          "builder": "@angular-eslint/builder:lint",
-          "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
-          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "2252dc89-707d-485b-8e11-0dfc3cb3ce5f",
-    "schematicCollections": [
-      "@angular-eslint/schematics"
-    ]
+    "analytics": "d01dc98a-a965-4453-9001-3f552c273baf"
   }
 }
