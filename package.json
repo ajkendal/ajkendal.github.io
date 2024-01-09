@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --open",
+    "build": "ng build --configuration production --base-href=https://ajkendal.github.io/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ajkendal.github.io": "node dist/ajkendal.github.io/server/server.mjs",
-    "deploy": "ng build --configuration production --base-href https://ajkendal.github.io/",
+    "deploy": "ng build --configuration production --base-href=https://ajkendal.github.io/",
     "lint": "ng lint"
   },
   "private": true,
