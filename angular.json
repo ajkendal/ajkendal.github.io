@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ajkendal": {
+    "ajkendal.github.io": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -101,8 +101,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",  "options": {
+            "baseHref": "https://ajkendal.github.io/"
+          }
         }
+        
       }
     }
   },

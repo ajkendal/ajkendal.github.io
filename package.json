@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ajkendal.github.io": "node dist/ajkendal.github.io/server/server.mjs",
-    "deploy": "ng build  angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng deploy   angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
