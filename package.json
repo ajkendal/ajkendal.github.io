@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build ",
+    "build": "ng build angular-cli-ghpages --branch gh-pages",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ajkendal.github.io": "node dist/ajkendal.github.io/server/server.mjs",
