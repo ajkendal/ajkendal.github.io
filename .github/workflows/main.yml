@@ -21,4 +21,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         npm install
-        npm run ng -- deploy --base-href=/ajkendal.github.io/ --name="ajkendal" --email="amanda.kendalbrown@gmail.com" --no-silent
+        npm run ng -- deploy --base-href=https://ajkendal.github.io/ --name="ajkendal" --email="amanda.kendalbrown@gmail.com" --no-silent
