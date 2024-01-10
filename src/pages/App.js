@@ -1,12 +1,14 @@
-import logo from './logo.svg'
+
 import './App.scss'
+import { PrimaryButton, SecondaryButton, StyledTextField } from '../styles/styles'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
+    
+       
         <p>This is Amanda J Kendal-Brown. New Site is Coming Soon!</p>
+        <SecondaryButton>Testing</SecondaryButton>
         <a
           className='App-link'
           href='https://reactjs.org'
@@ -14,7 +16,7 @@ function App() {
           rel='noopener noreferrer'>
           Learn React
         </a>
-      </header>
+     <StyledTextField />
     </div>
   )
 }
