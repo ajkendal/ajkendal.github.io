@@ -18,6 +18,15 @@ const monochrome = {
   black: '#000000',
 }
 
+const breakpoints = {
+  xxlarge: '(min-width: 2000px)',
+  xlarge: '(min-width:  1536px) and (max-width: 2000px)',
+  large: '(max-width: 1536px)',
+  medium: '(max-width: 1200px)',
+  small: '(max-width: 900px)',
+  xsmall: '(min-width: 0px) and (max-width: 600px)',
+}
+
 const PrimaryButton = styled.button`
   color: ${monochrome['white']};
   text-align: center;
@@ -53,7 +62,7 @@ const SecondaryButton = styled.button`
   background-color: ${secondary['bg']};
   border: 1px solid ${primary['grey']};
   padding: 17px 32px;
-  
+
   &:hover {
     background-color: ${primary['grey']};
     color: ${secondary['bg']};
@@ -61,10 +70,7 @@ const SecondaryButton = styled.button`
   }
 `
 
-const StyledTextField = styled(TextField)`
-
-
-`
+const StyledTextField = styled(TextField)``
 
 export {
   primary,
@@ -73,4 +79,5 @@ export {
   SecondaryButton,
   monochrome,
   StyledTextField,
+  breakpoints,
 }

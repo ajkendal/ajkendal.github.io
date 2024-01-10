@@ -1,23 +1,26 @@
-
-import './App.scss'
-import { PrimaryButton, SecondaryButton, StyledTextField } from '../styles/styles'
+import '../styles/global-text.scss'
+import '../styles/global-page.scss'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Navigation from '../components/nav'
+import Home from './home'
+import Contact from './contact'
+import NoPage from './404'
+import Portfolio from './portfolio'
+import Footer from '../components/footer'
 
 function App() {
   return (
-    <div className='App'>
-    
-       
-        <p>This is Amanda J Kendal-Brown. New Site is Coming Soon!</p>
-        <SecondaryButton>Testing</SecondaryButton>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Learn React
-        </a>
-     <StyledTextField />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Navigation />}>
+          <Route index element={<Home />} />
+          <Route path='portfolio' element={<Portfolio />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='*' element={<NoPage />} />
+        </Route>
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   )
 }
 

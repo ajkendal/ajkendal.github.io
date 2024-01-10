@@ -7,10 +7,6 @@ $secondary-bg: #fafafa;
 $secondary-text: #eaeaeb;
 $secondary-errors: #f43030;
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: $secondary-bg;
   text-rendering: optimizeLegibility !important;
