@@ -1,9 +1,11 @@
-html {
+html,
+body {
   scroll-behavior: smooth;
+  width: 100% !important;
 }
 
 .desktop-width {
   max-width: 1440px;
-  width: 95%;
+  width: 95% !important;
   margin: 0 auto;
 }
