@@ -53,7 +53,7 @@ function Navigation() {
     <NavDiv>
       <Grid
         alignItems='center'
-        className='desktop-width grid-container'
+        className='desktop-width grid-container-nav'
         container>
         <Grid xl={1} lg={1} md={2} sm={10} xs={10} item>
           <Link to='/'>
@@ -98,8 +98,8 @@ const NavDiv = styled.div`
   right: 0;
   width: 100%;
   z-index: 1;
-  .grid-container {
-    padding: 50px 10px;
+  .grid-container-nav {
+    padding: 50px 0;
     @media ${breakpoints.small} {
       padding: 30px 0;
       height: auto;
@@ -108,16 +108,17 @@ const NavDiv = styled.div`
   .link-class {
     text-align: right;
   }
-  svg:hover,
-  svg:active {
-    path {
-      fill: ${primary['green']};
-    }
-  }
+
   .mobile-icons {
     display: none;
     @media ${breakpoints.small} {
       display: block;
+    }
+    svg:hover,
+    svg:active {
+      path {
+        fill: ${primary['green']};
+      }
     }
   }
 `

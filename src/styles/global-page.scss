@@ -1,11 +1,13 @@
-html,
-body {
-  scroll-behavior: smooth;
+.outer-div {
   width: 100% !important;
+  margin-top: 10px;
 }
-
 .desktop-width {
   max-width: 1440px;
   width: 95% !important;
   margin: 0 auto;
+}
+
+.top-border {
+  border-top: solid 1px #33323d26;
 }

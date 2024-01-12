@@ -49,6 +49,28 @@ const PrimaryButton = styled.button`
   }
 `
 
+const PrimaryButtonNoArrow = styled.button`
+  color: ${monochrome['white']};
+  text-align: center;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: ${primary['blue']};
+  padding: 17px 32px;
+  border-style: none;
+
+  background-repeat: no-repeat;
+  &:hover {
+    background-color: ${primary['green']};
+
+    cursor: pointer;
+  }
+`
+
 const SecondaryButton = styled.button`
   color: ${primary['grey']};
   text-align: center;
@@ -70,7 +92,37 @@ const SecondaryButton = styled.button`
   }
 `
 
-const StyledTextField = styled(TextField)``
+const StyledTextField = styled(TextField)`
+  width: 100%;
+  margin-bottom: 30px !important;
+  .MuiOutlinedInput-root {
+    color: ${primary['grey']};
+    font-family: 'Public Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 230.769% */
+
+    border-radius: 0px !important;
+    border: 0px ${secondary['text']} !important;
+    background-color: ${secondary['text']} !important;
+
+    &:hover .MuiOutlinedInput-notchedOutline,
+    &:active {
+      border-color: ${primary['green']};
+      border-style: solid 1px !important;
+    }
+    .MuiOutlinedInput-root.Mui-focused {
+      .MuiOutlinedInput-notchedOutline {
+        border-color: ${primary['green']};
+        border-style: solid 1px !important;
+      }
+    }
+    .MuiInputLabel-root.Mui-focused {
+      border-color: ${primary['green']};
+    }
+  }
+`
 
 export {
   primary,
@@ -80,4 +132,5 @@ export {
   monochrome,
   StyledTextField,
   breakpoints,
+  PrimaryButtonNoArrow,
 }
