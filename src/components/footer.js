@@ -103,6 +103,7 @@ const FooterDiv = styled.div`
   left: 0;
   bottom: 0;
   width: 100%;
+
   background-color: ${primary['grey']};
   color: ${monochrome['white']};
   text-align: center;
@@ -133,6 +134,12 @@ const FooterDiv = styled.div`
     path {
       fill: ${primary['green']};
     }
+  }
+  @media ${breakpoints.small} {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 40px;
   }
 `
 const StyledLink = styled(Link)`

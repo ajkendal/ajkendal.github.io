@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Outlet, Link } from 'react-router-dom'
 import { Grid } from '@mui/material'
-import { breakpoints, primary, monochrome } from '../styles/styles'
+import { breakpoints, primary, monochrome, secondary } from '../styles/styles'
 import { useState } from 'react'
 
 function Navigation() {
@@ -93,15 +93,16 @@ function Navigation() {
 }
 
 const NavDiv = styled.div`
-  position: fixed;
-  top: 0;
-  right: 0;
   width: 100%;
-  z-index: 1;
+
   .grid-container-nav {
-    padding: 50px 0;
+    background-color: ${secondary['bg']};
+    position: sticky;
+    top: 0;
+    right: 0;
+
+    padding: 30px 0;
     @media ${breakpoints.small} {
-      padding: 30px 0;
       height: auto;
     }
   }

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
-    <ContactMeDiv className='outer-div'>
+    <ContactMeDiv>
       <Grid
         justifyContent='flex-start'
         alignItems='flex-start'
