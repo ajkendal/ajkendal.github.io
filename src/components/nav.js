@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Outlet, Link } from 'react-router-dom'
 import { Grid } from '@mui/material'
-import { breakpoints, primary, monochrome } from '../styles/styles'
+import { breakpoints, primary, monochrome, secondary } from '../styles/styles'
 import { useState } from 'react'
 
 function Navigation() {
@@ -27,8 +27,8 @@ function Navigation() {
           <g id='Group'>
             <path
               id='Combined Shape'
-              fill-rule='evenodd'
-              clip-rule='evenodd'
+              fillRule='evenodd'
+              clipRule='evenodd'
               d='M9.00003 8.79286L0.868301 0.661133L0.161194 1.36824L8.29292 9.49997L0.161194 17.6317L0.868301 18.3388L9.00003 10.2071L17.1318 18.3388L17.8389 17.6317L9.70714 9.49997L17.8389 1.36824L17.1318 0.661133L9.00003 8.79286Z'
               fill='#33323D'
             />
@@ -53,7 +53,7 @@ function Navigation() {
     <NavDiv>
       <Grid
         alignItems='center'
-        className='desktop-width grid-container'
+        className='desktop-width grid-container-nav'
         container>
         <Grid xl={1} lg={1} md={2} sm={10} xs={10} item>
           <Link to='/'>
@@ -93,31 +93,33 @@ function Navigation() {
 }
 
 const NavDiv = styled.div`
-  position: fixed;
-  top: 0;
-  right: 0;
   width: 100%;
-  z-index: 1;
-  .grid-container {
-    padding: 50px 10px;
+
+  .grid-container-nav {
+    background-color: ${secondary['bg']};
+    position: sticky;
+    top: 0;
+    right: 0;
+
+    padding: 30px 0;
     @media ${breakpoints.small} {
-      padding: 30px 0;
       height: auto;
     }
   }
   .link-class {
     text-align: right;
   }
-  svg:hover,
-  svg:active {
-    path {
-      fill: ${primary['green']};
-    }
-  }
+
   .mobile-icons {
     display: none;
     @media ${breakpoints.small} {
       display: block;
+    }
+    svg:hover,
+    svg:active {
+      path {
+        fill: ${primary['green']};
+      }
     }
   }
 `
