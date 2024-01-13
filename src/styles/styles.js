@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { TextField } from '@mui/material'
+import { TextField, Button } from '@mui/material'
 
 const primary = {
   green: '#5FB4A2',
@@ -11,6 +11,7 @@ const secondary = {
   bg: '#FAFAFA',
   text: '#EAEAEB',
   errors: '#F43030',
+  disabled: '#979797',
 }
 
 const monochrome = {
@@ -49,25 +50,28 @@ const PrimaryButton = styled.button`
   }
 `
 
-const PrimaryButtonNoArrow = styled.button`
-  color: ${monochrome['white']};
+const PrimaryButtonNoArrow = styled(Button)`
+  color: ${monochrome['white']} !important;
   text-align: center;
-  font-family: 'Public Sans', sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: ${primary['blue']};
-  padding: 17px 32px;
-  border-style: none;
+  font-family: 'Public Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 100 !important;
+  line-height: normal !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  background-color: ${primary['blue']} !important;
+  padding: 17px 32px !important;
+  border-style: none !important;
 
   background-repeat: no-repeat;
   &:hover {
-    background-color: ${primary['green']};
+    background-color: ${primary['green']} !important;
 
-    cursor: pointer;
+    cursor: pointer !important;
+  }
+  &.Mui-disabled {
+    background-color: ${secondary['disabled']} !important;
   }
 `
 
@@ -95,32 +99,35 @@ const SecondaryButton = styled.button`
 const StyledTextField = styled(TextField)`
   width: 100%;
   margin-bottom: 30px !important;
-  .MuiOutlinedInput-root {
+
+  .MuiInput-root {
+    padding: 0px !important;
+  }
+
+  .MuiInput-root::before {
+    height: 100%;
+    border-bottom: 2px solid ${primary['grey']} !important;
+  }
+  .MuiInput-root::after {
+    border-bottom: 2px solid ${primary['green']} !important;
+  }
+
+  .Mui-error::before,
+  .Mui-error::after {
+    border-bottom: 2px solid ${secondary['errors']} !important;
+  }
+
+  input,
+  textarea {
     color: ${primary['grey']};
     font-family: 'Public Sans', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 230.769% */
-
     border-radius: 0px !important;
-    border: 0px ${secondary['text']} !important;
+    padding: 9px 16px;
     background-color: ${secondary['text']} !important;
-
-    &:hover .MuiOutlinedInput-notchedOutline,
-    &:active {
-      border-color: ${primary['green']};
-      border-style: solid 1px !important;
-    }
-    .MuiOutlinedInput-root.Mui-focused {
-      .MuiOutlinedInput-notchedOutline {
-        border-color: ${primary['green']};
-        border-style: solid 1px !important;
-      }
-    }
-    .MuiInputLabel-root.Mui-focused {
-      border-color: ${primary['green']};
-    }
   }
 `
 
