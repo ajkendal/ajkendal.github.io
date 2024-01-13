@@ -122,7 +122,7 @@ const Contact = () => {
               variant='standard'
               name='Name'
               value={nameField}
-              placeholder='Jane Doe'
+              placeholder='Full Name'
               onChange={(e) => setNameField(e.target.value)}
               onBlur={(e) => {
                 setNameField(e.target.value.trim())

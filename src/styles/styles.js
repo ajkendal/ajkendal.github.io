@@ -106,7 +106,7 @@ const StyledTextField = styled(TextField)`
 
   .MuiInput-root::before {
     height: 100%;
-    border-bottom: 2px solid ${primary['grey']} !important;
+    border-bottom: 1px solid ${primary['grey']} !important;
   }
   .MuiInput-root::after {
     border-bottom: 2px solid ${primary['green']} !important;
