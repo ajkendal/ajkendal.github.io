@@ -15,7 +15,6 @@ const Contact = () => {
   const [errorName, setErrorName] = useState(false)
   const [errorEmail, setErrorEmail] = useState(false)
   const [errorMessage, setErrorMessage] = useState(false)
-  const [submitReady, setSubmitReady] = useState(false)
 
   return (
     <ContactMeDiv>
