@@ -1,4 +1,4 @@
-import Interested from '../components/interested-component'
+import Interested from '../components/interestedComponent'
 
 const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Interested from '../components/interested-component'
+import Interested from '../components/interestedComponent'
 
 const Portfolio = () => {
   return (
