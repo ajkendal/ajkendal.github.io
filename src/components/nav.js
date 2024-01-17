@@ -94,6 +94,10 @@ function Navigation() {
 
 const NavDiv = styled.div`
   width: 100%;
+  margin-bottom: 150px;
+  @media ${breakpoints.small} {
+    margin-bottom: 20px;
+  }
 
   .grid-container-nav {
     background-color: ${secondary['bg']};

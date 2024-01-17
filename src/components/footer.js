@@ -123,7 +123,7 @@ const FooterDiv = styled.div`
   background-color: ${primary['grey']};
   color: ${monochrome['white']};
   text-align: center;
-  z-index: 1;
+  z-index: 0;
   .grid-container {
     padding: 30px 10px;
     @media ${breakpoints.small} {
