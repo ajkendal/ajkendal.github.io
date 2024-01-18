@@ -6,28 +6,32 @@ const Portfolio = () => {
   return (
     <PortfolioIndex className='desktop-width'>
       <PortfolioIndexLayout
-        header='Coding Projects'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris. Laoreet id donec ultrices tincidunt arcu non sodales. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.'
+        header='Coding Challenge'
+        text='A challenge provided by Frontend Mentor to intergrate the REST Countries API data and display them using whichever JavaScript Framework/library of choosing.'
+        image='/images/portfolio/coding-project.png'
         link='/portfolio/coding-projects'
         buttonText='View Projects'
       />
       <PortfolioIndexLayout
         leftText={true}
-        header='UX/UI Work'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris. Laoreet id donec ultrices tincidunt arcu non sodales. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.'
+        header='Unus'
+        text='This is a project I worked on for HCI 430 - Prototyping and Implementation while at DePaul. The creation of an App called Unis from Sketches all the way to HiFi Prototypes including Marketing Material.'
+        image='/images/portfolio/uxui_platform-image.png'
         link='/portfolio/uxui-work'
         buttonText='View Projects'
       />
       <PortfolioIndexLayout
-        header='Graphic Design Work'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris. Laoreet id donec ultrices tincidunt arcu non sodales. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.'
+        header='Graphic Design Projects'
+        text='A small collection of different projects created for HCI 402 - Foundations of Digital Design at DePaul using Adobe Illustrator and Adobe Photoshop.'
+        image='/images/portfolio/graphic_design-image.png'
         link='/portfolio/graphic-design'
         buttonText='View Projects'
       />
       <PortfolioIndexLayout
         leftText={true}
         header='Certifications'
-        text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc congue nisi vitae suscipit tellus mauris. Laoreet id donec ultrices tincidunt arcu non sodales. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.'
+        text='A current list of Certifictions that I have earned within UX/UI and Computer Sciene throughout my career.'
+        image='/images/portfolio/certifications-image.png'
         link='/portfolio/certifications'
         buttonText='View Certificates'
       />

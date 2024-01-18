@@ -29,7 +29,7 @@ const Contact = () => {
         <Grid xl={8} lg={8} md={8} sm={12} xs={12} item>
           <p className='body-1'>
             I&apos;m currently a front-end developer and I love to code and
-            design, To enhance my knowledge I am available for any projects and
+            design. To enhance my knowledge I am available for any projects and
             am open to a wide range of opportunities. I&apos;m also happy to
             hear about opportunities that don&apos;t fit that description.
             I&apos;m a hard-working and positive person who will always approach
