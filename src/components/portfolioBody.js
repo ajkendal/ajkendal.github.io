@@ -32,6 +32,7 @@ const PortfolioBody = (props) => {
         <Grid xl={8} lg={8} md={8} sm={12} xs={12} item>
           <h3 className='no-top-margin'>Project Background</h3>
           <p className='body-2'>{props.description}</p>
+
           <h3>Static Previews</h3>
           <img src={props.imageOne} alt='Static Preview  One' />
           <img src={props.imageTwo} alt='Static Preview  Two' />
