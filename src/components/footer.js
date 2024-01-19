@@ -27,7 +27,7 @@ const Footer = () => {
             </svg>
           </Link>
         </Grid>
-        <Grid className='link-class' xl={9} lg={9} md={8} sm={12} xs={12} item>
+        <Grid className='link-class' xl={9} lg={9} md={7} sm={12} xs={12} item>
           <StyledLink to='/'>Home</StyledLink>
 
           <StyledLink to='/portfolio'>Portfolio</StyledLink>
@@ -38,10 +38,26 @@ const Footer = () => {
           className='external-links'
           xl={2}
           lg={2}
-          md={2}
+          md={3}
           sm={12}
           xs={12}
           item>
+          <Link
+            to='https://resume.creddle.io/resume/bjd40yfpnd'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <svg
+              width='25'
+              height='25'
+              viewBox='0 0 76 100'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'>
+              <path
+                d='M46.0813 0H13C9.68479 0 6.50537 1.31696 4.16116 3.66117C1.81696 6.00537 0.5 9.18479 0.5 12.5V87.5C0.5 90.8152 1.81696 93.9946 4.16116 96.3388C6.50537 98.683 9.68479 100 13 100H63C66.3152 100 69.4946 98.683 71.8388 96.3388C74.183 93.9946 75.5 90.8152 75.5 87.5V29.4187C75.4996 27.7613 74.8409 26.1718 73.6687 25L50.5 1.83125C49.3282 0.659067 47.7387 0.000353984 46.0813 0ZM47.375 21.875V9.375L66.125 28.125H53.625C51.9674 28.125 50.3777 27.4665 49.2056 26.2944C48.0335 25.1223 47.375 23.5326 47.375 21.875ZM56.75 50C56.75 54.9728 54.7746 59.7419 51.2583 63.2583C47.7419 66.7746 42.9728 68.75 38 68.75C33.0272 68.75 28.2581 66.7746 24.7417 63.2583C21.2254 59.7419 19.25 54.9728 19.25 50C19.25 45.0272 21.2254 40.2581 24.7417 36.7417C28.2581 33.2254 33.0272 31.25 38 31.25C42.9728 31.25 47.7419 33.2254 51.2583 36.7417C54.7746 40.2581 56.75 45.0272 56.75 50ZM69.25 85.9688V87.5C69.25 89.1576 68.5915 90.7473 67.4194 91.9194C66.2473 93.0915 64.6576 93.75 63 93.75H13C11.3424 93.75 9.75268 93.0915 8.58058 91.9194C7.40848 90.7473 6.75 89.1576 6.75 87.5V85.9688C6.75 85.9688 13 75 38 75C63 75 69.25 85.9688 69.25 85.9688Z'
+                fill='white'
+              />
+            </svg>
+          </Link>
           <Link
             to='https://github.com/ajkendal'
             target='_blank'
@@ -107,7 +123,7 @@ const FooterDiv = styled.div`
   background-color: ${primary['grey']};
   color: ${monochrome['white']};
   text-align: center;
-  z-index: 1;
+  z-index: 0;
   .grid-container {
     padding: 30px 10px;
     @media ${breakpoints.small} {

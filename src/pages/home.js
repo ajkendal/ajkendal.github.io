@@ -1,3 +1,5 @@
+import Interested from '../components/interestedComponent'
+
 const Home = () => {
   return (
     <div className='desktop-width'>
@@ -5,6 +7,7 @@ const Home = () => {
       <p className='body-1'>
         Hi! this is my personal webpage. Currently under construction!
       </p>
+      <Interested />
     </div>
   )
 }
