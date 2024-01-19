@@ -1,6 +1,8 @@
 import PortfolioHeader from '../../components/portfolioHeader'
 import PortfolioBody from '../../components/portfolioBody'
 import BottomLinks from '../../components/portfolioBottomLinks'
+import Interested from '../../components/interestedComponent'
+import { Link } from 'react-router-dom'
 
 const UXUIWork = () => {
   return (
@@ -12,18 +14,18 @@ const UXUIWork = () => {
         description='This project was a prototyping project during my stint at DePaul. The group had to design an app of their choosing, build sketches, brand guidlines, as well as Mid-Fi and High-Fi Prototypes using Axure. Creating this project helped me learn to work as a team, designing responsive web and mobile applications, and the different prototyping skills used in the industry.'
         links={
           <div>
-            <a
-              href='https://3l6fi0.axshare.com'
+            <Link
+              to='https://3l6fi0.axshare.com'
               target='_blank'
               rel='noreferrer'>
               Mid-Fi Prototype
-            </a>
-            <a
-              href='https://mn4fta.axshare.com'
+            </Link>
+            <Link
+              to='https://mn4fta.axshare.com'
               target='_blank'
               rel='noreferrer'>
               High-Fi Prototype
-            </a>
+            </Link>
           </div>
         }
         imageOne='/images/portfolio/uxui/uxui_static_1.png'
@@ -35,6 +37,7 @@ const UXUIWork = () => {
         linkTwo='/portfolio/graphic-design'
         linkTwoText='Graphic Design Projects'
       />
+      <Interested />
     </div>
   )
 }
