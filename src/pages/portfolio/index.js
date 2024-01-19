@@ -10,7 +10,7 @@ const Portfolio = () => {
         text='A challenge provided by Frontend Mentor to intergrate the REST Countries API data and display them using whichever JavaScript Framework/library of choosing.'
         image='/images/portfolio/coding-project.png'
         link='/portfolio/coding-projects'
-        buttonText='View Projects'
+        buttonText='View Project'
       />
       <PortfolioIndexLayout
         leftText={true}
@@ -18,14 +18,14 @@ const Portfolio = () => {
         text='This is a project I worked on for HCI 430 - Prototyping and Implementation while at DePaul. The creation of an App called Unis from Sketches all the way to HiFi Prototypes including Marketing Material.'
         image='/images/portfolio/uxui_platform-image.png'
         link='/portfolio/uxui-work'
-        buttonText='View Projects'
+        buttonText='View Project'
       />
       <PortfolioIndexLayout
         header='Graphic Design Projects'
         text='A small collection of different projects created for HCI 402 - Foundations of Digital Design at DePaul using Adobe Illustrator and Adobe Photoshop.'
         image='/images/portfolio/graphic_design-image.png'
         link='/portfolio/graphic-design'
-        buttonText='View Projects'
+        buttonText='View Project'
       />
       <PortfolioIndexLayout
         leftText={true}
