@@ -59,6 +59,9 @@ const BottomLinksDiv = styled.div`
   }
   .right-link {
     float: right;
+    h3 {
+      text-align: right;
+    }
   }
   h3 {
     margin: 0;
