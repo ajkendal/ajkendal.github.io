@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Grid } from '@mui/material'
 import { breakpoints, primary } from '../styles/styles'
+import { useEffect } from 'react'
 
 /* 
 header: string
@@ -12,6 +13,10 @@ imageTwo: string
 */
 
 const PortfolioBody = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <PortfolioBodyDiv>
       <Grid
