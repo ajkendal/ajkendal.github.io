@@ -11,6 +11,23 @@ body {
   background-color: $secondary-bg;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  .MuiBox-root {
+    &.tall {
+      max-width: 800px !important;
+    }
+    @media (min-width: 2000px) {
+      max-width: 1300px;
+      &.tall {
+        max-width: 800px !important;
+      }
+    }
+    @media (min-width: 1536px) and (max-width: 2000px) {
+      max-width: 1200px;
+      &.tall {
+        max-width: 800px !important;
+      }
+    }
+  }
 }
 
 h1 {
