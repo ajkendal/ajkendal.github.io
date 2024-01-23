@@ -7,7 +7,7 @@ const Portfolio = () => {
     <PortfolioIndex className='desktop-width'>
       <PortfolioIndexLayout
         header='Coding Challenge'
-        text='A challenge provided by Frontend Mentor to intergrate the REST Countries API data and display them using whichever JavaScript Framework/library of choosing.'
+        text='A challenge provided by Frontend Mentor to integrate the REST Countries API data and display them using whichever JavaScript Framework/library of choosing.'
         image='/images/portfolio/coding-project.png'
         link='/portfolio/coding-projects'
         buttonText='View Project'
@@ -30,7 +30,7 @@ const Portfolio = () => {
       <PortfolioIndexLayout
         leftText={true}
         header='Certifications'
-        text='A current list of Certifictions that I have earned within UX/UI and Computer Sciene throughout my career.'
+        text='A current list of Certifications that I have earned within UX/UI and Computer Science throughout my career.'
         image='/images/portfolio/certifications-image.png'
         link='/portfolio/certifications'
         buttonText='View Certificates'
