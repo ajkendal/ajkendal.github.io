@@ -10,6 +10,7 @@ description: string
 links: html
 imageOne: string 
 imageTwo: string
+children: any
 */
 
 const PortfolioBody = (props) => {
@@ -30,12 +31,15 @@ const PortfolioBody = (props) => {
           {props.links}
         </Grid>
         <Grid xl={8} lg={8} md={8} sm={12} xs={12} item>
-          <h3 className='no-top-margin'>Project Background</h3>
-          <p className='body-2'>{props.description}</p>
-
-          <h3>Static Previews</h3>
-          <img src={props.imageOne} alt='Static Preview  One' />
-          <img src={props.imageTwo} alt='Static Preview  Two' />
+          {props.children || (
+            <div>
+              <h3 className='no-top-margin'>Project Background</h3>
+              <p className='body-2'>{props.description}</p>
+              <h3>Static Previews</h3>
+              <img src={props.imageOne} alt='Static Preview  One' />
+              <img src={props.imageTwo} alt='Static Preview  Two' />
+            </div>
+          )}
         </Grid>
       </Grid>
     </PortfolioBodyDiv>
@@ -72,6 +76,14 @@ const PortfolioBodyDiv = styled.div`
     width: 100%;
     display: block;
     margin: 30px auto;
+  }
+
+  hr {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    opacity: 0.15;
+    color: ${primary['grey']};
   }
 `
 
