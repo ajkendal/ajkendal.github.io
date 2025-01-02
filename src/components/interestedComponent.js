@@ -29,6 +29,7 @@ const Interested = () => {
 }
 
 const InterestedDiv = styled.div`
+  margin-bottom: 150px;
   hr {
     width: 100%;
     border: none;
