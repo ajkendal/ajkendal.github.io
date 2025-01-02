@@ -184,6 +184,7 @@ const Contact = () => {
 
 const ContactMeDiv = styled.div`
   width: 100%;
+  margin-bottom: 150px;
   .grid-container-contact {
     padding: 50px 0;
   }

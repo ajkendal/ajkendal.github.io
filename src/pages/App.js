@@ -1,6 +1,6 @@
 import '../styles/global-text.scss'
 import '../styles/global-page.scss'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Navigation from '../components/nav'
 import Home from './home'
 import Contact from './contact'
@@ -14,28 +14,24 @@ import UXUIWork from './portfolio/uxui-work'
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <Navigation />
       <Routes>
-        <Route path='/' element={<Navigation />}>
-          <Route index element={<Home />} />
-          <Route path='portfolio' element={<Portfolio />} />
-          <Route path='contact' element={<Contact />} />
-          <Route
-            path='/portfolio/certifications'
-            element={<CertificaitonsPage />}
-          />
-          <Route
-            path='/portfolio/coding-projects'
-            element={<CodingProjects />}
-          />
-          <Route path='/portfolio/graphic-design' element={<GraphicDesign />} />
-          <Route path='/portfolio/uxui-work' element={<UXUIWork />} />
-          <Route path='*' element={<NoPage />} />
-        </Route>
+        <Route path='/' index element={<Home />} />
+        <Route path='portfolio' element={<Portfolio />} />
+        <Route path='contact' element={<Contact />} />
+        <Route
+          path='/portfolio/certifications'
+          element={<CertificaitonsPage />}
+        />
+        <Route path='/portfolio/coding-projects' element={<CodingProjects />} />
+        <Route path='/portfolio/graphic-design' element={<GraphicDesign />} />
+        <Route path='/portfolio/uxui-work' element={<UXUIWork />} />
+        <Route path='*' element={<NoPage />} />
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </>
   )
 }
 
