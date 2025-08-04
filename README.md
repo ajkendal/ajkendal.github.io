@@ -1,5 +1,10 @@
 # ajkendal.github.io
 
+**Personal portfolio website built with React and SCSS, deployed via GitHub Pages.**
+[![GitHub Pages](https://img.shields.io/badge/deployed-GitHub%20Pages-blue)](https://ajkendal.github.io)
+[![React](https://img.shields.io/badge/Built%20With-React-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![SCSS](https://img.shields.io/badge/Styled%20With-SCSS-CC6699?logo=sass&logoColor=white)](https://sass-lang.com/)
+
 This is my personal portfolio website, built with React and styled using SCSS, and deployed via GitHub Pages. It serves as a showcase of my work, skills, and background in front-end development and UI/UX design.
 
 ## About Me
@@ -58,7 +63,6 @@ src/
   assets/          # Images, fonts, icons
   App.jsx
   index.jsx
-
 ```
 
 ## Contributing
