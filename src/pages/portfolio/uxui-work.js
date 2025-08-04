@@ -1,8 +1,8 @@
-import PortfolioHeader from '../../components/portfolioHeader'
-import PortfolioBody from '../../components/portfolioBody'
-import BottomLinks from '../../components/portfolioBottomLinks'
-import Interested from '../../components/interestedComponent'
-import { Link } from 'react-router-dom'
+import PortfolioHeader from '../../components/portfolioHeader';
+import PortfolioBody from '../../components/portfolioBody';
+import BottomLinks from '../../components/portfolioBottomLinks';
+import Interested from '../../components/interestedComponent';
+import { Link } from 'react-router-dom';
 
 const UXUIWork = () => {
   return (
@@ -10,20 +10,29 @@ const UXUIWork = () => {
       <PortfolioHeader image='/images/portfolio/uxui/uxui_header.png' />
       <PortfolioBody
         header='Unus'
-        smallText='This was a group project with Emily Cheng for HCI 430 - Prototyping and Implementing at DePaul. Prototypes put together using Axure, Logo and marketing material created with Adobe Illustrator.'
-        description='This project was a prototyping project during my stint at DePaul. The group had to design an app of their choosing, build sketches, brand guidlines, as well as Mid-Fi and High-Fi Prototypes using Axure. Creating this project helped me learn to work as a team, designing responsive web and mobile applications, and the different prototyping skills used in the industry.'
+        smallText='This group project, completed in collaboration with Emily Cheng for HCI 430 – Prototyping and Implementation at DePaul University, involved developing prototypes using Axure and creating the logo and marketing materials with Adobe Illustrator.'
+        description='This project, completed during my time at DePaul University, involved collaboratively designing an original app concept. Our team developed sketches, brand guidelines, and both mid- and high-fidelity prototypes using Axure. Through this experience, I strengthened my skills in team collaboration, responsive web and mobile design, and industry-standard prototyping practices.'
         links={
           <div>
             <Link
+              to='https://www.canva.com/design/DACta3TGNTE/jBXc8nR8LjZip1LCicscDg/view?utm_content=DACta3TGNTE&utm_campaign=designshare&utm_medium=link&utm_source=editor'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Mood Board
+            </Link>
+            <Link
               to='https://3l6fi0.axshare.com'
               target='_blank'
-              rel='noreferrer'>
+              rel='noreferrer'
+            >
               Mid-Fi Prototype
             </Link>
             <Link
               to='https://mn4fta.axshare.com'
               target='_blank'
-              rel='noreferrer'>
+              rel='noreferrer'
+            >
               High-Fi Prototype
             </Link>
           </div>
@@ -39,7 +48,7 @@ const UXUIWork = () => {
       />
       <Interested />
     </div>
-  )
-}
+  );
+};
 
-export default UXUIWork
+export default UXUIWork;

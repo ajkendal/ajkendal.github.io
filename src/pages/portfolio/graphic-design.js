@@ -1,10 +1,10 @@
-import PortfolioHeader from '../../components/portfolioHeader'
-import PortfolioBody from '../../components/portfolioBody'
-import BottomLinks from '../../components/portfolioBottomLinks'
-import Interested from '../../components/interestedComponent'
-import { Link } from 'react-router-dom'
-import { Modal, Box } from '@mui/material'
-import { useState } from 'react'
+import PortfolioHeader from '../../components/portfolioHeader';
+import PortfolioBody from '../../components/portfolioBody';
+import BottomLinks from '../../components/portfolioBottomLinks';
+import Interested from '../../components/interestedComponent';
+import { Link } from 'react-router-dom';
+import { Modal, Box } from '@mui/material';
+import { useState } from 'react';
 
 const style = {
   position: 'absolute',
@@ -16,29 +16,29 @@ const style = {
   border: 'none',
   boxShadow: 24,
   p: 4,
-}
+};
 
 const GraphicDesign = () => {
-  const [openOne, setOpenOne] = useState(false)
-  const handleOpenOne = () => setOpenOne(true)
-  const handleCloseOne = () => setOpenOne(false)
-  const [openTwo, setOpenTwo] = useState(false)
-  const handleOpenTwo = () => setOpenTwo(true)
-  const handleCloseTwo = () => setOpenTwo(false)
-  const [openThree, setOpenThree] = useState(false)
-  const handleOpenThree = () => setOpenThree(true)
-  const handleCloseThree = () => setOpenThree(false)
-  const [openFour, setOpenFour] = useState(false)
-  const handleOpenFour = () => setOpenFour(true)
-  const handleCloseFour = () => setOpenFour(false)
+  const [openOne, setOpenOne] = useState(false);
+  const handleOpenOne = () => setOpenOne(true);
+  const handleCloseOne = () => setOpenOne(false);
+  const [openTwo, setOpenTwo] = useState(false);
+  const handleOpenTwo = () => setOpenTwo(true);
+  const handleCloseTwo = () => setOpenTwo(false);
+  const [openThree, setOpenThree] = useState(false);
+  const handleOpenThree = () => setOpenThree(true);
+  const handleCloseThree = () => setOpenThree(false);
+  const [openFour, setOpenFour] = useState(false);
+  const handleOpenFour = () => setOpenFour(true);
+  const handleCloseFour = () => setOpenFour(false);
 
   return (
     <div className='desktop-width'>
       <PortfolioHeader image='/images/portfolio/graphicdesign/graphicdesign_header.png' />
       <PortfolioBody
         header='Graphic Design Projects'
-        smallText='These are four different projects that were designed for HCI 402 - Foundations of Digtal Design at DePaul. Each of these projects were created with Adobe Illustrator and Photoshop.'
-        description='These are some of the projects that I designed for HCI 402 - Foundations of Digtal Design. Each project had a specific goal. Project one was to create a Triptych, which I based mine on Milk and Honey by Rupi Kaur. Project Two was to create a poster of our choosing, using the Paper as a primary color and two others to mock a screen printing method. Project Three was to create and design a company logo and theme for a Soup can, I went with more of a pop feel for this project. Project Four was to design a Playing Card, I really wanted to work on illustrating morevement, so I designed a dancer for the Face side of this Card.'
+        smallText='These four projects were developed for HCI 402 – Foundations of Digital Design at DePaul University, utilizing Adobe Illustrator and Adobe Photoshop to demonstrate core design principles and techniques.'
+        description='These projects were created for HCI 402 – Foundations of Digital Design at DePaul University, each with its own unique creative challenge. The first was a triptych inspired by Milk and Honey by Rupi Kaur, exploring visual storytelling through three panels. The second was a poster design using paper as the primary color with two accents to replicate a screen-printing aesthetic. The third involved developing a company logo and soup can concept, where I leaned into a bold, pop-art style. The fourth was a playing card design, where I illustrated a dancer to experiment with capturing movement in a static image.'
         links={
           <div>
             <Link onClick={handleOpenOne}>Triptych</Link>
@@ -98,7 +98,7 @@ const GraphicDesign = () => {
         </Box>
       </Modal>
     </div>
-  )
-}
+  );
+};
 
-export default GraphicDesign
+export default GraphicDesign;

@@ -1,16 +1,16 @@
-import '../styles/global-text.scss'
-import '../styles/global-page.scss'
-import { Routes, Route } from 'react-router-dom'
-import Navigation from '../components/nav'
-import Home from './home'
-import Contact from './contact'
-import NoPage from './404'
-import Portfolio from './portfolio'
-import Footer from '../components/footer'
-import CertificaitonsPage from './portfolio/certifications'
-import GraphicDesign from './portfolio/graphic-design'
-import CodingProjects from './portfolio/coding-projects'
-import UXUIWork from './portfolio/uxui-work'
+import '../styles/global-text.scss';
+import '../styles/global-page.scss';
+import { Routes, Route } from 'react-router-dom';
+import Navigation from '../components/nav';
+import Home from './home';
+import Contact from './contact';
+import NoPage from './404';
+import Portfolio from './portfolio';
+import Footer from '../components/footer';
+import CertificaitonsPage from './portfolio/certifications';
+import GraphicDesign from './portfolio/graphic-design';
+import CodingProjects from './portfolio/coding-projects';
+import UXUIWork from './portfolio/uxui-work';
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
       <Navigation />
       <Routes>
         <Route path='/' index element={<Home />} />
-        <Route path='portfolio' element={<Portfolio />} />
-        <Route path='contact' element={<Contact />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/contact' element={<Contact />} />
         <Route
           path='/portfolio/certifications'
           element={<CertificaitonsPage />}
@@ -32,7 +32,7 @@ function App() {
 
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
