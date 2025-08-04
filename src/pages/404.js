@@ -1,4 +1,4 @@
-import Interested from '../components/interestedComponent'
+import Interested from '../components/interestedComponent';
 const NoPage = () => {
   return (
     <div className='desktop-width'>
@@ -6,7 +6,7 @@ const NoPage = () => {
       <h2>Page Not Found</h2>
       <Interested />
     </div>
-  )
-}
+  );
+};
 
-export default NoPage
+export default NoPage;
