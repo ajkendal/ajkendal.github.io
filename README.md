@@ -13,11 +13,12 @@ I’m a front-end developer with a passion for creating clean, user-focused digi
 
 ## Features
 
-- Responsive Design: Optimized for both desktop and mobile.
-- Modern UI/UX: Built with a focus on accessibility and aesthetics.
-- Project Showcase: Curated projects with descriptions and visuals.
-- About Me Section: Professional background and skillset overview.
-- Contact Options: Easy ways to connect or collaborate.
+- **Responsive Design:** Optimized for desktop and mobile devices.
+- **Modern UI/UX:** Built with accessibility and usability in mind.
+- **Project Showcase:** Curated projects with detailed descriptions and visuals.
+- **About Me Section:** Highlights my professional background and skillset.
+- **Contact Options:** Quick ways to connect and collaborate.
+- **Inspired Design:** Visual and structural inspiration drawn from [Frontend Mentor’s Minimalist Portfolio Challenge](https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE).
 
 ## Tech Stack
 
@@ -64,6 +65,12 @@ src/
   App.jsx
   index.jsx
 ```
+
+## Connect
+
+- Portfolio: [ajkendal.github.io](https://ajkendal.github.io/)
+- LinkedIn: [akendalb](https://www.linkedin.com/in/akendalb/)
+- GitHub: [https://github.com/ajkendal](https://github.com/ajkendal)
 
 ## Contributing
 
