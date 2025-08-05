@@ -1,29 +1,31 @@
-import styled from 'styled-components'
-import { Outlet, Link } from 'react-router-dom'
-import { Grid } from '@mui/material'
-import { breakpoints, primary, monochrome, secondary } from '../styles/styles'
-import { useState } from 'react'
+import styled from 'styled-components';
+import { Outlet, Link } from 'react-router-dom';
+import { Grid } from '@mui/material';
+import { breakpoints, primary, monochrome, secondary } from '../styles/styles';
+import { useState } from 'react';
 
 function Navigation() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const DesktopNav = () => (
     <DesktopNavDiv>
       <StyledLink to='/'>Home</StyledLink>
       <StyledLink to='/portfolio'>Portfolio</StyledLink>
       <StyledLink to='/contact'>Contact Me</StyledLink>
     </DesktopNavDiv>
-  )
+  );
   const MobileNav = () => (
     <div
       className='mobile-icons'
-      onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
+      onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+    >
       {mobileMenuOpen ? (
         <svg
           width='18'
           height='19'
           viewBox='0 0 18 19'
           fill='none'
-          xmlns='http://www.w3.org/2000/svg'>
+          xmlns='http://www.w3.org/2000/svg'
+        >
           <g id='Group'>
             <path
               id='Combined Shape'
@@ -40,21 +42,23 @@ function Navigation() {
           height='13'
           viewBox='0 0 24 13'
           fill='none'
-          xmlns='http://www.w3.org/2000/svg'>
+          xmlns='http://www.w3.org/2000/svg'
+        >
           <rect width='24' height='1' fill='#33323D' />
           <rect y='6' width='24' height='1' fill='#33323D' />
           <rect y='12' width='24' height='1' fill='#33323D' />
         </svg>
       )}
     </div>
-  )
+  );
 
   return (
     <NavDiv>
       <Grid
         alignItems='center'
         className='desktop-width grid-container-nav'
-        container>
+        container
+      >
         <Grid xl={1} lg={1} md={2} sm={10} xs={10} item>
           <Link to='/'>
             <svg
@@ -62,7 +66,8 @@ function Navigation() {
               height='32'
               viewBox='0 0 61 32'
               fill='none'
-              xmlns='http://www.w3.org/2000/svg'>
+              xmlns='http://www.w3.org/2000/svg'
+            >
               <path
                 id='Combined Shape'
                 fillRule='evenodd'
@@ -89,7 +94,7 @@ function Navigation() {
       ) : null}
       <Outlet />
     </NavDiv>
-  )
+  );
 }
 
 const NavDiv = styled.div`
@@ -122,14 +127,14 @@ const NavDiv = styled.div`
       }
     }
   }
-`
+`;
 
 const DesktopNavDiv = styled.div`
   display: block;
   @media ${breakpoints.small} {
     display: none;
   }
-`
+`;
 
 const MobileNavDiv = styled.div`
   display: none;
@@ -143,7 +148,7 @@ const MobileNavDiv = styled.div`
   @media ${breakpoints.small} {
     display: block;
   }
-`
+`;
 
 const StyledLink = styled(Link)`
   font-family: 'Public Sans', sans-serif;
@@ -160,7 +165,7 @@ const StyledLink = styled(Link)`
   &:hover {
     color: ${primary['green']};
   }
-`
+`;
 
 const MobileStyledLink = styled(Link)`
   font-family: 'Public Sans', sans-serif;
@@ -181,6 +186,6 @@ const MobileStyledLink = styled(Link)`
     display: block;
     margin: 2rem;
   }
-`
+`;
 
-export default Navigation
+export default Navigation;

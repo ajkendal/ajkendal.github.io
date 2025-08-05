@@ -1,7 +1,7 @@
-import styled from 'styled-components'
-import { Grid } from '@mui/material'
-import { SecondaryButton, breakpoints, primary } from '../styles/styles'
-import { Link } from 'react-router-dom'
+import styled from 'styled-components';
+import { Grid } from '@mui/material';
+import { SecondaryButton, breakpoints, primary } from '../styles/styles';
+import { Link } from 'react-router-dom';
 
 const Interested = () => {
   return (
@@ -11,7 +11,8 @@ const Interested = () => {
         direction='row'
         justifyContent='center'
         alignItems='center'
-        className='interested-grid'>
+        className='interested-grid'
+      >
         <Grid xl={4} lg={4} md={4} sm={12} xs={12} item>
           <h2>Interested in doing a project together?</h2>
         </Grid>
@@ -25,8 +26,8 @@ const Interested = () => {
         </Grid>
       </Grid>
     </InterestedDiv>
-  )
-}
+  );
+};
 
 const InterestedDiv = styled.div`
   margin-bottom: 150px;
@@ -53,6 +54,6 @@ const InterestedDiv = styled.div`
       text-decoration: none !important;
     }
   }
-`
+`;
 
-export default Interested
+export default Interested;
