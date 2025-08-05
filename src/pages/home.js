@@ -2,8 +2,15 @@ import Interested from '../components/interestedComponent';
 import { useRef, useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Grid, useTheme, useMediaQuery } from '@mui/material';
-import { primary, breakpoints, SecondaryButton } from '../styles/styles';
+import {
+  primary,
+  breakpoints,
+  SecondaryButton,
+  PrimaryButton,
+  secondary,
+} from '../styles/styles';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
   const theme = useTheme();
@@ -20,9 +27,16 @@ const Home = () => {
 
   return (
     <div className='desktop-width'>
-      {/* <Header>
-        <h2>Under Construction</h2>
-      </Header> */}
+      <Header>
+        <div className='outer-div'>
+          <div className='intro'>
+            <h1>I&apos;m Amanda Kendal-Brown, a developer and designer.</h1>
+            <HashLink to='#about-me'>
+              <PrimaryButton>About Me</PrimaryButton>
+            </HashLink>
+          </div>
+        </div>
+      </Header>
       <AboutMe id='about-me'>
         <Grid spacing={isSm ? 0 : 8} className='about-me-grid' container>
           <Grid
@@ -97,7 +111,38 @@ const Home = () => {
   );
 };
 
-const Header = styled.div``;
+const Header = styled.div`
+  margin-bottom: 150px;
+  .outer-div {
+    position: relative;
+    background-image: url('/images/home/background_glasses.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom 10%;
+    height: 600px;
+    @media ${breakpoints.medium} {
+      height: 500px;
+    }
+  }
+  .intro {
+    background-color: ${secondary['bg']};
+    max-width: 500px;
+    padding-top: 20px;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  @media ${breakpoints.small} {
+    margin-bottom: 20px;
+    .intro {
+      bottom: -5%;
+      max-width: 100%;
+      padding-bottom: 20px;
+      padding-right: 0;
+    }
+  }
+`;
 
 const AboutMe = styled.div`
   margin: 50px auto;
