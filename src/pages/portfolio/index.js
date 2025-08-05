@@ -1,10 +1,9 @@
-import styled from 'styled-components';
 import Interested from '../../components/interestedComponent';
 import PortfolioIndexLayout from '../../components/portfolioIndexLayout';
 
 const Portfolio = () => {
   return (
-    <PortfolioIndex className='desktop-width'>
+    <div className='desktop-width'>
       <PortfolioIndexLayout
         header='Coding Challenge'
         text='A challenge provided by Frontend Mentor to integrate the REST Countries API data and display them using whichever JavaScript Framework/library of choosing.'
@@ -14,7 +13,7 @@ const Portfolio = () => {
       />
       <PortfolioIndexLayout
         leftText={true}
-        header='Unus'
+        header='UX/UI Project'
         text='This project, completed for HCI 430 – Prototyping and Implementation at DePaul University, involved developing an app called Unus from initial sketches through high-fidelity prototypes, including the creation of supporting marketing materials.'
         image='/images/portfolio/uxui_platform-image.png'
         link='/portfolio/uxui-work'
@@ -37,10 +36,8 @@ const Portfolio = () => {
       />
 
       <Interested />
-    </PortfolioIndex>
+    </div>
   );
 };
-
-const PortfolioIndex = styled.div``;
 
 export default Portfolio;

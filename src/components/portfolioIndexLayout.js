@@ -1,7 +1,7 @@
-import styled from 'styled-components'
-import { Grid } from '@mui/material'
-import { SecondaryButton, breakpoints, primary } from '../styles/styles'
-import { Link } from 'react-router-dom'
+import styled from 'styled-components';
+import { Grid } from '@mui/material';
+import { SecondaryButton, breakpoints, primary } from '../styles/styles';
+import { Link } from 'react-router-dom';
 
 /* 
 Props
@@ -21,7 +21,8 @@ const PortfolioIndexLayout = (props) => {
         direction={props.leftText ? 'row-reverse' : 'row'}
         justifyContent='space-between'
         alignItems='stretch'
-        className='portfolio-layout-grid'>
+        className='portfolio-layout-grid'
+      >
         <Grid xl={5} lg={6} md={6} sm={12} xs={12} item className='img-item'>
           <img src={props.image} alt={props.header + ` layout image`} />
         </Grid>
@@ -32,7 +33,8 @@ const PortfolioIndexLayout = (props) => {
           sm={12}
           xs={12}
           item
-          className='content-item'>
+          className='content-item'
+        >
           <div className='content-div'>
             <h2>{props.header}</h2>
             <p className='body-1'>{props.text}</p>
@@ -43,8 +45,8 @@ const PortfolioIndexLayout = (props) => {
         </Grid>
       </Grid>
     </PortfolioIndexDiv>
-  )
-}
+  );
+};
 
 const PortfolioIndexDiv = styled.div`
   .portfolio-layout-grid {
@@ -78,6 +80,6 @@ const PortfolioIndexDiv = styled.div`
       padding-bottom: 40px;
     }
   }
-`
+`;
 
-export default PortfolioIndexLayout
+export default PortfolioIndexLayout;

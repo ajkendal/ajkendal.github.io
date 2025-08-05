@@ -1,7 +1,7 @@
-import styled from 'styled-components'
-import { Grid } from '@mui/material'
-import { breakpoints, primary } from '../styles/styles'
-import { useEffect } from 'react'
+import styled from 'styled-components';
+import { Grid } from '@mui/material';
+import { breakpoints, primary } from '../styles/styles';
+import { useEffect } from 'react';
 
 /* 
 header: string
@@ -15,8 +15,8 @@ children: any
 
 const PortfolioBody = (props) => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <PortfolioBodyDiv>
@@ -24,7 +24,8 @@ const PortfolioBody = (props) => {
         justifyContent='space-between'
         alignItems='flex-start'
         className='grid-container-portfolio-body'
-        container>
+        container
+      >
         <Grid className='left-box' xl={3} lg={3} md={3} sm={12} xs={12} item>
           <h2>{props.header}</h2>
           <p className='body-1'>{props.smallText}</p>
@@ -43,8 +44,8 @@ const PortfolioBody = (props) => {
         </Grid>
       </Grid>
     </PortfolioBodyDiv>
-  )
-}
+  );
+};
 
 const PortfolioBodyDiv = styled.div`
   .left-box {
@@ -85,6 +86,6 @@ const PortfolioBodyDiv = styled.div`
     opacity: 0.15;
     color: ${primary['grey']};
   }
-`
+`;
 
-export default PortfolioBody
+export default PortfolioBody;
