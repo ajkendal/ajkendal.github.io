@@ -30,7 +30,7 @@ const Home = () => {
       <Header>
         <div className='outer-div'>
           <div className='intro'>
-            <h1>I&apos;m Amanda Kendal-Brown, a developer and designer.</h1>
+            <h1>Amanda Kendal-Brown, a developer and designer.</h1>
             <HashLink to='#about-me'>
               <PrimaryButton>About Me</PrimaryButton>
             </HashLink>
@@ -119,16 +119,16 @@ const Header = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom 10%;
-    height: 600px;
+    height: 575px;
     @media ${breakpoints.medium} {
       height: 500px;
     }
   }
   .intro {
     background-color: ${secondary['bg']};
-    max-width: 500px;
+    max-width: 550px;
     padding-top: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     position: absolute;
     bottom: 0;
     left: 0;
