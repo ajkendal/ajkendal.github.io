@@ -11,8 +11,15 @@ import CertificaitonsPage from './portfolio/certifications';
 import GraphicDesign from './portfolio/graphic-design';
 import CodingProjects from './portfolio/coding-projects';
 import UXUIWork from './portfolio/uxui-work';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <>
       <Navigation />

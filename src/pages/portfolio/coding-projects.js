@@ -1,10 +1,12 @@
-import BottomLinks from '../../components/portfolioBottomLinks'
-import Interested from '../../components/interestedComponent'
+import BottomLinks from '../../components/portfolioBottomLinks';
+import Interested from '../../components/interestedComponent';
 
 const CodingProjects = () => {
   return (
     <div className='desktop-width'>
       <h1>Coding Challenge</h1>
+
+      <h2>Under Construction</h2>
 
       <BottomLinks
         linkOne='/portfolio/certifications'
@@ -14,7 +16,7 @@ const CodingProjects = () => {
       />
       <Interested />
     </div>
-  )
-}
+  );
+};
 
-export default CodingProjects
+export default CodingProjects;
