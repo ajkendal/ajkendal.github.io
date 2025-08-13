@@ -8,6 +8,13 @@ import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
   {
+    title: 'Intro to AI Engineering',
+    issuer: 'Scrimba',
+    issued: 'Aug 2025',
+    id: 'SR85Y4R2L05Z',
+    link: 'https://www.coursera.org/account/accomplishments/certificate/SR85Y4R2L05Z',
+  },
+  {
     title: 'Meta Front-End Developer Certification',
     issuer: 'Meta',
     issued: 'Apr 2025',
