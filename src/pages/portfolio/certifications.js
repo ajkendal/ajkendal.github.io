@@ -7,20 +7,27 @@ import PortfolioBody from '../../components/portfolioBody';
 import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
-  {
-    title: 'Deploy AI Apps with Cloudflare',
-    issuer: 'Scrimba',
-    issued: 'Aug 2025',
-    id: 'XLVPHCDMGR1H',
-    link: 'https://www.coursera.org/account/accomplishments/certificate/XLVPHCDMGR1H',
-  },
-  {
-    title: 'Intro to AI Engineering',
-    issuer: 'Scrimba',
-    issued: 'Aug 2025',
-    id: 'SR85Y4R2L05Z',
-    link: 'https://www.coursera.org/account/accomplishments/certificate/SR85Y4R2L05Z',
-  },
+  //   {
+  //   title: 'Open-source AI Models',
+  //   issuer: 'Scrimba',
+  //   issued: 'Aug 2025',
+  //   id: 'KGWF53AB39A9',
+  //   link: 'https://www.coursera.org/account/accomplishments/certificate/KGWF53AB39A9',
+  // },
+  // {
+  //   title: 'Deploy AI Apps with Cloudflare',
+  //   issuer: 'Scrimba',
+  //   issued: 'Aug 2025',
+  //   id: 'XLVPHCDMGR1H',
+  //   link: 'https://www.coursera.org/account/accomplishments/certificate/XLVPHCDMGR1H',
+  // },
+  // {
+  //   title: 'Intro to AI Engineering',
+  //   issuer: 'Scrimba',
+  //   issued: 'Aug 2025',
+  //   id: 'SR85Y4R2L05Z',
+  //   link: 'https://www.coursera.org/account/accomplishments/certificate/SR85Y4R2L05Z',
+  // },
   {
     title: 'Meta Front-End Developer Certification',
     issuer: 'Meta',
