@@ -8,6 +8,13 @@ import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
   {
+    title: 'Deploy AI Apps with Cloudflare',
+    issuer: 'Scrimba',
+    issued: 'Aug 2025',
+    id: 'XLVPHCDMGR1H',
+    link: 'https://www.coursera.org/account/accomplishments/certificate/XLVPHCDMGR1H',
+  },
+  {
     title: 'Intro to AI Engineering',
     issuer: 'Scrimba',
     issued: 'Aug 2025',
