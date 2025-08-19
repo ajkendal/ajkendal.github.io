@@ -8,6 +8,13 @@ import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
   //   {
+  //   title: 'Retrieval-Augmented Generation (RAG) with Embeddings & Vector Databases',
+  //   issuer: 'Scrimba',
+  //   issued: 'Aug 2025',
+  //   id: 'W3AVQQWSZQJ1',
+  //   link: 'https://www.coursera.org/account/accomplishments/certificate/W3AVQQWSZQJ1',
+  // },
+  //   {
   //   title: 'Open-source AI Models',
   //   issuer: 'Scrimba',
   //   issued: 'Aug 2025',
