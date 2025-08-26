@@ -8,6 +8,13 @@ import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
   //   {
+  //   title: 'Learn AI Agents',
+  //   issuer: 'Scrimba',
+  //   issued: 'Aug 2025',
+  //   id: 'S6N0YJ8DZBP1',
+  //   link: 'https://www.coursera.org/account/accomplishments/certificate/S6N0YJ8DZBP1',
+  // },
+  //   {
   //   title: 'Retrieval-Augmented Generation (RAG) with Embeddings & Vector Databases',
   //   issuer: 'Scrimba',
   //   issued: 'Aug 2025',
