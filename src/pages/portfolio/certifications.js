@@ -8,6 +8,13 @@ import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
   {
+    title: 'Intro to Dall-E and GPT Vision',
+    issuer: 'Scrimba',
+    issued: 'Sep 2025',
+    id: 'U2823L4N0IWF',
+    link: 'https://www.coursera.org/account/accomplishments/certificate/U2823L4N0IWF',
+  },
+  {
     title: 'Learn AI Agents',
     issuer: 'Scrimba',
     issued: 'Aug 2025',
