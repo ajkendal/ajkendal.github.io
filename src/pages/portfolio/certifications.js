@@ -322,7 +322,7 @@ const CertificaitonsPage = () => {
         linkOne='/portfolio/graphic-design'
         linkOneText='Graphic Design Projects'
         linkTwo='/portfolio/coding-projects'
-        linkTwoText='Coding Challenge'
+        linkTwoText='Coding Project'
       />
       <Interested />
     </div>
