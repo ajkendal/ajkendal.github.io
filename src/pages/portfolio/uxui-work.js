@@ -42,7 +42,7 @@ const UXUIWork = () => {
       />
       <BottomLinks
         linkOne='/portfolio/coding-projects'
-        linkOneText='Coding Challenge'
+        linkOneText='Coding Project'
         linkTwo='/portfolio/graphic-design'
         linkTwoText='Graphic Design Projects'
       />
