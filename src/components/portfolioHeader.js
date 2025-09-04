@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 /* image: string */
 
@@ -7,8 +7,8 @@ const PortfolioHeader = (props) => {
     <HeaderDiv>
       <img src={props.image} alt='Portfolio Page Header' />
     </HeaderDiv>
-  )
-}
+  );
+};
 
 const HeaderDiv = styled.div`
   img {
@@ -16,6 +16,6 @@ const HeaderDiv = styled.div`
     display: block;
     margin: 50px auto 100px auto;
   }
-`
+`;
 
-export default PortfolioHeader
+export default PortfolioHeader;

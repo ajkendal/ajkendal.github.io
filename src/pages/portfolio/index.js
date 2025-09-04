@@ -5,8 +5,8 @@ const Portfolio = () => {
   return (
     <div className='desktop-width'>
       <PortfolioIndexLayout
-        header='Coding Challenge'
-        text='A challenge provided by Frontend Mentor to integrate the REST Countries API data and display them using whichever JavaScript Framework/library of choosing.'
+        header='AI Travel Agent'
+        text='AI Travel Agent is a project I built as part of the Scrimba AI Engineer Certification. My goal was to take the core assignment further and demonstrate how AI and real-time APIs can be combined into a practical, user-friendly travel planning app.'
         image='/images/portfolio/coding-project.png'
         link='/portfolio/coding-projects'
         buttonText='View Project'
