@@ -8,6 +8,13 @@ import { HashLink } from 'react-router-hash-link';
 
 const csCert = [
   {
+    title: "Learn OpenAI's Assistant API",
+    issuer: 'Scrimba',
+    issued: 'Sep 2025',
+    id: '8KFSSXD0PPRA',
+    link: 'https://www.coursera.org/account/accomplishments/certificate/8KFSSXD0PPRA',
+  },
+  {
     title: 'Intro to Dall-E and GPT Vision',
     issuer: 'Scrimba',
     issued: 'Sep 2025',
