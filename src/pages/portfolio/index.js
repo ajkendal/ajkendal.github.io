@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div className='desktop-width'>
       <PortfolioIndexLayout
-        header='AI Travel Agent'
+        header='Coding Project'
         text='AI Travel Agent is a project I built as part of the Scrimba AI Engineer Certification. My goal was to take the core assignment further and demonstrate how AI and real-time APIs can be combined into a practical, user-friendly travel planning app.'
         image='/images/portfolio/coding_project-image.png'
         link='/portfolio/coding-projects'
