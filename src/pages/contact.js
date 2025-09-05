@@ -182,7 +182,14 @@ const Contact = () => {
               }}
             />
             <PrimaryButtonNoArrow
-              disabled={errorEmail || errorMessage || errorName}
+              disabled={
+                errorEmail ||
+                errorMessage ||
+                errorName ||
+                nameField === '' ||
+                emailField === '' ||
+                messageField === ''
+              }
               type='submit'
             >
               Send Message

@@ -115,7 +115,7 @@ const Header = styled.div`
   margin-bottom: 150px;
   .outer-div {
     position: relative;
-    background-image: url('/images/home/background_glasses.png');
+    background-image: url('/images/home/home_backgound_image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom 10%;
