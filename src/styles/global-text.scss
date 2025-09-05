@@ -46,7 +46,7 @@ h2 {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 42px; /* 105% */
+  line-height: 42px;
   letter-spacing: -0.357px;
 }
 
@@ -56,8 +56,18 @@ h3 {
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 112.5% */
+  line-height: 36px;
   letter-spacing: -0.286px;
+}
+
+h4 {
+  color: $primary-grey;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.25px;
 }
 
 p {
@@ -67,7 +77,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
   }
   &.body-2 {
     color: $primary-grey;
@@ -75,9 +85,26 @@ p {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 200% */
+    line-height: 30px;
   }
   &.bold {
     font-weight: bold;
+  }
+  &.no-margin {
+    margin: 0;
+  }
+}
+
+.course-span {
+  padding: 0px 10px;
+  background-color: lighten($primary-blue, 20%);
+  border-radius: 10px;
+  margin: 5px 10px 5px 0;
+  color: $secondary-bg;
+
+  display: inline-block;
+  p {
+    margin: 0;
+    color: $secondary-bg;
   }
 }
