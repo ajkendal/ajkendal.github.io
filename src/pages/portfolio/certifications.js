@@ -29,7 +29,7 @@ const CertificationsPage = () => {
                   style={{ display: 'inline-block' }}
                   href={cert.link}
                   target='_blank'
-                  rel='noreferrer noopener'
+                  rel='noopener noreferrer'
                 >
                   {cert.id}
                 </a>
