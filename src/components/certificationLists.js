@@ -3,14 +3,14 @@ export const csCertSpecializations = [
     title: 'AI Engineering Specialization',
     issuer: 'Scrimba',
     issued: 'Ongoing',
-    id: '',
-    link: '',
+    id: null,
+    link: null,
     courses: [
       {
         title: 'Build AI Apps with LangChain.js',
         issued: 'Ongoing',
-        id: '',
-        link: '',
+        id: null,
+        link: null,
       },
       {
         title: "Learn OpenAI's Assistant API",
