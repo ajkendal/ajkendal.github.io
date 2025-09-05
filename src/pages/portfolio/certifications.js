@@ -36,7 +36,7 @@ const CertificationsPage = () => {
               </div>
             </p>
             <p className='body-2 bold no-margin'>Courses:</p>
-            {cert.courses.toReversed().map((course, index) => (
+            {[...cert.courses].reverse().map((course, index) => (
               <div className='course-span' key={index}>
                 <p className='body-2 bold'>{course.title}</p>
               </div>
