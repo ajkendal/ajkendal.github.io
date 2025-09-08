@@ -2,15 +2,15 @@ export const csCertSpecializations = [
   {
     title: 'AI Engineering Specialization',
     issuer: 'Scrimba',
-    issued: 'Ongoing',
-    id: null,
-    link: null,
+    issued: 'Sep 2025',
+    id: 'W3YS4GYE5MOO',
+    link: 'https://www.coursera.org/account/accomplishments/specialization/W3YS4GYE5MOO',
     courses: [
       {
         title: 'Build AI Apps with LangChain.js',
-        issued: 'Ongoing',
-        id: null,
-        link: null,
+        issued: 'Sep 2025',
+        id: 'GQ54U2XT9GIO',
+        link: 'https://www.coursera.org/account/accomplishments/certificate/GQ54U2XT9GIO',
       },
       {
         title: "Learn OpenAI's Assistant API",
