@@ -25,7 +25,7 @@ const CertificationsPage = () => {
               <br />
               <b style={{ display: 'inline-block' }}>Credential ID:</b>{' '}
               <a
-                style={{ display: 'inline-block' }}
+                style={{ display: 'inline-block', fontWeight: 'normal' }}
                 href={cert.link}
                 target='_blank'
                 rel='noopener noreferrer'
