@@ -10,7 +10,7 @@ This is my personal portfolio website, built with React and styled using SCSS, a
 
 ## About Me
 
-I’m a front-end developer with a passion for creating clean, user-focused digital experiences. With a background in UX/UI and computer science, I enjoy blending thoughtful design with efficient code to bring ideas to life. This site highlights my professional journey, projects, and areas of expertise.
+I’m a front-end developer with a passion for creating clean, user-focused digital experiences. With a background in UX/UI and Software Engineering, I enjoy blending thoughtful design with efficient code to bring ideas to life. This site highlights my professional journey, projects, and areas of expertise.
 
 ## Features
 

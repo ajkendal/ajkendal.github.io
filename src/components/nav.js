@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const DesktopNav = () => (
     <DesktopNavDiv>
       <StyledLink to='/'>Home</StyledLink>
@@ -32,7 +33,7 @@ function Navigation() {
               fillRule='evenodd'
               clipRule='evenodd'
               d='M9.00003 8.79286L0.868301 0.661133L0.161194 1.36824L8.29292 9.49997L0.161194 17.6317L0.868301 18.3388L9.00003 10.2071L17.1318 18.3388L17.8389 17.6317L9.70714 9.49997L17.8389 1.36824L17.1318 0.661133L9.00003 8.79286Z'
-              fill='#33323D'
+              fill={primary['grey']}
             />
           </g>
         </svg>
@@ -44,9 +45,9 @@ function Navigation() {
           fill='none'
           xmlns='http://www.w3.org/2000/svg'
         >
-          <rect width='24' height='1' fill='#33323D' />
-          <rect y='6' width='24' height='1' fill='#33323D' />
-          <rect y='12' width='24' height='1' fill='#33323D' />
+          <rect width='24' height='1' fill={primary['grey']} />
+          <rect y='6' width='24' height='1' fill={primary['grey']} />
+          <rect y='12' width='24' height='1' fill={primary['grey']} />
         </svg>
       )}
     </div>
@@ -73,7 +74,7 @@ function Navigation() {
                 fillRule='evenodd'
                 clipRule='evenodd'
                 d='M31.3469 26.1224L15.6735 0L0 26.1224H31.3469ZM60.0816 5.87755L44.4082 32L28.7347 5.87755H60.0816Z'
-                fill='#33323D'
+                fill={primary['grey']}
               />
             </svg>
           </Link>
@@ -84,13 +85,11 @@ function Navigation() {
         </Grid>
       </Grid>
       {mobileMenuOpen ? (
-        <Grid sm={12} xs={12}>
-          <MobileNavDiv>
-            <MobileStyledLink to='/'>Home</MobileStyledLink>
-            <MobileStyledLink to='/portfolio'>Portfolio</MobileStyledLink>
-            <MobileStyledLink to='/contact'>Contact Me</MobileStyledLink>
-          </MobileNavDiv>
-        </Grid>
+        <MobileNavDiv>
+          <MobileStyledLink to='/'>Home</MobileStyledLink>
+          <MobileStyledLink to='/portfolio'>Portfolio</MobileStyledLink>
+          <MobileStyledLink to='/contact'>Contact Me</MobileStyledLink>
+        </MobileNavDiv>
       ) : null}
       <Outlet />
     </NavDiv>
@@ -99,12 +98,17 @@ function Navigation() {
 
 const NavDiv = styled.div`
   width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
 
   .grid-container-nav {
     background-color: ${secondary['bg']};
     position: sticky;
     top: 0;
     right: 0;
+    margin-top: 0 !important;
 
     padding: 30px 0;
     @media ${breakpoints.small} {
@@ -122,7 +126,8 @@ const NavDiv = styled.div`
     }
     svg:hover,
     svg:active {
-      path {
+      path,
+      rect {
         fill: ${primary['green']};
       }
     }
@@ -142,9 +147,8 @@ const MobileNavDiv = styled.div`
   text-align: center;
   z-index: 1;
   position: fixed;
-
-  right: 0;
   width: 100%;
+
   @media ${breakpoints.small} {
     display: block;
   }

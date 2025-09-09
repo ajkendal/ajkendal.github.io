@@ -29,7 +29,7 @@ const Portfolio = () => {
       <PortfolioIndexLayout
         leftText={true}
         header='Certifications'
-        text='This collection of certifications represents my ongoing pursuit of excellence in UX/UI and Computer Science throughout my career.'
+        text='This collection of certifications represents my ongoing pursuit of excellence in UX/UI and Software Engineering throughout my career.'
         image='/images/portfolio/certifications-image.png'
         link='/portfolio/certifications'
         buttonText='View Certificates'

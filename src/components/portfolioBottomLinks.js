@@ -28,7 +28,7 @@ const BottomLinks = (props) => {
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
             >
-              <path d='M9 1L1 9L9 17' stroke='#33323D' />
+              <path d='M9 1L1 9L9 17' stroke={primary['grey']} />
             </svg>
             <h3>{props.linkOneText}</h3>
           </Link>
@@ -43,7 +43,7 @@ const BottomLinks = (props) => {
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
             >
-              <path d='M1 1L9 9L1 17' stroke='#33323D' />
+              <path d='M1 1L9 9L1 17' stroke={primary['grey']} />
             </svg>
           </Link>
         </Grid>

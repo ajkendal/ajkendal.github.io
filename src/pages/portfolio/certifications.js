@@ -23,17 +23,15 @@ const CertificationsPage = () => {
               <br />
               <b>Issued:</b> {cert.issued}
               <br />
-              <div>
-                <b style={{ display: 'inline-block' }}>Credential ID:</b>{' '}
-                <a
-                  style={{ display: 'inline-block' }}
-                  href={cert.link}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  {cert.id}
-                </a>
-              </div>
+              <b style={{ display: 'inline-block' }}>Credential ID:</b>{' '}
+              <a
+                style={{ display: 'inline-block' }}
+                href={cert.link}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                {cert.id}
+              </a>
             </p>
             <p className='body-2 bold no-margin'>Courses:</p>
             {[...cert.courses].reverse().map((course, index) => (
@@ -58,7 +56,7 @@ const CertificationsPage = () => {
         smallText='The following is a list of certifications I have obtained throughout my professional experience.'
         links={
           <div>
-            <HashLink to='#cs'>Computer Science Certifications</HashLink>
+            <HashLink to='#se'>Software Engineering Certifications</HashLink>
             <HashLink to='#uxui'>UX/UI Certifications</HashLink>
           </div>
         }
@@ -70,8 +68,8 @@ const CertificationsPage = () => {
           alignItems='stretch'
         >
           <Grid xl={12} lg={12} md={12} sm={12} xs={12} item>
-            <h2 id='cs' className='scroll-offset no-top-margin'>
-              Computer Science Certifications
+            <h2 id='se' className='scroll-offset no-top-margin'>
+              Software Engineering Certifications
             </h2>
             <hr />
           </Grid>

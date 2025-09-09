@@ -10,12 +10,12 @@ text: String
 link: String
 buttonText: String
 image: String
-leftText: boolean 
+leftText: boolean
 */
 
 const PortfolioIndexLayout = (props) => {
   return (
-    <PortfolioIndexDiv leftText={props.leftText}>
+    <PortfolioIndexDiv $lefttext={props.leftText}>
       <Grid
         container
         direction={props.leftText ? 'row-reverse' : 'row'}
@@ -57,7 +57,7 @@ const PortfolioIndexDiv = styled.div`
   }
   .img-item img {
     width: 530px;
-    float: ${(props) => (props.leftText ? 'right' : 'left')};
+    float: ${(props) => (props.$lefttext ? 'right' : 'left')};
     @media ${breakpoints.medium} {
       width: 100%;
     }
