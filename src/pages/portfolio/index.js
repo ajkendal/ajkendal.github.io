@@ -1,12 +1,12 @@
-import Interested from '../../components/interestedComponent';
-import PortfolioIndexLayout from '../../components/portfolioIndexLayout';
+import Interested from '../../components/interestedComponent'
+import PortfolioIndexLayout from '../../components/portfolioIndexLayout'
 
 const Portfolio = () => {
   return (
     <div className='desktop-width'>
       <PortfolioIndexLayout
         header='Coding Project'
-        text='AI Travel Agent is a project I built as part of the Scrimba AI Engineer Certification. My goal was to take the core assignment further and demonstrate how AI and real-time APIs can be combined into a practical, user-friendly travel planning app.'
+        text='Built using React, Vite, and the Open-Meteo API, this weather app lets users search locations, toggle between metric/imperial units, view current, hourly, and 7-day forecast data, and enjoy responsive design with smooth UX.'
         image='/images/portfolio/coding_project-image.png'
         link='/portfolio/coding-projects'
         buttonText='View Project'
@@ -37,7 +37,7 @@ const Portfolio = () => {
 
       <Interested />
     </div>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
