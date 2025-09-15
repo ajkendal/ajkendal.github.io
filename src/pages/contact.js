@@ -1,21 +1,21 @@
-import styled from 'styled-components';
-import { Grid } from '@mui/material';
+import styled from 'styled-components'
+import { Grid } from '@mui/material'
 import {
   primary,
   PrimaryButtonNoArrow,
   PrimaryButton,
   StyledTextField,
-} from '../styles/styles';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
+} from '../styles/styles'
+import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 const Contact = () => {
-  const [nameField, setNameField] = useState('');
-  const [emailField, setEmailField] = useState('');
-  const [messageField, setMessageField] = useState('');
-  const [errorName, setErrorName] = useState(false);
-  const [errorEmail, setErrorEmail] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
+  const [nameField, setNameField] = useState('')
+  const [emailField, setEmailField] = useState('')
+  const [messageField, setMessageField] = useState('')
+  const [errorName, setErrorName] = useState(false)
+  const [errorEmail, setErrorEmail] = useState(false)
+  const [errorMessage, setErrorMessage] = useState(false)
 
   return (
     <ContactMeDiv>
@@ -146,8 +146,8 @@ const Contact = () => {
               placeholder='Full Name'
               onChange={(e) => setNameField(e.target.value)}
               onBlur={(e) => {
-                setNameField(e.target.value.trim());
-                setErrorName(nameField === '' ? true : false);
+                setNameField(e.target.value.trim())
+                setErrorName(nameField === '' ? true : false)
               }}
             />
 
@@ -161,8 +161,8 @@ const Contact = () => {
               value={emailField}
               onChange={(e) => setEmailField(e.target.value)}
               onBlur={(e) => {
-                setEmailField(e.target.value.trim());
-                setErrorEmail(emailField === '' ? true : false);
+                setEmailField(e.target.value.trim())
+                setErrorEmail(emailField === '' ? true : false)
               }}
             />
 
@@ -177,8 +177,8 @@ const Contact = () => {
               minRows={8}
               onChange={(e) => setMessageField(e.target.value)}
               onBlur={(e) => {
-                setMessageField(e.target.value);
-                setErrorMessage(messageField === '' ? true : false);
+                setMessageField(e.target.value)
+                setErrorMessage(messageField === '' ? true : false)
               }}
             />
             <PrimaryButtonNoArrow
@@ -198,8 +198,8 @@ const Contact = () => {
         </Grid>
       </Grid>
     </ContactMeDiv>
-  );
-};
+  )
+}
 
 const ContactMeDiv = styled.div`
   width: 100%;
@@ -231,6 +231,9 @@ const ContactMeDiv = styled.div`
   .download-button {
     display: block;
   }
-`;
+  .desktop-width:nth-of-type(2) {
+    margin-top: 2.5rem;
+  }
+`
 
-export default Contact;
+export default Contact
