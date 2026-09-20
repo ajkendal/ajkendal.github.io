@@ -2,14 +2,17 @@ import styled from 'styled-components';
 import { Grid } from '@mui/material';
 import { breakpoints, primary } from '../styles/styles';
 import { useEffect } from 'react';
+import TechStack from './techStack';
 
-/* 
+/*
 header: string
 smallText: string
-description: string
+description: string | string[] (an array renders one paragraph per item)
 links: html
-imageOne: string 
-imageTwo: string
+techStack: { coding: string[], design: string[] } (optional, shown under the project background)
+images: { src: string, alt: string }[] (any number of static previews)
+imageOne: string (used only when images is not provided)
+imageTwo: string (used only when images is not provided)
 children: any
 */
 
@@ -17,6 +20,14 @@ const PortfolioBody = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const paragraphs = Array.isArray(props.description)
+    ? props.description
+    : [props.description];
+  const images = props.images || [
+    { src: props.imageOne, alt: 'Static Preview  One' },
+    { src: props.imageTwo, alt: 'Static Preview  Two' },
+  ];
 
   return (
     <PortfolioBodyDiv>
@@ -35,10 +46,29 @@ const PortfolioBody = (props) => {
           {props.children || (
             <div>
               <h3 className='no-top-margin'>Project Background</h3>
-              <p className='body-2'>{props.description}</p>
+              {paragraphs.map((text, index) => (
+                <p key={index} className='body-2'>
+                  {text}
+                </p>
+              ))}
+              {props.techStack && (
+                <TechStack
+                  groups={[
+                    {
+                      label: 'Coding Technologies',
+                      items: props.techStack.coding || [],
+                    },
+                    {
+                      label: 'Design Technologies and Practices',
+                      items: props.techStack.design || [],
+                    },
+                  ]}
+                />
+              )}
               <h3>Static Previews</h3>
-              <img src={props.imageOne} alt='Static Preview  One' />
-              <img src={props.imageTwo} alt='Static Preview  Two' />
+              {images.map((image) => (
+                <img key={image.src} src={image.src} alt={image.alt} />
+              ))}
             </div>
           )}
         </Grid>

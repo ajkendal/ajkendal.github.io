@@ -4,6 +4,7 @@ import Interested from '../../components/interestedComponent';
 import { Grid } from '@mui/material';
 import PortfolioHeader from '../../components/portfolioHeader';
 import PortfolioBody from '../../components/portfolioBody';
+import TechStack from '../../components/techStack';
 import { HashLink } from 'react-router-hash-link';
 
 import {
@@ -33,12 +34,15 @@ const CertificationsPage = () => {
                 {cert.id}
               </a>
             </p>
-            <p className='body-2 bold no-margin'>Courses:</p>
-            {[...cert.courses].reverse().map((course, index) => (
-              <div className='course-span' key={index}>
-                <p className='body-2 bold'>{course.title}</p>
-              </div>
-            ))}
+            <TechStack
+              title={null}
+              groups={[
+                {
+                  label: 'Courses',
+                  items: [...cert.courses].reverse().map((course) => course.title),
+                },
+              ]}
+            />
             {id < specialization.length - 1 && (
               <hr style={{ marginTop: '20px' }} />
             )}
@@ -94,10 +98,10 @@ const CertificationsPage = () => {
       </PortfolioBody>
 
       <BottomLinks
-        linkOne='/portfolio/graphic-design'
-        linkOneText='Graphic Design Projects'
-        linkTwo='/portfolio/coding-projects'
-        linkTwoText='Coding Project'
+        linkOne='/portfolio/weather-app'
+        linkOneText='Weather App'
+        linkTwo='/portfolio/vibekit'
+        linkTwoText='VibeKit'
       />
       <Interested />
     </div>

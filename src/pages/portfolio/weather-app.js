@@ -4,7 +4,7 @@ import PortfolioBody from '../../components/portfolioBody'
 import PortfolioHeader from '../../components/portfolioHeader'
 import { Link } from 'react-router-dom'
 
-const CodingProjects = () => {
+const WeatherApp = () => {
   return (
     <div className='desktop-width'>
       <PortfolioHeader image='/images/portfolio/codingproject/codingproject_header.png' />
@@ -38,19 +38,57 @@ const CodingProjects = () => {
             </Link>
           </div>
         }
-        imageOne='/images/portfolio/codingproject/codingproject_static_1.png'
-        imageTwo='/images/portfolio/codingproject/codingproject_static_2.png'
+        techStack={{
+          coding: [
+            'React',
+            'TypeScript',
+            'Vite',
+            'SCSS Modules',
+            'Google Maps Autocomplete API',
+            'Open-Meteo API',
+            'Geolocation API',
+            'Vercel',
+          ],
+          design: [
+            'Design system',
+            'Responsive design',
+            'Component-based UI',
+            'Mermaid data-flow diagrams',
+          ],
+        }}
+        images={[
+          {
+            src: '/images/portfolio/codingproject/weather_live_desktop.png',
+            alt: 'The live Weather Now app on desktop, showing current conditions for Berlin, Germany in metric units, an hourly forecast, and a seven-day forecast',
+          },
+          {
+            src: '/images/portfolio/codingproject/weather_live_search.png',
+            alt: 'The live Weather Now app with the location search open, showing Google Places suggestions for Berlin',
+          },
+          {
+            src: '/images/portfolio/codingproject/weather_live_mobile.png',
+            alt: 'The live Weather Now app on a phone, showing the search and current conditions screen beside the hourly forecast with the day selector open',
+          },
+          {
+            src: '/images/portfolio/codingproject/weather_style_color.png',
+            alt: 'Weather Now design system color palette: neutral, orange, and blue swatches with HEX, RGB, and HSL values',
+          },
+          {
+            src: '/images/portfolio/codingproject/weather_components.png',
+            alt: 'Weather Now design system components: the city search dropdown, the units menu with metric and imperial options, and the day-of-week selector',
+          },
+        ]}
       />
 
       <BottomLinks
-        linkOne='/portfolio/certifications'
-        linkOneText='Certifications'
-        linkTwo='/portfolio/uxui-work'
-        linkTwoText='UX/UI Work'
+        linkOne='/portfolio/benchwitch'
+        linkOneText='BenchWitch'
+        linkTwo='/portfolio/certifications'
+        linkTwoText='Certifications'
       />
       <Interested />
     </div>
   )
 }
 
-export default CodingProjects
+export default WeatherApp

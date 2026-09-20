@@ -30,14 +30,13 @@ const Contact = () => {
         </Grid>
         <Grid xl={8} lg={8} md={8} sm={12} xs={12} item>
           <p className='body-1'>
-            I&apos;m a front-end developer with a love for blending clean code
-            and thoughtful design to create meaningful digital experiences.
-            I&apos;m always looking for opportunities to learn, grow, and
-            collaborate on exciting projects — even those that challenge me to
-            step outside my comfort zone. With a positive mindset and an eye for
-            detail, I approach every project with purpose and creativity. Feel
-            free to check out my work and connect — I&apos;d love to hear about
-            what you&apos;re building.
+            I&apos;m a front-end developer who pairs clean code with thoughtful
+            design to create meaningful digital experiences. I&apos;m always
+            looking for opportunities to learn and collaborate, especially on
+            projects that push me outside my comfort zone. I bring a positive
+            mindset, an eye for detail, and plenty of creativity to everything
+            I build. Take a look at my work, and if you&apos;re working on
+            something, I&apos;d love to hear about it.
           </p>
 
           <a
